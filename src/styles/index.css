@@ -6,6 +6,24 @@
   display: none !important;
 }
 
+.hide-import-first-nav > [data-name^="service"] > div:first-child {
+  display: none !important;
+}
+
 .hide-import-nav > div {
   min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .hide-import-nav {
+    overflow-x: hidden;
+  }
+
+  .hide-import-nav > [data-name^="service"] {
+    width: 1341px !important;
+    max-width: none !important;
+    min-width: 1341px !important;
+    transform-origin: top left;
+    zoom: calc(100vw / 1341);
+  }
 }

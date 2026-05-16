@@ -10,7 +10,7 @@ import GlassCanopySystemsPage from "./service-pages/GlassCanopySystemsPage";
 import InteriorGlassSolutionsPage from "./service-pages/InteriorGlassSolutionsPage";
 import StructuralGlazingSystemsPage from "./service-pages/StructuralGlazingSystemsPage";
 import UpvcDoorSystemsPage from "./service-pages/UpvcDoorSystemsPage";
-import CurtainWallSystemsPage from "@/imports/Service1/Service1";
+import CurtainWallSystemsPage from "./service-pages/CurtainWallSystemsPage";
 import svgPaths from "@/imports/Home/svg-od9zlvzvzo";
 import imgFrame427319183 from "@/imports/Home/7d8a5e267a1459178e71b0854e875feb30865041.png";
 import imgRectangle111141370 from "@/imports/Home/783cc26db44a314c44c9856a09e2d4edd69c905c.png";
@@ -220,16 +220,49 @@ function Navbar() {
             "Services",
             "Project",
             "Contact",
-          ].map((item) => (
-            <a
-              key={item}
-              href={homeNavHref(item)}
-              className="font-['Roboto',sans-serif] text-[16px] text-[#1e1e1e] capitalize"
-              onClick={() => setOpen(false)}
-            >
-              {item}
-            </a>
-          ))}
+          ].map((item) =>
+            item === "Services" ? (
+              <div key={item} className="flex flex-col border-b border-gray-100 pb-3">
+                <button
+                  type="button"
+                  className="flex w-full items-center justify-between font-['Roboto',sans-serif] text-[16px] text-[#1e1e1e] capitalize"
+                  onClick={() => setServicesOpen((current) => !current)}
+                  aria-expanded={servicesOpen}
+                >
+                  <span>Services</span>
+                  <span className={`transition-transform ${servicesOpen ? "rotate-180" : ""}`}>
+                    <DropdownArrow />
+                  </span>
+                </button>
+                {servicesOpen && (
+                  <div className="mt-4 grid gap-3 pl-4">
+                    {serviceColumns.flat().map((service) => (
+                      <a
+                        key={service}
+                        href={serviceNavHref(service)}
+                        className="font-['Roboto',sans-serif] text-[14px] leading-[1.35] text-[#1e1e1e]"
+                        onClick={() => {
+                          setOpen(false);
+                          setServicesOpen(false);
+                        }}
+                      >
+                        {service}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <a
+                key={item}
+                href={homeNavHref(item)}
+                className="border-b border-gray-100 pb-3 font-['Roboto',sans-serif] text-[16px] text-[#1e1e1e] capitalize"
+                onClick={() => setOpen(false)}
+              >
+                {item}
+              </a>
+            )
+          )}
           <a
             href="#/contact"
             className="flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize w-fit"
