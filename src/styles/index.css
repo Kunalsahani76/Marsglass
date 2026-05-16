@@ -1,0 +1,11 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+.hide-import-nav > div > div.absolute.pointer-events-none {
+  display: none !important;
+}
+
+.hide-import-nav > div {
+  min-width: 0;
+}
