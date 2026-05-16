@@ -31,6 +31,11 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
+    "Aluminum Windows & Doors": "#/services/aluminum-windows-doors",
+    "Glass Partition Systems": "#/services/glass-partition-systems",
+    "Interior Glass Solutions": "#/services/interior-glass-solutions",
+    "Aluminium Door Systems": "#/services/aluminium-door-systems",
+    "UPVC Door Systems": "#/services/upvc-door-systems",
   };
 
   return routes[service] ?? "#/contact#services";
@@ -56,14 +61,14 @@ function Navbar() {
     >
       <div className="flex items-center justify-between px-6 md:px-8 py-3 max-w-[1460px] mx-auto">
         {/* Logo */}
-        <div className="h-[60px] w-[84px] relative overflow-hidden shrink-0">
+        <a href="#/" className="h-[60px] w-[84px] relative overflow-hidden shrink-0">
           <img
             src={imgNavLogo}
             alt="Mars Glass Solutions"
-            className="absolute"
-            style={{ width: "263%", top: "-134%", left: "-80%" }}
+            className="absolute h-[368.33%] max-w-none"
+            style={{ width: "263.1%", top: "-134.17%", left: "-80.36%" }}
           />
-        </div>
+        </a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8 lg:gap-12">
@@ -142,16 +147,49 @@ function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 px-6 pb-4">
-          {links.map((link) => (
-            <a
-              key={link}
-              href={contactNavHref(link)}
-              onClick={() => setMenuOpen(false)}
-              className="block py-3 font-['Roboto',sans-serif] text-[#1e1e1e] text-[16px] capitalize border-b border-gray-100 last:border-0"
-            >
-              {link}
-            </a>
-          ))}
+          {links.map((link) =>
+            link === "Services" ? (
+              <div key={link} className="border-b border-gray-100 py-3">
+                <button
+                  type="button"
+                  className="flex w-full items-center justify-between font-['Roboto',sans-serif] text-[#1e1e1e] text-[16px] capitalize"
+                  onClick={() => setServicesOpen((current) => !current)}
+                  aria-expanded={servicesOpen}
+                >
+                  <span>{link}</span>
+                  <svg className={`h-4 w-4 transition-transform ${servicesOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24">
+                    <path d="M6 9L12 15L18 9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+                  </svg>
+                </button>
+                {servicesOpen && (
+                  <div className="mt-4 grid gap-3 pl-4">
+                    {serviceColumns.flat().map((service) => (
+                      <a
+                        key={service}
+                        href={serviceNavHref(service)}
+                        onClick={() => {
+                          setMenuOpen(false);
+                          setServicesOpen(false);
+                        }}
+                        className="block font-['Roboto',sans-serif] text-[14px] leading-[1.35] text-[#1e1e1e]"
+                      >
+                        {service}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <a
+                key={link}
+                href={contactNavHref(link)}
+                onClick={() => setMenuOpen(false)}
+                className="block py-3 font-['Roboto',sans-serif] text-[#1e1e1e] text-[16px] capitalize border-b border-gray-100 last:border-0"
+              >
+                {link}
+              </a>
+            )
+          )}
           <a
             href="#/contact"
             className="mt-3 flex items-center justify-center gap-2 border border-black rounded-lg px-5 py-2 font-['Inter',sans-serif] font-bold text-[16px] text-black"

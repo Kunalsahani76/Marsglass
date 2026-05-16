@@ -44,7 +44,7 @@ export default function AluminumWindowsDoorsPage() {
           { title: "Hospitality Projects", text: "Hotels, resorts, cafes, and premium interiors.", image: imgHero },
         ]}
       />
-      <div className="hidden w-full hide-import-nav hide-import-first-nav md:block" style={{ minWidth: "320px" }}>
+      <div className="w-full hide-import-nav hide-import-first-nav service-import-scale" style={{ minWidth: "320px" }}>
         <Service />
       </div>
     </div>

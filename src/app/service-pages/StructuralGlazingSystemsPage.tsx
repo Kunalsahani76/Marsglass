@@ -45,7 +45,7 @@ export default function StructuralGlazingSystemsPage() {
           { title: "Interiors", text: "Atriums, partitions, and feature glass areas.", image: imgInterior },
         ]}
       />
-      <div className="hidden w-full hide-import-nav md:block" style={{ minWidth: "320px" }}>
+      <div className="w-full hide-import-nav service-import-scale" style={{ minWidth: "320px" }}>
         <Service />
       </div>
     </div>

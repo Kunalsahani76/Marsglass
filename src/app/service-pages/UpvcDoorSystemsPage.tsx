@@ -44,7 +44,7 @@ export default function UpvcDoorSystemsPage() {
           { title: "Commercial Spaces", text: "Clinics, offices, service rooms, and light-use entrances.", image: imgHero },
         ]}
       />
-      <div className="hidden w-full hide-import-nav hide-import-first-nav md:block" style={{ minWidth: "320px" }}>
+      <div className="w-full hide-import-nav hide-import-first-nav service-import-scale" style={{ minWidth: "320px" }}>
         <Service />
       </div>
     </div>

@@ -44,7 +44,7 @@ export default function InteriorGlassSolutionsPage() {
           { title: "Retail & Hospitality", text: "Showrooms, hotels, salons, restaurants, and clinics.", image: imgHero },
         ]}
       />
-      <div className="hidden w-full hide-import-nav hide-import-first-nav md:block" style={{ minWidth: "320px" }}>
+      <div className="w-full hide-import-nav hide-import-first-nav service-import-scale" style={{ minWidth: "320px" }}>
         <Service />
       </div>
     </div>

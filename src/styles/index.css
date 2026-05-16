@@ -122,10 +122,28 @@
     max-width: none !important;
     min-width: 1341px !important;
     transform-origin: top left;
-    zoom: calc(100vw / 1341px);
+    zoom: 0.29;
   }
 
-  .curtain-wall-page > [data-name="service 1"] > div:nth-child(2) {
-    display: none !important;
+  .service-import-scale {
+    overflow-x: hidden;
+  }
+
+  .service-import-scale > [data-name^="service"] {
+    zoom: 0.29 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .service-import-scale > [data-name^="service"],
+  .hide-import-nav > [data-name^="service"] {
+    zoom: 0.28 !important;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 768px) {
+  .service-import-scale > [data-name^="service"],
+  .hide-import-nav > [data-name^="service"] {
+    zoom: 0.31 !important;
   }
 }

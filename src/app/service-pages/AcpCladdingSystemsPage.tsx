@@ -44,7 +44,7 @@ export default function AcpCladdingSystemsPage() {
           { title: "Interiors", text: "Lobbies, wall panels, columns, and feature surfaces.", image: imgInterior },
         ]}
       />
-      <div className="hidden w-full hide-import-nav md:block" style={{ minWidth: "320px" }}>
+      <div className="w-full hide-import-nav service-import-scale" style={{ minWidth: "320px" }}>
         <Service />
       </div>
     </div>

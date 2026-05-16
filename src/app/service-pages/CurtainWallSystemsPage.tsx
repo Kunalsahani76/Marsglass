@@ -206,7 +206,7 @@ export default function CurtainWallSystemsPage() {
   return (
     <div className="w-full min-h-screen overflow-x-hidden bg-[#eaedef]">
       <ServiceNavbar />
-      <section className="curtain-wall-mobile-hero relative flex min-h-[520px] w-full items-center justify-center overflow-hidden px-5 py-12 text-center md:hidden">
+      <section className="curtain-wall-mobile-hero hidden">
         <img
           src={imgHero}
           alt=""
@@ -238,8 +238,7 @@ export default function CurtainWallSystemsPage() {
           </div>
         </div>
       </section>
-      <MobileCurtainWallContent />
-      <div className="curtain-wall-page hidden w-full hide-import-nav hide-import-first-nav md:block" style={{ minWidth: "320px" }}>
+      <div className="curtain-wall-page w-full hide-import-nav hide-import-first-nav service-import-scale" style={{ minWidth: "320px" }}>
         <Service />
       </div>
     </div>

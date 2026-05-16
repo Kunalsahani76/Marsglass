@@ -44,7 +44,7 @@ export default function AluminiumDoorSystemsPage() {
           { title: "Hospitality Areas", text: "Hotels, restaurants, lounges, and public access zones.", image: imgHero },
         ]}
       />
-      <div className="hidden w-full hide-import-nav hide-import-first-nav md:block" style={{ minWidth: "320px" }}>
+      <div className="w-full hide-import-nav hide-import-first-nav service-import-scale" style={{ minWidth: "320px" }}>
         <Service />
       </div>
     </div>
