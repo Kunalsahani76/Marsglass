@@ -241,25 +241,25 @@ function Navbar() {
 // ────────────────────────────────────────────────────────────────
 function Hero() {
   return (
-    <section id="home" className="relative min-h-[600px] md:min-h-[700px] lg:min-h-[620px] overflow-hidden">
+    <section id="home" className="about-hero relative min-h-[600px] md:min-h-[700px] lg:min-h-[620px] overflow-hidden">
       <img
         src={imgHeroBg}
         alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-black/40" />
-      <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-20 py-24 lg:py-32 flex flex-col gap-10">
-        <div className="max-w-[760px]">
+      <div className="about-hero-content relative z-10 max-w-[1400px] mx-auto px-6 lg:px-20 py-24 lg:py-32 flex flex-col gap-10">
+        <div className="about-hero-title max-w-[760px]">
           <h1 className="font-roboto text-white text-[42px] sm:text-[56px] lg:text-[70px] leading-[1.2] tracking-[-0.4px] font-normal">
             Redefining Architectural{" "}
             <span className="text-[#00c0e8]">Glass and Facade </span>
             Engineering
           </h1>
         </div>
-        <p className="font-roboto font-medium text-white text-[16px] sm:text-[18px] max-w-[700px] leading-[1.4] tracking-[-0.38px]">
+        <p className="about-hero-copy font-roboto font-medium text-white text-[16px] sm:text-[18px] max-w-[700px] leading-[1.4] tracking-[-0.38px]">
           Pioneering precision-engineered facade solutions that blend structural integrity with aesthetic brilliance. We turn architectural visions into iconic landmarks.
         </p>
-        <div className="flex flex-wrap gap-3">
+        <div className="about-hero-actions flex flex-wrap gap-3">
           <a
             href="#/projects"
             className="bg-[#5a93d1] text-black font-roboto font-bold text-[16px] px-8 py-3.5 rounded-lg"
