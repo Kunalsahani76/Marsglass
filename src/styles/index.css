@@ -6,12 +6,30 @@
   display: none !important;
 }
 
+.hide-import-nav [data-name^="service"] > div.absolute.pointer-events-none,
+.hide-import-nav [data-name^="service"] > div > div.absolute.pointer-events-none {
+  display: none !important;
+}
+
 .hide-import-first-nav > [data-name^="service"] > div:first-child {
+  display: none !important;
+}
+
+.hide-import-first-nav [data-name^="service"] > div:first-child {
   display: none !important;
 }
 
 .hide-import-nav > div {
   min-width: 0;
+}
+
+.service-import-frame {
+  width: 100%;
+}
+
+.service-import-inner {
+  width: 100%;
+  transform-origin: top left;
 }
 
 @media (max-width: 768px) {
@@ -122,28 +140,18 @@
     max-width: none !important;
     min-width: 1341px !important;
     transform-origin: top left;
-    zoom: 0.29;
   }
 
   .service-import-scale {
+    position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
-  .service-import-scale > [data-name^="service"] {
-    zoom: 0.29 !important;
-  }
-}
-
-@media (max-width: 380px) {
-  .service-import-scale > [data-name^="service"],
-  .hide-import-nav > [data-name^="service"] {
-    zoom: 0.28 !important;
-  }
-}
-
-@media (min-width: 410px) and (max-width: 768px) {
-  .service-import-scale > [data-name^="service"],
-  .hide-import-nav > [data-name^="service"] {
-    zoom: 0.31 !important;
+  .service-import-scale .service-import-inner {
+    width: 1341px !important;
+    max-width: none !important;
+    min-width: 1341px !important;
+    transform-origin: top left;
   }
 }

@@ -7,6 +7,7 @@ import imgFeature from "@/imports/Service3/8ef0d2450cabaeb6f616b049ad61f36da4267
 import imgMall from "@/imports/Service3/953c4fc17b320bc5b488ad1484aa2cc221cad714.png";
 import imgOffice from "@/imports/Service3/6c6147faad5f688dd28c03ac4dbeceedd80488af.png";
 import MobileServicePage from "./MobileServicePage";
+import ScaledServiceImport from "./ScaledServiceImport";
 import ServiceNavbar from "../components/ServiceNavbar";
 
 export default function AcpCladdingSystemsPage() {
@@ -44,9 +45,9 @@ export default function AcpCladdingSystemsPage() {
           { title: "Interiors", text: "Lobbies, wall panels, columns, and feature surfaces.", image: imgInterior },
         ]}
       />
-      <div className="w-full hide-import-nav service-import-scale" style={{ minWidth: "320px" }}>
+      <ScaledServiceImport className="w-full hide-import-nav service-import-scale">
         <Service />
-      </div>
+      </ScaledServiceImport>
     </div>
   );
 }

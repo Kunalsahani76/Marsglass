@@ -11,6 +11,7 @@ import imgInfrastructure from "@/imports/Service1/a16871f6f4e08e7c58a930a5730220
 import imgRetail from "@/imports/Service1/f4361dccff0910b66bcf729c7a5f886a55f5002f.png";
 import imgHospitality from "@/imports/Service1/6b5723906706766745e2d094731ee36f0e529fd9.png";
 import ServiceNavbar from "../components/ServiceNavbar";
+import ScaledServiceImport from "./ScaledServiceImport";
 
 const wallTypes = [
   {
@@ -238,9 +239,9 @@ export default function CurtainWallSystemsPage() {
           </div>
         </div>
       </section>
-      <div className="curtain-wall-page w-full hide-import-nav hide-import-first-nav service-import-scale" style={{ minWidth: "320px" }}>
+      <ScaledServiceImport className="curtain-wall-page w-full hide-import-nav hide-import-first-nav service-import-scale">
         <Service />
-      </div>
+      </ScaledServiceImport>
     </div>
   );
 }

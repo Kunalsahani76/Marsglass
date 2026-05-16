@@ -7,6 +7,7 @@ import imgAdvantage from "@/imports/Service8/df8dd1f34d00af88f0a847928d3d361b315
 import imgApp1 from "@/imports/Service8/4046b463dd895b16e1eaa8d8f5817c4a7d1ce543.png";
 import imgApp2 from "@/imports/Service8/52f0e89d1454432723eb325caa9f7a38f1e0ca34.png";
 import MobileServicePage from "./MobileServicePage";
+import ScaledServiceImport from "./ScaledServiceImport";
 import ServiceNavbar from "../components/ServiceNavbar";
 
 export default function AluminiumDoorSystemsPage() {
@@ -44,9 +45,9 @@ export default function AluminiumDoorSystemsPage() {
           { title: "Hospitality Areas", text: "Hotels, restaurants, lounges, and public access zones.", image: imgHero },
         ]}
       />
-      <div className="w-full hide-import-nav hide-import-first-nav service-import-scale" style={{ minWidth: "320px" }}>
+      <ScaledServiceImport className="w-full hide-import-nav hide-import-first-nav service-import-scale">
         <Service />
-      </div>
+      </ScaledServiceImport>
     </div>
   );
 }
