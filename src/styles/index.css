@@ -2,15 +2,6 @@
 @import './tailwind.css';
 @import './theme.css';
 
-.hide-import-nav > div > div.absolute.pointer-events-none {
-  display: none !important;
-}
-
-.hide-import-nav [data-name^="service"] > div.absolute.pointer-events-none,
-.hide-import-nav [data-name^="service"] > div > div.absolute.pointer-events-none {
-  display: none !important;
-}
-
 .hide-import-first-nav > [data-name^="service"] > div:first-child {
   display: none !important;
 }
