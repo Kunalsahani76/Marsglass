@@ -313,15 +313,15 @@ function Container7() {
 function Frame13() {
   return (
     <div className="content-stretch flex gap-[56px] items-center relative shrink-0">
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 4">
+      <div className="service-application-card bg-white border border-transparent content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 4">
         <Container />
         <Container1 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 5">
+      <div className="service-application-card bg-white border border-transparent content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 5">
         <Container3 />
         <Container4 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 6">
+      <div className="service-application-card bg-white border border-transparent content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 6">
         <Container6 />
         <Container7 />
       </div>
@@ -498,15 +498,15 @@ function Container16() {
 function Frame39() {
   return (
     <div className="content-stretch flex gap-[64px] items-center relative shrink-0">
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 7">
+      <div className="service-application-card bg-white border border-transparent content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 7">
         <Container9 />
         <Container10 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 8">
+      <div className="service-application-card bg-white border border-transparent content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 8">
         <Container12 />
         <Container13 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 9">
+      <div className="service-application-card bg-white border border-transparent content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 9">
         <Container15 />
         <Container16 />
       </div>
@@ -556,7 +556,7 @@ function Frame14() {
 
 function Frame15() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Glass type</p>
@@ -574,7 +574,7 @@ function Frame25() {
 
 function Frame16() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Thickness</p>
@@ -592,7 +592,7 @@ function Frame26() {
 
 function Frame17() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Frame</p>
@@ -610,7 +610,7 @@ function Frame27() {
 
 function Frame18() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Sealing</p>
@@ -628,7 +628,7 @@ function Frame28() {
 
 function Frame19() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Waterproofing</p>
@@ -646,7 +646,7 @@ function Frame29() {
 
 function Frame20() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Thermal</p>
@@ -664,7 +664,7 @@ function Frame30() {
 
 function Frame21() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Light</p>
@@ -682,7 +682,7 @@ function Frame31() {
 
 function Frame22() {
   return (
-    <div className="absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
+    <div className="service-spec-row absolute bg-white content-stretch flex items-center justify-between left-0 px-[20px] py-[10px] top-[12px] w-[741px]">
       <div aria-hidden="true" className="absolute border-[0.4px] border-black border-solid inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Safety</p>
@@ -913,7 +913,7 @@ function Frame10() {
 function Frame43() {
   return (
     <div className="content-stretch flex gap-[29px] items-center relative shrink-0">
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="service-application-card border border-transparent h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007609} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -922,7 +922,7 @@ function Frame43() {
           <p className="leading-[40px]">Hotel entrances</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="service-application-card border border-transparent h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007610} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -931,7 +931,7 @@ function Frame43() {
           <p className="leading-[40px]">{` Office buildings`}</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="service-application-card border border-transparent h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007611} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -940,7 +940,7 @@ function Frame43() {
           <p className="leading-[40px]">Shopping malls</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="service-application-card border border-transparent h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007612} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />

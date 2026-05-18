@@ -1082,28 +1082,28 @@ function Frame44() {
     <div className="relative shrink-0 w-full">
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-center flex flex-wrap gap-y-[40px] items-center justify-between px-[40px] relative size-full">
-          <div className="bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
+          <div className="service-application-card bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
             <div className="overflow-clip relative rounded-[inherit] size-full">
               <Frame45 />
               <Frame46 />
             </div>
             <div aria-hidden="true" className="absolute border border-[#4299f0] border-solid inset-0 pointer-events-none rounded-[12px]" />
           </div>
-          <div className="bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
+          <div className="service-application-card bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
             <div className="overflow-clip relative rounded-[inherit] size-full">
               <Frame48 />
               <Frame49 />
             </div>
             <div aria-hidden="true" className="absolute border border-[#4299f0] border-solid inset-0 pointer-events-none rounded-[12px]" />
           </div>
-          <div className="bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
+          <div className="service-application-card bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
             <div className="overflow-clip relative rounded-[inherit] size-full">
               <Frame51 />
               <Frame52 />
             </div>
             <div aria-hidden="true" className="absolute border border-[#4299f0] border-solid inset-0 pointer-events-none rounded-[12px]" />
           </div>
-          <div className="bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
+          <div className="service-application-card bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
             <div className="overflow-clip relative rounded-[inherit] size-full">
               <Frame54 />
               <Frame55 />

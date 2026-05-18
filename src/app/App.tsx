@@ -14,6 +14,9 @@ import CurtainWallSystemsPage from "./service-pages/CurtainWallSystemsPage";
 import svgPaths from "@/imports/Home/svg-od9zlvzvzo";
 import imgFrame427319183 from "@/imports/Home/7d8a5e267a1459178e71b0854e875feb30865041.png";
 import imgRectangle111141370 from "@/imports/Home/783cc26db44a314c44c9856a09e2d4edd69c905c.png";
+import imgRectangle111141371 from "@/imports/Home/86e41f6298e8da42285cb9e8e6adb1b2aa456e87.png";
+import imgRectangle111141372 from "@/imports/Home/cbb81fbd37318312709935193e762717cff7811c.png";
+import imgRectangle111141373 from "@/imports/Home/a26a3de8b23a1d599af6ddbadf65cd1c2cd9c83e.png";
 import imgRectangle111141359 from "@/imports/Home/e99a409b232b820b98714c37703a13bfa8ac23ea.png";
 import imgRectangle111141360 from "@/imports/Home/a8b73beac2aed57fc36515342703d7830e5c3523.png";
 import imgRectangle111141361 from "@/imports/Home/4505a5387a038c87ffab66230b3c67f13d82d83d.png";
@@ -33,6 +36,7 @@ import imgRectangle111141364 from "@/imports/Home/d2f6e16cfb6a0ede88bae7bc3f8435
 import imgRectangle111141365 from "@/imports/Home/5a0c5cd70d1756d469035f7a01a198c5a5e62587.png";
 import imgFrame1000007495 from "@/imports/Home/3eb7b26dcf0dd609404203e92ea981a8a747ef76.png";
 import imgLogo from "@/imports/Home/a08ae53b754d0c478618f1f8072832fea766a0a6.png";
+import imgMercedesShowroomOkhla from "../../Mercedes Showroom Okhla.jpeg";
 
 const homeNavHref = (item: string) => {
   const routes: Record<string, string> = {
@@ -68,6 +72,13 @@ const serviceNavHref = (service: string) => {
 
   return routes[service] ?? "#services";
 };
+
+const heroCarouselImages = [
+  { src: imgRectangle111141370, alt: "Glass facade project" },
+  { src: imgRectangle111141371, alt: "Modern glass facade project" },
+  { src: imgRectangle111141372, alt: "Interior glass partition project" },
+  { src: imgRectangle111141373, alt: "Sliding glass door installation" },
+];
 
 /* ─── Icons ─── */
 function PhoneIcon() {
@@ -335,19 +346,28 @@ function HeroSection() {
           </div>
         </div>
 
-        {/* Hero image */}
+        {/* Hero wallpaper carousel */}
         <div
-          className="hidden lg:block relative rounded-[26px] overflow-hidden shrink-0"
+          className="hidden lg:block home-wallpaper-carousel relative rounded-[26px] overflow-hidden shrink-0"
           style={{
             width: "clamp(300px,30vw,411px)",
             aspectRatio: "411/399",
           }}
         >
-          <img
-            src={imgRectangle111141370}
-            alt="Glass facade project"
-            className="absolute inset-0 w-full h-full object-cover rounded-[26px]"
-          />
+          <div className="home-wallpaper-track absolute inset-0 flex">
+            {[...heroCarouselImages, heroCarouselImages[0]].map((image, index) => (
+              <div
+                className="home-wallpaper-slide relative h-full shrink-0"
+                key={`${image.src}-${index}`}
+              >
+                <img
+                  src={image.src}
+                  alt={index === heroCarouselImages.length ? "" : image.alt}
+                  className="absolute inset-0 w-full h-full object-cover rounded-[26px]"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -381,7 +401,7 @@ function ContactBtn() {
   return (
     <a
       href="#/contact"
-      className="flex items-center gap-2 bg-white rounded-[8px] px-5 py-2.5 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/30 w-fit"
+      className="section-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-2.5 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/30 w-fit"
     >
       <ContactIcon />
       <span>contact</span>
@@ -438,7 +458,7 @@ function AboutSection() {
 
           {/* Image */}
           <div
-            className="relative shrink-0 overflow-hidden"
+            className="section-image-zoom relative shrink-0 overflow-hidden"
             style={{
               width: "clamp(280px,45vw,580px)",
               aspectRatio: "580/406",
@@ -448,7 +468,7 @@ function AboutSection() {
             <img
               src={imgRectangle111141359}
               alt="About Mars Glass"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="section-image-zoom-media absolute inset-0 w-full h-full object-cover"
               style={{ borderRadius: "0 230px 230px 0" }}
             />
           </div>
@@ -492,7 +512,7 @@ function VisionSection() {
 
           {/* Image - flipped */}
           <div
-            className="relative shrink-0 overflow-hidden"
+            className="section-image-zoom relative shrink-0 overflow-hidden"
             style={{
               width: "clamp(260px,43vw,549px)",
               aspectRatio: "549/382",
@@ -502,7 +522,7 @@ function VisionSection() {
             <img
               src={imgRectangle111141360}
               alt="Our Vision"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="section-image-zoom-media absolute inset-0 w-full h-full object-cover"
               style={{ borderRadius: "217px 0 0 217px" }}
             />
             <div
@@ -550,7 +570,7 @@ function MissionSection() {
 
           {/* Image */}
           <div
-            className="relative shrink-0 overflow-hidden"
+            className="section-image-zoom relative shrink-0 overflow-hidden"
             style={{
               width: "clamp(260px,43vw,549px)",
               aspectRatio: "549/382",
@@ -560,7 +580,7 @@ function MissionSection() {
             <img
               src={imgRectangle111141361}
               alt="Our Mission"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="section-image-zoom-media absolute inset-0 w-full h-full object-cover"
               style={{ borderRadius: "217px 0 0 217px" }}
             />
             <div
@@ -584,13 +604,13 @@ function ServiceCard({
 }) {
   return (
     <div
-      className="relative rounded-[8px] overflow-hidden"
+      className="section-image-zoom relative rounded-[8px] overflow-hidden"
       style={{ height: "clamp(320px,38vw,527px)" }}
     >
       <img
         src={img}
         alt={label}
-        className="absolute inset-0 w-full h-full object-cover rounded-[8px]"
+        className="section-image-zoom-media absolute inset-0 w-full h-full object-cover rounded-[8px]"
       />
       {/* Glassmorphism label */}
       <div className="absolute bottom-0 left-0 right-0 h-[88px] flex items-center justify-center rounded-[8px] backdrop-blur-[14px] bg-[rgba(11,11,11,0.4)] border border-[#fffefe]">
@@ -820,7 +840,7 @@ function ProjectsSection() {
       reverse: false,
     },
     {
-      img: imgRectangle111141363,
+      img: imgMercedesShowroomOkhla,
       title: "Mercedes Showroom Okhla",
       reverse: true,
     },

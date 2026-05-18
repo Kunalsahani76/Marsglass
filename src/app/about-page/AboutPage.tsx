@@ -17,6 +17,19 @@ import imgOpBg from "@/imports/AboutPage/About/1ec9436a22e1b92ce5cd757c41fe7f89f
 import imgQuoteBg from "@/imports/AboutPage/About/7dd9ee7e6f7ee77aaabd718029ccb2bfc47f51e4.png";
 import imgLogo from "@/imports/AboutPage/About/3eb7b26dcf0dd609404203e92ea981a8a747ef76.png";
 import imgNavLogo from "@/imports/AboutPage/About/a08ae53b754d0c478618f1f8072832fea766a0a6.png";
+import imgDesignEngineeringIcon from "../../../Design & Engineering.png";
+import imgFabricationTechIcon from "../../../Fabrication & Tech.png";
+import imgInstallationExecutionIcon from "../../../Installation & Execution.png";
+import imgUnitizedFacadesIcon from "../../../Unitized Facades.png";
+import imgBulletProofGlassIcon from "../../../Bullet Proof Glass.png";
+import imgGlassBalustradesIcon from "../../../Glass Balustrades.png";
+import imgAcpCladdingIcon from "../../../ACP Cladding.png";
+import imgStructuralGlazingIcon from "../../../Structural Glazing.png";
+import imgCurtainWallsIcon from "../../../Curtain Walls.png";
+import imgSpiderFittingsIcon from "../../../Spider Fittings.png";
+import imgSkylightsCanopiesIcon from "../../../Skylights & Canopies.png";
+import imgCheckCircleIcon from "../../../check_circle.png";
+import imgFormatQuoteIcon from "../../../format_quote.png";
 
 // Project page images
 import imgProjectHero from "@/imports/AboutPage/Project/9e6114889e60e150a229b435f1f4b9c09668ac4f.png";
@@ -62,14 +75,14 @@ const specializations = [
 
 // ── Core services ──────────────────────────────────────────────
 const coreServices = [
-  { icon: "crop_square", label: "Unitized Facades" },
-  { icon: "shield", label: "Bullet Proof Glass" },
-  { icon: "straighten", label: "Glass Balustrades" },
-  { icon: "apartment", label: "ACP Cladding" },
-  { icon: "window", label: "Structural Glazing" },
-  { icon: "layers", label: "Curtain Walls" },
-  { icon: "scatter_plot", label: "Spider Fittings" },
-  { icon: "house", label: "Skylights & Canopies" },
+  { icon: imgUnitizedFacadesIcon, label: "Unitized Facades" },
+  { icon: imgBulletProofGlassIcon, label: "Bullet Proof Glass" },
+  { icon: imgGlassBalustradesIcon, label: "Glass Balustrades" },
+  { icon: imgAcpCladdingIcon, label: "ACP Cladding" },
+  { icon: imgStructuralGlazingIcon, label: "Structural Glazing" },
+  { icon: imgCurtainWallsIcon, label: "Curtain Walls" },
+  { icon: imgSpiderFittingsIcon, label: "Spider Fittings" },
+  { icon: imgSkylightsCanopiesIcon, label: "Skylights & Canopies" },
 ];
 
 const serviceColumns = [
@@ -363,7 +376,7 @@ function LegacySection() {
 function FacadeSection() {
   const services = [
     {
-      icon: "architecture",
+      icon: imgDesignEngineeringIcon,
       title: "Design & Engineering",
       items: [
         "Technical feasibility studies",
@@ -373,7 +386,7 @@ function FacadeSection() {
       ],
     },
     {
-      icon: "precision_manufacturing",
+      icon: imgFabricationTechIcon,
       title: "Fabrication & Tech",
       items: [
         "Advanced glass processing and finishing",
@@ -383,7 +396,7 @@ function FacadeSection() {
       ],
     },
     {
-      icon: "construction",
+      icon: imgInstallationExecutionIcon,
       title: "Installation & Execution",
       items: [
         "Structured project management",
@@ -409,7 +422,7 @@ function FacadeSection() {
           {services.map((s) => (
             <div key={s.title} className="flex flex-col gap-6">
               <div className="bg-white/90 rounded-lg w-14 h-14 flex items-center justify-center shrink-0">
-                <span className="material-icons text-[#1173d4] text-[30px]">{s.icon}</span>
+                <img src={s.icon} alt="" className="w-7 h-7 object-contain" />
               </div>
               <h3 className="font-roboto font-bold text-white text-[20px] leading-[28px]">{s.title}</h3>
               <ul className="font-roboto font-normal text-white text-[15px] leading-[26px] flex flex-col gap-1">
@@ -429,24 +442,29 @@ function FacadeSection() {
 // OUR CORE SPECIALIZATIONS (horizontal scroll strip)
 // ────────────────────────────────────────────────────────────────
 function SpecializationsSection() {
+  const carouselItems = [...specializations, ...specializations];
+
   return (
-    <section>
+    <section className="overflow-hidden bg-white">
       {/* Title row */}
-      <div className="flex items-center justify-center h-[100px] px-4">
+      <div className="flex items-center justify-center h-[112px] px-4">
         <h2 className="font-roboto font-bold text-black text-[28px] sm:text-[36px] text-center leading-[40px]">
           Our Core Specializations
         </h2>
       </div>
-      {/* Scrollable strip */}
-      <div className="overflow-x-auto scrollbar-none">
-        <div className="flex gap-0 min-w-max">
-          {specializations.map((spec) => (
-            <div key={spec.label} className="relative w-[300px] sm:w-[357px] h-[350px] sm:h-[476px] shrink-0 overflow-hidden group">
+      {/* Wallpaper carousel */}
+      <div className="overflow-hidden pb-6">
+        <div className="specializations-carousel-track flex w-max">
+          {carouselItems.map((spec, index) => (
+            <div
+              key={`${spec.label}-${index}`}
+              className="relative mx-[6px] h-[350px] w-[300px] shrink-0 overflow-hidden sm:h-[476px] sm:w-[357px]"
+            >
               <img src={spec.img} alt={spec.label} className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent from-[30%] to-black/50 to-[84%]" />
               <div className="absolute bottom-2 left-3 right-3">
                 <div className="bg-[#a1cff7] rounded-full py-1.5 px-4 text-center border border-[rgba(17,115,212,0.1)]">
-                  <span className="font-roboto font-black text-black text-[13px] leading-tight">{spec.label}</span>
+                  <span className="font-roboto font-black text-black text-[20px] sm:text-[24px] leading-tight">{spec.label}</span>
                 </div>
               </div>
             </div>
@@ -462,13 +480,13 @@ function SpecializationsSection() {
 // ────────────────────────────────────────────────────────────────
 function CoreServicesGrid() {
   return (
-    <section className="border-t border-gray-100">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-20 py-10 lg:py-[40px]">
-        <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-6 md:gap-4">
+    <section className="bg-white border-b border-[#0f172a]">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-20 py-12 sm:py-14 lg:py-[50px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-12 sm:gap-y-14 lg:gap-x-24">
           {coreServices.map((s) => (
-            <div key={s.label} className="flex flex-col items-center gap-2.5">
-              <span className="material-icons text-[#1173d4] text-[48px] leading-none">{s.icon}</span>
-              <p className="font-roboto font-bold text-black text-[13px] sm:text-[15px] text-center leading-[24px]">
+            <div key={s.label} className="flex min-h-[90px] flex-col items-center justify-start gap-3">
+              <img src={s.icon} alt="" className="h-12 w-12 object-contain" />
+              <p className="font-roboto font-bold text-black text-[15px] sm:text-[16px] text-center leading-[24px] max-w-[140px]">
                 {s.label}
               </p>
             </div>
@@ -508,7 +526,11 @@ function OperationalSection() {
           <div className="flex flex-col gap-4 mt-2">
             {items.map((item) => (
               <div key={item.title} className="flex items-start gap-3">
-                <span className="material-icons text-[#1173d4] text-[24px] mt-0.5 shrink-0">check_circle</span>
+                <img
+                  src={imgCheckCircleIcon}
+                  alt=""
+                  className="mt-1 h-5 w-5 shrink-0 object-contain"
+                />
                 <div>
                   <p className="font-roboto font-bold text-white text-[15px] leading-[24px]">{item.title}</p>
                   <p className="font-inter font-normal text-[#cecece] text-[13px] leading-[20px]">{item.desc}</p>
@@ -541,7 +563,11 @@ function QuoteSection() {
       <img src={imgQuoteBg} alt="Quote background" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black/70" />
       <div className="relative z-10 flex flex-col items-center gap-6 px-6 lg:px-20 py-16 lg:py-20 text-center">
-        <span className="material-icons text-[#1173d4] text-[60px]">format_quote</span>
+        <img
+          src={imgFormatQuoteIcon}
+          alt=""
+          className="h-[26px] w-[35px] object-contain"
+        />
         <h2 className="font-roboto font-bold text-white text-[28px] sm:text-[40px] lg:text-[48px] leading-[1.2] max-w-[900px]">
           "We do not merely install glass. We engineer architectural identities that define skylines."
         </h2>

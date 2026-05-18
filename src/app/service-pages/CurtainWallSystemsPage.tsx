@@ -183,7 +183,7 @@ function MobileCurtainWallContent() {
         />
         <div className="mx-auto mt-8 grid max-w-[350px] gap-5">
           {applicationAreas.map((area) => (
-            <article key={area.title} className="overflow-hidden rounded-[8px] border border-[#4299f0] bg-[#f7f5fa]">
+            <article key={area.title} className="service-application-card overflow-hidden rounded-[8px] border border-[#4299f0] bg-[#f7f5fa]">
               <img src={area.image} alt="" className="h-[190px] w-full object-cover" />
               <div className="p-5">
                 <h3 className="bg-gradient-to-r from-[#5a93d1] to-black bg-clip-text font-['Roboto',sans-serif] text-[22px] font-medium leading-[1.2] text-transparent">
