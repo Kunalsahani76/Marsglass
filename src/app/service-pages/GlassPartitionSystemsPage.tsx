@@ -9,6 +9,7 @@ import imgApp2 from "@/imports/Service6/52f0e89d1454432723eb325caa9f7a38f1e0ca34
 import MobileServicePage from "./MobileServicePage";
 import ScaledServiceImport from "./ScaledServiceImport";
 import ServiceNavbar from "../components/ServiceNavbar";
+import SiteFooter from "../components/SiteFooter";
 
 export default function GlassPartitionSystemsPage() {
   return (
@@ -45,9 +46,10 @@ export default function GlassPartitionSystemsPage() {
           { title: "Hospitality Spaces", text: "Hotels, lounges, restaurants, and service areas.", image: imgHero },
         ]}
       />
-      <ScaledServiceImport className="w-full hide-import-nav hide-import-first-nav service-import-scale">
+      <ScaledServiceImport className="w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
+      <SiteFooter className="mt-12" />
     </div>
   );
 }

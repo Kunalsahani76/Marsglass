@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import svgPaths from "@/imports/ContactPage/Contact/svg-vppthmw37v";
+import SiteFooter from "../components/SiteFooter";
 import imgLogo from "@/imports/ContactPage/Contact/3eb7b26dcf0dd609404203e92ea981a8a747ef76.png";
 import imgHeroBg from "@/imports/ContactPage/Contact/e1770aa3d01cc68cd32d478b7008480d7eff09e8.png";
 import imgAboutImg from "@/imports/ContactPage/Contact/effd7e15c64c3f1b481b2fdfe6ffe08f89e320e9.png";
@@ -585,37 +586,6 @@ function ContactInfo() {
 function ContactForm() {
   return (
     <section id="contact" className="bg-[#222] w-full">
-      {/* Intro */}
-      <div className="max-w-[1400px] mx-auto px-6 md:px-10 lg:px-20 py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-        <div className="flex-1 min-w-0 flex flex-col gap-10">
-          <div className="flex flex-col gap-4 text-white">
-            <p className="font-['Roboto',sans-serif] text-lg lg:text-[23px] leading-relaxed">
-              At{" "}
-              <span className="font-bold">Mars Glass Solutions Pvt. Ltd.,</span>{" "}
-              we believe every successful project begins with a clear conversation.
-            </p>
-            <p className="font-['Roboto',sans-serif] font-light text-lg lg:text-[23px] leading-relaxed">
-              Whether you are planning a commercial tower, residential development, corporate office, or exterior renovation, our engineering team is ready to assist you with precision and expertise.
-            </p>
-          </div>
-          <div className="flex flex-col gap-4 text-white">
-            <p className="font-['Roboto',sans-serif] font-semibold text-lg lg:text-[23px] leading-relaxed">
-              We welcome architects, developers, consultants, contractors,
-            </p>
-            <p className="font-['Roboto',sans-serif] font-light text-lg lg:text-[23px] leading-relaxed">
-              And project owners to connect with us for tailored glass and facade solutions.
-            </p>
-          </div>
-        </div>
-        <div className="shrink-0 w-full max-w-[420px] lg:w-[495px] lg:max-w-none">
-          <img
-            src={imgAboutImg}
-            alt="Glass facade project"
-            className="w-full h-[300px] sm:h-[360px] lg:h-[382px] object-cover rounded-xl"
-          />
-        </div>
-      </div>
-
       {/* Form + Map */}
       <div id="get-in-touch" className="w-full px-6 md:px-10 lg:px-[70px] py-12 lg:py-[60px] flex flex-col lg:flex-row gap-10 lg:gap-[60px] items-start max-w-[1400px] mx-auto scroll-mt-24">
         {/* Form */}
@@ -688,7 +658,11 @@ function CTABanner() {
         <p className="font-['Roboto',sans-serif] text-white text-base max-w-2xl">
           {"Let's collaborate on your next architectural masterpiece. Our engineers are ready to bring technical excellence to your design."}
         </p>
-        <button className="bg-[#5a93d1] text-black font-['Roboto',sans-serif] font-bold text-[17px] px-6 py-3 rounded-lg capitalize">
+        <button
+          type="button"
+          onClick={() => document.getElementById("get-in-touch")?.scrollIntoView({ behavior: "smooth", block: "start" })}
+          className="bg-[#5a93d1] text-black font-['Roboto',sans-serif] font-bold text-[17px] px-6 py-3 rounded-lg capitalize"
+        >
           Start Project Inquiry
         </button>
       </div>
@@ -698,93 +672,7 @@ function CTABanner() {
 
 /* ─── Footer ─────────────────────────────────────────────────── */
 function Footer() {
-  return (
-    <footer className="bg-[#424242] w-full">
-      <div className="px-6 md:px-8 py-8 max-w-[1400px] mx-auto flex flex-col gap-8">
-        {/* Main footer columns */}
-        <div className="flex flex-col md:flex-row gap-10 md:gap-12 lg:gap-20">
-          {/* Brand */}
-          <div className="flex flex-col gap-8 w-full md:w-[280px] shrink-0">
-            <div className="h-[97px] w-[183px] relative overflow-hidden">
-              <img src={imgLogo} alt="Mars Glass" className="absolute inset-0 w-full h-full object-contain" />
-            </div>
-            <p className="font-['Inter',sans-serif] text-[rgba(199,198,202,0.8)] text-[14px] leading-[22.75px] max-w-[300px]">
-              Thank you for choosing to explore possibilities with us. We are here to make your project smooth and successful with expert guidance.
-            </p>
-          </div>
-
-          {/* Navigation */}
-          <div className="flex flex-col gap-0 w-full md:w-[200px] shrink-0">
-            <p className="font-['Manrope',sans-serif] font-bold text-[rgba(255,255,255,0.4)] text-[14px] tracking-[1.4px] uppercase leading-[20px]">
-              Navigation
-            </p>
-            <div className="mt-8 flex flex-col gap-0">
-              {["Home", "Services", "About", "Projects"].map((item) => (
-                <a
-                  key={item}
-                  href={contactNavHref(item)}
-                  className="font-['Inter',sans-serif] font-medium text-[#c7c6ca] text-[14px] tracking-[-0.35px] uppercase opacity-70 py-[3.5px] leading-[20px]"
-                >
-                  {item}
-                </a>
-              ))}
-            </div>
-          </div>
-
-          {/* Contact */}
-          <div className="flex flex-col gap-0 flex-1 min-w-0">
-            <p className="font-['Manrope',sans-serif] font-bold text-[rgba(255,255,255,0.4)] text-[14px] tracking-[1.4px] uppercase leading-[20px]">
-              Inquiries
-            </p>
-            <div className="mt-8 flex flex-col gap-6">
-              {/* Phone */}
-              <div className="flex gap-4 items-start">
-                <div className="w-[14px] h-[18px] shrink-0 mt-0.5">
-                  <svg width="14.17" height="18.17" viewBox="0 0 14.1666 18.1666" fill="none">
-                    <path d={svgPaths.p1af08d80} fill="#C8C6C7" />
-                  </svg>
-                </div>
-                <div className="flex flex-col font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">
-                  <span>+91 9319744714</span>
-                  <span>011-43411290</span>
-                </div>
-              </div>
-              {/* Email */}
-              <div className="flex gap-4 items-start">
-                <div className="w-[16px] h-[16.5px] shrink-0 mt-0.5">
-                  <svg width="15.83" height="16.5" viewBox="0 0 15.8333 16.4999" fill="none">
-                    <path d={svgPaths.p2056a2c0} fill="#C8C6C7" />
-                  </svg>
-                </div>
-                <span className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">info@manglass.co.in</span>
-              </div>
-              {/* Address */}
-              <div className="flex gap-4 items-start">
-                <div className="w-[13px] h-[20px] shrink-0 mt-0.5">
-                  <svg width="12.58" height="19.84" viewBox="0 0 12.5801 19.8413" fill="none">
-                    <path d={svgPaths.p3bdd2f00} fill="#C8C6C7" />
-                  </svg>
-                </div>
-                <p className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[22.75px]">
-                  A-28A, Rajouri Garden, Ring Road,<br />New Delhi - 110027
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom bar */}
-        <div className="border-t border-white/10 pt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
-          <p className="font-['Inter',sans-serif] font-medium text-[#c7c6ca] text-[12px] tracking-[-0.3px] uppercase leading-[16px]">
-            © 2026 Manglass. All rights reserved.
-          </p>
-          <p className="font-['Inter',sans-serif] font-medium text-[#c7c6ca] text-[12px] tracking-[-0.3px] uppercase leading-[16px]">
-            Designed & Managed by D,Miraki.
-          </p>
-        </div>
-      </div>
-    </footer>
-  );
+  return <SiteFooter />;
 }
 
 /* ─── Root ───────────────────────────────────────────────────── */
@@ -798,7 +686,6 @@ export default function ContactPage() {
       <Mission />
       <WhyChooseUs />
       <Features />
-      <Projects />
       <ContactForm />
       <CTABanner />
       <Footer />

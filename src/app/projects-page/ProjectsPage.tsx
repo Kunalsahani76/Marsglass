@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import SiteFooter from "../components/SiteFooter";
 
 // About page images
 import imgHeroBg from "@/imports/AboutPage/About/e24628afec469bd5d601c2d0bc2eb5319a22e8b0.png";
@@ -693,89 +694,7 @@ function CtaSection() {
 // FOOTER
 // ────────────────────────────────────────────────────────────────
 function Footer() {
-  const navLinks = ["Home", "Services", "About", "Projects"];
-
-  return (
-    <footer id="contact" className="bg-[#424242]">
-      <div className="px-6 sm:px-8 py-8 lg:py-[30px]">
-        {/* Top row */}
-        <div className="flex flex-col sm:flex-row gap-10 sm:gap-16 lg:gap-[85px] mb-8">
-          {/* Brand col */}
-          <div className="flex flex-col gap-8 max-w-[320px]">
-            <div className="h-[97px] w-[183px] relative overflow-hidden shrink-0">
-              <img src={imgLogo} alt="Mars Glass Solutions" className="w-full h-full object-cover" />
-            </div>
-            <p className="font-inter font-normal text-[rgba(199,198,202,0.8)] text-[13px] leading-[22.75px]">
-              Thank you for choosing to explore possibilities with us. We are here to make your project smooth and successful with expert guidance.
-            </p>
-          </div>
-
-          {/* Navigation col */}
-          <div className="flex flex-col">
-            <p className="font-['Manrope',sans-serif] font-bold text-[rgba(255,255,255,0.4)] text-[13px] tracking-[1.4px] uppercase leading-[20px] mb-8">
-              Navigation
-            </p>
-            <nav className="flex flex-col gap-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link}
-                  href={aboutNavHref(link)}
-                  className="font-inter font-medium text-[#c7c6ca] text-[13px] tracking-[-0.35px] uppercase opacity-70 leading-[20px]"
-                >
-                  {link}
-                </a>
-              ))}
-            </nav>
-          </div>
-
-          {/* Contact col */}
-          <div className="flex flex-col">
-            <p className="font-['Manrope',sans-serif] font-bold text-[rgba(255,255,255,0.4)] text-[13px] tracking-[1.4px] uppercase leading-[20px] mb-8">
-              Inquiries
-            </p>
-            <div className="flex flex-col gap-6">
-              {/* Phone */}
-              <div className="flex gap-4 items-start">
-                <svg width="15" height="19" viewBox="0 0 14.1666 18.1666" fill="none" className="shrink-0 mt-0.5">
-                  <path d={svgPhone} fill="#C8C6C7" />
-                </svg>
-                <div>
-                  <p className="font-inter font-normal text-[#c7c6ca] text-[13px] leading-[20px]">+91 9319744714</p>
-                  <p className="font-inter font-normal text-[#c7c6ca] text-[13px] leading-[20px]">011-43411290</p>
-                </div>
-              </div>
-              {/* Email */}
-              <div className="flex gap-4 items-center">
-                <svg width="16" height="17" viewBox="0 0 15.8333 16.4999" fill="none" className="shrink-0">
-                  <path d={svgEmail} fill="#C8C6C7" />
-                </svg>
-                <p className="font-inter font-normal text-[#c7c6ca] text-[13px] leading-[20px]">info@manglass.co.in</p>
-              </div>
-              {/* Address */}
-              <div className="flex gap-4 items-start">
-                <svg width="13" height="20" viewBox="0 0 12.5801 19.8413" fill="none" className="shrink-0 mt-0.5">
-                  <path d={svgLocation} fill="#C8C6C7" />
-                </svg>
-                <p className="font-inter font-normal text-[#c7c6ca] text-[13px] leading-[22.75px]">
-                  A-28A, Rajouri Garden, Ring Road,<br />New Delhi - 110027
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom bar */}
-        <div className="border-t border-gray-600 pt-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
-          <p className="font-inter font-medium text-[#c7c6ca] text-[11px] tracking-[-0.3px] uppercase leading-[16px]">
-            © 2026 Manglass. All rights reserved.
-          </p>
-          <p className="font-inter font-medium text-[#c7c6ca] text-[11px] tracking-[-0.3px] uppercase leading-[16px]">
-            Designed &amp; Managed by D,Miraki.
-          </p>
-        </div>
-      </div>
-    </footer>
-  );
+  return <SiteFooter />;
 }
 
 // ────────────────────────────────────────────────────────────────

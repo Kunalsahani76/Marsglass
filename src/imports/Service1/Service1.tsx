@@ -28,7 +28,7 @@ function Button() {
   return (
     <a href="#/contact" className="bg-[#5a93d1] relative rounded-[4px] shrink-0" data-name="Button">
       <div className="content-stretch flex items-center justify-center overflow-clip px-[48px] py-[24px] relative rounded-[inherit] size-full">
-        <p className="font-['Lato:Regular',sans-serif] leading-none not-italic relative shrink-0 text-[16.8px] text-black whitespace-nowrap">Get Consultation</p>
+        <p className="font-['Roboto:Regular',sans-serif] leading-none not-italic relative shrink-0 text-[16.8px] text-black whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Get Consultation</p>
       </div>
       <div aria-hidden="true" className="absolute border-[1.2px] border-black border-solid inset-0 pointer-events-none rounded-[4px] shadow-[0px_0px_0px_0px_black]" />
     </a>
@@ -39,7 +39,7 @@ function Button1() {
   return (
     <a href="#/projects" className="bg-white relative rounded-[4px] shrink-0" data-name="Button">
       <div className="content-stretch flex items-center justify-center overflow-clip px-[48px] py-[24px] relative rounded-[inherit] size-full">
-        <p className="font-['Lato:Regular',sans-serif] leading-none not-italic relative shrink-0 text-[16.8px] text-black whitespace-nowrap">View Projects</p>
+        <p className="font-['Roboto:Regular',sans-serif] leading-none not-italic relative shrink-0 text-[16.8px] text-black whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>View Projects</p>
       </div>
       <div aria-hidden="true" className="absolute border-[1.2px] border-black border-solid inset-0 pointer-events-none rounded-[4px] shadow-[0px_0px_0px_0px_black]" />
     </a>
@@ -1131,7 +1131,7 @@ function Frame58() {
       <div className="flex flex-col font-['Poppins:Bold',sans-serif] h-[40px] justify-center relative shrink-0 text-[36px] text-white w-full">
         <p className="leading-[40px]">Why Choose Us</p>
       </div>
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[24px] justify-center relative shrink-0 text-[#cbd5e1] text-[16px] w-full">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[24px] justify-center relative shrink-0 text-white text-[16px] w-full">
         <p className="leading-[24px]">Unparalleled expertise and premium quality in every panel we install.</p>
       </div>
     </div>
@@ -1144,7 +1144,7 @@ function Frame62() {
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center relative shrink-0 text-[18px] text-white w-full">
         <p className="leading-[28px]">Engineering Expertise</p>
       </div>
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[40px] justify-center relative shrink-0 text-[#e5e5e5] text-[14px] w-full">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[40px] justify-center relative shrink-0 text-white text-[14px] w-full">
         <p className="leading-[20px] mb-0">Our team includes world-class</p>
         <p className="leading-[20px]">structural and facade engineers.</p>
       </div>
@@ -1171,7 +1171,7 @@ function Frame64() {
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center min-w-full relative shrink-0 text-[18px] text-white w-[min-content]">
         <p className="leading-[28px]">Premium Materials</p>
       </div>
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#e5e5e5] text-[14px] whitespace-nowrap">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-white text-[14px] whitespace-nowrap">
         <p className="leading-[20px] mb-0">We source only high-grade aluminum</p>
         <p className="leading-[20px]">and solar-control glass..</p>
       </div>
@@ -1198,7 +1198,7 @@ function Frame66() {
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[18px] text-white">
         <p className="leading-[28px]">Precision Fabrication</p>
       </div>
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#e5e5e5] text-[14px]">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-white text-[14px]">
         <p className="leading-[20px] mb-0">CNC machining ensures millimetric</p>
         <p className="leading-[20px]">precision in all assemblies..</p>
       </div>
@@ -1235,7 +1235,7 @@ function Frame69() {
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[18px] text-white">
         <p className="leading-[28px]">International Standards</p>
       </div>
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#e5e5e5] text-[14px]">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-white text-[14px]">
         <p className="leading-[20px] mb-0">Certified compliance with ASTM and</p>
         <p className="leading-[20px]">EN structural standards.</p>
       </div>
@@ -1262,7 +1262,7 @@ function Frame71() {
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center min-w-full relative shrink-0 text-[18px] text-white w-[min-content]">
         <p className="leading-[28px]">Customized Solutions</p>
       </div>
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#e5e5e5] text-[14px] whitespace-nowrap">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-white text-[14px] whitespace-nowrap">
         <p className="leading-[20px] mb-0">Bespoke profiles and designs for</p>
         <p className="leading-[20px]">unique architectural icons..</p>
       </div>
@@ -1289,7 +1289,7 @@ function Frame73() {
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center min-w-full relative shrink-0 text-[18px] text-white w-[min-content]">
         <p className="leading-[28px]">Durability</p>
       </div>
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#94a3b8] text-[14px] whitespace-nowrap">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-white text-[14px] whitespace-nowrap">
         <p className="leading-[20px] mb-0">Engineered for a lifecycle exceeding</p>
         <p className="leading-[20px]">50+ years of performance.</p>
       </div>

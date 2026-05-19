@@ -26,6 +26,22 @@
   min-width: 0;
 }
 
+.hide-import-footer .service-import-inner > [data-name^="service"] > div:last-child {
+  display: none !important;
+}
+
+.hide-import-footer > [data-name^="service"] > div:last-child {
+  display: none !important;
+}
+
+.hide-import-footer .service-import-inner > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: none !important;
+}
+
+.hide-import-footer > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: none !important;
+}
+
 .service-import-frame {
   width: 100%;
 }

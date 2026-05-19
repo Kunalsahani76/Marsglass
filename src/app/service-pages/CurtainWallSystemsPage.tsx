@@ -11,6 +11,7 @@ import imgInfrastructure from "@/imports/Service1/a16871f6f4e08e7c58a930a5730220
 import imgRetail from "@/imports/Service1/f4361dccff0910b66bcf729c7a5f886a55f5002f.png";
 import imgHospitality from "@/imports/Service1/6b5723906706766745e2d094731ee36f0e529fd9.png";
 import ServiceNavbar from "../components/ServiceNavbar";
+import SiteFooter from "../components/SiteFooter";
 import ScaledServiceImport from "./ScaledServiceImport";
 
 const wallTypes = [
@@ -226,22 +227,23 @@ export default function CurtainWallSystemsPage() {
           <div className="flex w-full flex-col gap-3">
             <a
               href="#/contact"
-              className="flex w-full items-center justify-center rounded-[4px] border border-black bg-[#5a93d1] px-5 py-4 font-['Lato',sans-serif] text-[16px] text-black"
+              className="flex w-full items-center justify-center rounded-[4px] border border-black bg-[#5a93d1] px-5 py-4 font-['Roboto',sans-serif] text-[16px] text-black"
             >
               Get Consultation
             </a>
             <a
               href="#/projects"
-              className="flex w-full items-center justify-center rounded-[4px] border border-black bg-white px-5 py-4 font-['Lato',sans-serif] text-[16px] text-black"
+              className="flex w-full items-center justify-center rounded-[4px] border border-black bg-white px-5 py-4 font-['Roboto',sans-serif] text-[16px] text-black"
             >
               View Projects
             </a>
           </div>
         </div>
       </section>
-      <ScaledServiceImport className="curtain-wall-page w-full hide-import-nav hide-import-first-nav service-import-scale">
+      <ScaledServiceImport className="curtain-wall-page w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
+      <SiteFooter className="mt-12" />
     </div>
   );
 }

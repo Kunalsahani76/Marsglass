@@ -10,6 +10,7 @@ import imgOffice from "@/imports/Service2/6c6147faad5f688dd28c03ac4dbeceedd80488
 import MobileServicePage from "./MobileServicePage";
 import ScaledServiceImport from "./ScaledServiceImport";
 import ServiceNavbar from "../components/ServiceNavbar";
+import SiteFooter from "../components/SiteFooter";
 
 export default function StructuralGlazingSystemsPage() {
   return (
@@ -46,9 +47,10 @@ export default function StructuralGlazingSystemsPage() {
           { title: "Interiors", text: "Atriums, partitions, and feature glass areas.", image: imgInterior },
         ]}
       />
-      <ScaledServiceImport className="w-full hide-import-nav service-import-scale">
+      <ScaledServiceImport className="w-full hide-import-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
+      <SiteFooter className="mt-12" />
     </div>
   );
 }
