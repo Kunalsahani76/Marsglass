@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 // About page images
 import imgHeroBg from "@/imports/AboutPage/About/e24628afec469bd5d601c2d0bc2eb5319a22e8b0.png";
@@ -122,12 +122,31 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const desktopServicesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (!servicesOpen) return;
+
+    const closeOnOutsideClick = (event: MouseEvent | TouchEvent) => {
+      if (!desktopServicesRef.current?.contains(event.target as Node)) {
+        setServicesOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", closeOnOutsideClick);
+    document.addEventListener("touchstart", closeOnOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", closeOnOutsideClick);
+      document.removeEventListener("touchstart", closeOnOutsideClick);
+    };
+  }, [servicesOpen]);
 
   const navLinks = ["Home", "About", "Services", "Project", "Contact"];
 
@@ -152,6 +171,7 @@ function Navbar() {
             link === "Services" ? (
               <div
                 key={link}
+                ref={desktopServicesRef}
                 className="relative"
                 onMouseEnter={() => setServicesOpen(true)}
               >
@@ -175,6 +195,7 @@ function Navbar() {
                               key={service}
                               href={serviceNavHref(service)}
                               className="border-b border-black pb-[3px] font-roboto text-[16px] leading-none text-black hover:text-[#1173d4]"
+                              onClick={() => setServicesOpen(false)}
                             >
                               {service}
                             </a>

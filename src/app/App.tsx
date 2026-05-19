@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AboutPage from "./about-page/AboutPage";
 import ContactPage from "./contact-page/ContactPage";
 import ProjectsPage from "./projects-page/ProjectsPage";
@@ -127,6 +127,31 @@ function ContactIcon() {
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const desktopServicesRef = useRef<HTMLDivElement>(null);
+  const mobileServicesRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!servicesOpen) return;
+
+    const closeOnOutsideClick = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node;
+      const insideDesktop = desktopServicesRef.current?.contains(target);
+      const insideMobile = mobileServicesRef.current?.contains(target);
+
+      if (!insideDesktop && !insideMobile) {
+        setServicesOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", closeOnOutsideClick);
+    document.addEventListener("touchstart", closeOnOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", closeOnOutsideClick);
+      document.removeEventListener("touchstart", closeOnOutsideClick);
+    };
+  }, [servicesOpen]);
+
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="mx-auto flex items-center justify-between px-6 py-3 max-w-[1400px]">
@@ -150,6 +175,7 @@ function Navbar() {
             item === "Services" ? (
               <div
                 key={item}
+                ref={desktopServicesRef}
                 className="relative"
                 onMouseEnter={() => setServicesOpen(true)}
               >
@@ -171,6 +197,7 @@ function Navbar() {
                               key={service}
                               href={serviceNavHref(service)}
                               className="border-b border-black pb-[3px] font-['Roboto',sans-serif] text-[16px] leading-none text-black hover:text-[#5a93d1]"
+                              onClick={() => setServicesOpen(false)}
                             >
                               {service}
                             </a>
@@ -233,7 +260,7 @@ function Navbar() {
             "Contact",
           ].map((item) =>
             item === "Services" ? (
-              <div key={item} className="flex flex-col border-b border-gray-100 pb-3">
+              <div key={item} ref={mobileServicesRef} className="flex flex-col border-b border-gray-100 pb-3">
                 <button
                   type="button"
                   className="flex w-full items-center justify-between font-['Roboto',sans-serif] text-[16px] text-[#1e1e1e] capitalize"

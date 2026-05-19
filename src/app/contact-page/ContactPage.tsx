@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import svgPaths from "@/imports/ContactPage/Contact/svg-vppthmw37v";
 import imgLogo from "@/imports/ContactPage/Contact/3eb7b26dcf0dd609404203e92ea981a8a747ef76.png";
 import imgHeroBg from "@/imports/ContactPage/Contact/e1770aa3d01cc68cd32d478b7008480d7eff09e8.png";
@@ -46,12 +46,36 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const desktopServicesRef = useRef<HTMLDivElement>(null);
+  const mobileServicesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (!servicesOpen) return;
+
+    const closeOnOutsideClick = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node;
+      const insideDesktop = desktopServicesRef.current?.contains(target);
+      const insideMobile = mobileServicesRef.current?.contains(target);
+
+      if (!insideDesktop && !insideMobile) {
+        setServicesOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", closeOnOutsideClick);
+    document.addEventListener("touchstart", closeOnOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", closeOnOutsideClick);
+      document.removeEventListener("touchstart", closeOnOutsideClick);
+    };
+  }, [servicesOpen]);
 
   const links = ["Home", "About", "Services", "Project", "Contact"];
 
@@ -76,6 +100,7 @@ function Navbar() {
             link === "Services" ? (
               <div
                 key={link}
+                ref={desktopServicesRef}
                 className="relative"
                 onMouseEnter={() => setServicesOpen(true)}
               >
@@ -99,6 +124,7 @@ function Navbar() {
                               key={service}
                               href={serviceNavHref(service)}
                               className="border-b border-black pb-[3px] font-['Roboto',sans-serif] text-[16px] leading-none text-black hover:text-[#5a93d1]"
+                              onClick={() => setServicesOpen(false)}
                             >
                               {service}
                             </a>
@@ -149,7 +175,7 @@ function Navbar() {
         <div className="md:hidden bg-white border-t border-gray-100 px-6 pb-4">
           {links.map((link) =>
             link === "Services" ? (
-              <div key={link} className="border-b border-gray-100 py-3">
+              <div key={link} ref={mobileServicesRef} className="border-b border-gray-100 py-3">
                 <button
                   type="button"
                   className="flex w-full items-center justify-between font-['Roboto',sans-serif] text-[#1e1e1e] text-[16px] capitalize"

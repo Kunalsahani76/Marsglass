@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import svgPaths from "@/imports/Home/svg-od9zlvzvzo";
 import imgLogo from "@/imports/Home/a08ae53b754d0c478618f1f8072832fea766a0a6.png";
 
@@ -55,7 +55,31 @@ function DropdownArrow() {
 export default function ServiceNavbar() {
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const desktopServicesRef = useRef<HTMLDivElement>(null);
+  const mobileServicesRef = useRef<HTMLDivElement>(null);
   const links = ["Home", "About", "Services", "Project", "Contact"];
+
+  useEffect(() => {
+    if (!servicesOpen) return;
+
+    const closeOnOutsideClick = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node;
+      const insideDesktop = desktopServicesRef.current?.contains(target);
+      const insideMobile = mobileServicesRef.current?.contains(target);
+
+      if (!insideDesktop && !insideMobile) {
+        setServicesOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", closeOnOutsideClick);
+    document.addEventListener("touchstart", closeOnOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", closeOnOutsideClick);
+      document.removeEventListener("touchstart", closeOnOutsideClick);
+    };
+  }, [servicesOpen]);
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
@@ -72,7 +96,7 @@ export default function ServiceNavbar() {
         <nav className="hidden md:flex items-center gap-8">
           {links.map((item) =>
             item === "Services" ? (
-              <div key={item} className="relative" onMouseEnter={() => setServicesOpen(true)}>
+              <div key={item} ref={desktopServicesRef} className="relative" onMouseEnter={() => setServicesOpen(true)}>
                 <button
                   type="button"
                   className="flex items-center gap-1 font-['Roboto',sans-serif] text-[17px] text-[#1e1e1e] capitalize leading-[1.45] hover:opacity-70"
@@ -91,6 +115,7 @@ export default function ServiceNavbar() {
                               key={service}
                               href={serviceNavHref(service)}
                               className="border-b border-black pb-[3px] font-['Roboto',sans-serif] text-[16px] leading-none text-black hover:text-[#5a93d1]"
+                              onClick={() => setServicesOpen(false)}
                             >
                               {service}
                             </a>
@@ -136,7 +161,7 @@ export default function ServiceNavbar() {
         <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 flex max-h-[calc(100vh-76px)] flex-col gap-4 overflow-y-auto">
           {links.map((item) =>
             item === "Services" ? (
-              <div key={item} className="flex flex-col border-b border-gray-100 pb-3">
+              <div key={item} ref={mobileServicesRef} className="flex flex-col border-b border-gray-100 pb-3">
                 <button
                   type="button"
                   className="flex w-full items-center justify-between font-['Roboto',sans-serif] text-[16px] text-[#1e1e1e] capitalize"
