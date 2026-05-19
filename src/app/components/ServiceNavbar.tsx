@@ -140,7 +140,7 @@ export default function ServiceNavbar() {
 
         <a
           href="#/contact"
-          className="hidden md:flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize hover:bg-gray-50"
+          className="navbar-contact-button hidden md:flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize"
         >
           <ContactIcon />
           <span>contact</span>
@@ -204,7 +204,7 @@ export default function ServiceNavbar() {
           )}
           <a
             href="#/contact"
-            className="flex items-center justify-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize"
+            className="navbar-contact-button flex items-center justify-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize"
             onClick={() => setOpen(false)}
           >
             <ContactIcon />

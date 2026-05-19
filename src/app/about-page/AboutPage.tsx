@@ -303,7 +303,7 @@ function Hero() {
           </a>
           <a
             href="#/contact"
-            className="bg-white border border-black text-black font-inter font-bold text-[15px] px-6 py-3.5 rounded-lg flex items-center gap-2"
+            className="navbar-contact-button bg-white border border-black text-black font-inter font-bold text-[15px] px-6 py-3.5 rounded-lg flex items-center gap-2"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
               <path d={svgContactPhone} fill="black" />

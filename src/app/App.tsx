@@ -225,7 +225,7 @@ function Navbar() {
         <div className="hidden md:flex">
           <a
             href="#/contact"
-            className="flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize hover:bg-gray-50"
+            className="navbar-contact-button flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize"
           >
             <ContactIcon />
             <span>contact</span>
@@ -303,7 +303,7 @@ function Navbar() {
           )}
           <a
             href="#/contact"
-            className="flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize w-fit"
+            className="navbar-contact-button flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize w-fit"
             onClick={() => setOpen(false)}
           >
             <ContactIcon />
@@ -339,7 +339,7 @@ function HeroSection() {
       {/* Content */}
       <div className="home-hero-content relative flex flex-col lg:flex-row items-center justify-between h-full px-6 md:px-12 xl:px-20 py-14 gap-10 max-w-[1400px] mx-auto">
         {/* Text */}
-        <div className="home-hero-copy flex flex-col gap-8 max-w-[640px] w-full">
+        <div className="home-hero-copy flex flex-col gap-8 max-w-[760px] w-full">
           <div className="home-hero-title flex flex-col leading-none">
             <span className="font-['Roboto',sans-serif] font-normal text-white text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.45]">
               Crafting
@@ -351,7 +351,7 @@ function HeroSection() {
               {`Glass & Facades`}
             </span>
           </div>
-          <p className="font-['Roboto',sans-serif] font-medium text-white text-[17px] md:text-[19px] tracking-[-0.38px] leading-[1.2]">
+          <p className="home-hero-intro font-['Roboto',sans-serif] font-medium text-white text-[17px] md:text-[19px] tracking-normal leading-[1.28] max-w-[760px]">
             Mars Glass Solutions Pvt Ltd is a professional glass
             and facade company delivering complete solutions
             from design to installation.
@@ -365,7 +365,7 @@ function HeroSection() {
             </a>
             <a
               href="#/contact"
-              className="flex items-center gap-2 bg-white rounded-[8px] px-5 py-3 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/10"
+              className="navbar-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-3 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/10"
             >
               <ContactIcon />
               <span>contact</span>
