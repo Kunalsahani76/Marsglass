@@ -148,7 +148,7 @@ function Navbar() {
     };
   }, [servicesOpen]);
 
-  const navLinks = ["Home", "About", "Services", "Project", "Contact"];
+  const navLinks = ["Home", "About", "Services", "Project"];
 
   return (
     <nav

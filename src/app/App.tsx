@@ -171,7 +171,7 @@ function Navbar() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
-          {["Home", "About", "Services", "Project", "Contact"].map((item) =>
+          {["Home", "About", "Services", "Project"].map((item) =>
             item === "Services" ? (
               <div
                 key={item}
@@ -257,7 +257,6 @@ function Navbar() {
             "About",
             "Services",
             "Project",
-            "Contact",
           ].map((item) =>
             item === "Services" ? (
               <div key={item} ref={mobileServicesRef} className="flex flex-col border-b border-gray-100 pb-3">

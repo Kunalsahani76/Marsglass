@@ -77,7 +77,7 @@ function Navbar() {
     };
   }, [servicesOpen]);
 
-  const links = ["Home", "About", "Services", "Project", "Contact"];
+  const links = ["Home", "About", "Services", "Project"];
 
   return (
     <header

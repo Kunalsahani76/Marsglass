@@ -57,7 +57,7 @@ export default function ServiceNavbar() {
   const [servicesOpen, setServicesOpen] = useState(false);
   const desktopServicesRef = useRef<HTMLDivElement>(null);
   const mobileServicesRef = useRef<HTMLDivElement>(null);
-  const links = ["Home", "About", "Services", "Project", "Contact"];
+  const links = ["Home", "About", "Services", "Project"];
 
   useEffect(() => {
     if (!servicesOpen) return;
