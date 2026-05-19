@@ -250,7 +250,7 @@ function Hero() {
           </a>
           <a
             href="#/contact#get-in-touch"
-            className="border border-white text-white font-['Roboto',sans-serif] font-bold text-[17px] px-8 py-3 rounded-lg capitalize"
+            className="contact-hero-touch-button border border-white text-white font-['Roboto',sans-serif] font-bold text-[17px] px-8 py-3 rounded-lg capitalize"
           >
             Get In Touch
           </a>

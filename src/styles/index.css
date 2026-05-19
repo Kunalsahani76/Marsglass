@@ -90,6 +90,19 @@
   border-color: #111;
 }
 
+.contact-hero-touch-button {
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.contact-hero-touch-button:hover {
+  background-color: #5a93d1;
+  border-color: #5a93d1;
+  color: #000;
+}
+
 .home-hero-intro {
   position: relative;
   padding: 26px 30px 26px 34px;
