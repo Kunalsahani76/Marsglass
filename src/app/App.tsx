@@ -453,9 +453,9 @@ function AboutSection() {
     <GradientSection id="about">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 xl:px-20 py-10 md:py-14 flex flex-col gap-6">
         <SectionTitle title="Mars Glass Solutions Pvt Ltd" />
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-12">
           {/* Text */}
-          <div className="flex flex-col gap-5 max-w-[664px]">
+          <div className="flex flex-col gap-5 max-w-[664px] lg:max-w-[620px]">
             <p className="font-['Inter',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
               <span className="font-medium">
                 Mars Glass Solutions Pvt. Ltd.
@@ -511,9 +511,9 @@ function VisionSection() {
     <GradientSection id="vision">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 xl:px-20 py-10 md:py-14 flex flex-col gap-6">
         <SectionTitle title="Our Vision" />
-        <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-10">
+        <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between gap-10 lg:gap-12">
           {/* Text */}
-          <div className="flex flex-col gap-5 max-w-[596px]">
+          <div className="flex flex-col gap-5 max-w-[596px] lg:max-w-[580px]">
             <p className="font-['Roboto',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
               To lead the future of architectural glass and
               facade engineering with innovation, integrity, and
@@ -569,9 +569,9 @@ function MissionSection() {
     <GradientSection id="mission">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 xl:px-20 py-10 md:py-14 flex flex-col gap-6">
         <SectionTitle title="Our Mission" />
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-12">
           {/* Text */}
-          <div className="flex flex-col gap-5 max-w-[596px]">
+          <div className="flex flex-col gap-5 max-w-[596px] lg:max-w-[580px]">
             <p className="font-['Roboto',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
               To lead the future of architectural glass and
               facade engineering with innovation, integrity, and
