@@ -3,7 +3,6 @@ import svgPaths from "@/imports/ContactPage/Contact/svg-vppthmw37v";
 import imgLogo from "@/imports/ContactPage/Contact/3eb7b26dcf0dd609404203e92ea981a8a747ef76.png";
 import imgHeroBg from "@/imports/ContactPage/Contact/e1770aa3d01cc68cd32d478b7008480d7eff09e8.png";
 import imgAboutImg from "@/imports/ContactPage/Contact/effd7e15c64c3f1b481b2fdfe6ffe08f89e320e9.png";
-import imgMapImg from "@/imports/ContactPage/Contact/53e98ed0de5cb630a03ccf0bd2841855cc6ed28c.png";
 import imgNavLogo from "@/imports/ContactPage/Contact/a08ae53b754d0c478618f1f8072832fea766a0a6.png";
 
 const contactNavHref = (item: string) => {
@@ -249,7 +248,7 @@ function Hero() {
             View Projects
           </a>
           <a
-            href="#/contact"
+            href="#/contact#get-in-touch"
             className="border border-white text-white font-['Roboto',sans-serif] font-bold text-[17px] px-8 py-3 rounded-lg capitalize"
           >
             Get In Touch
@@ -618,7 +617,7 @@ function ContactForm() {
       </div>
 
       {/* Form + Map */}
-      <div className="w-full px-6 md:px-10 lg:px-[70px] py-12 lg:py-[60px] flex flex-col lg:flex-row gap-10 lg:gap-[60px] items-start max-w-[1400px] mx-auto">
+      <div id="get-in-touch" className="w-full px-6 md:px-10 lg:px-[70px] py-12 lg:py-[60px] flex flex-col lg:flex-row gap-10 lg:gap-[60px] items-start max-w-[1400px] mx-auto scroll-mt-24">
         {/* Form */}
         <div className="flex-1 min-w-0 flex flex-col gap-10 lg:gap-[81px]">
           <div className="flex flex-col gap-3 text-white">
@@ -656,12 +655,15 @@ function ContactForm() {
           </div>
         </div>
 
-        {/* Map Image */}
+        {/* Map */}
         <div className="shrink-0 w-full max-w-[520px] lg:w-[595px] lg:max-w-none">
-          <img
-            src={imgMapImg}
-            alt="Our location map"
-            className="w-full h-[400px] sm:h-[500px] lg:h-[811px] object-cover"
+          <iframe
+            title="Mars Glass Solutions location map"
+            src="https://www.google.com/maps?q=A-28A%2C%20Rajouri%20Garden%2C%20Ring%20Road%2C%20New%20Delhi-110027&output=embed"
+            className="w-full h-[400px] sm:h-[500px] lg:h-[811px] border-0"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
           />
         </div>
       </div>
