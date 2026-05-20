@@ -339,15 +339,15 @@ function HeroSection() {
       {/* Content */}
       <div className="home-hero-content relative flex flex-col lg:flex-row items-center justify-between h-full px-6 md:px-12 xl:px-20 py-14 gap-10 max-w-[1400px] mx-auto">
         {/* Text */}
-        <div className="home-hero-copy flex flex-col gap-8 max-w-[760px] w-full">
+        <div className="home-hero-copy flex flex-col gap-7 max-w-[760px] w-full">
           <div className="home-hero-title flex flex-col leading-none">
-            <span className="font-['Roboto',sans-serif] font-normal text-white text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.45]">
+            <span className="font-['Roboto',sans-serif] font-normal text-white text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.2]">
               Crafting
             </span>
-            <span className="font-['Roboto',sans-serif] font-normal text-white text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.45]">
+            <span className="font-['Roboto',sans-serif] font-normal text-white text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.2]">
               Excellence in
             </span>
-            <span className="font-['Roboto',sans-serif] font-normal text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.45] bg-gradient-to-r from-[#489ef6] to-[#cee4fb] bg-clip-text text-transparent">
+            <span className="font-['Roboto',sans-serif] font-normal text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.2] bg-gradient-to-r from-[#489ef6] to-[#cee4fb] bg-clip-text text-transparent">
               {`Glass & Facades`}
             </span>
           </div>
@@ -365,7 +365,7 @@ function HeroSection() {
             </a>
             <a
               href="#/contact"
-              className="navbar-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-3 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/10"
+              className="navbar-contact-button home-hero-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-3 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/10"
             >
               <ContactIcon />
               <span>contact</span>
@@ -424,11 +424,11 @@ function GradientSection({
 }
 
 /* ─── Contact Button ─── */
-function ContactBtn() {
+function ContactBtn({ className = "" }: { className?: string }) {
   return (
     <a
       href="#/contact"
-      className="section-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-2.5 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/30 w-fit"
+      className={`section-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-2.5 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/30 w-fit ${className}`}
     >
       <ContactIcon />
       <span>contact</span>
@@ -453,7 +453,7 @@ function AboutSection() {
     <GradientSection id="about">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 xl:px-20 py-10 md:py-14 flex flex-col gap-6">
         <SectionTitle title="Mars Glass Solutions Pvt Ltd" />
-        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-12">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-12">
           {/* Text */}
           <div className="flex flex-col gap-5 max-w-[664px] lg:max-w-[620px]">
             <p className="font-['Inter',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
@@ -480,7 +480,7 @@ function AboutSection() {
               At Mars Glass Solutions, we create iconic glass
               facades that define modern architecture.
             </p>
-            <ContactBtn />
+            <ContactBtn className="about-contact-button" />
           </div>
 
           {/* Image */}
@@ -534,7 +534,7 @@ function VisionSection() {
               not just to build structures, but to shape iconic
               identities in glass.
             </p>
-            <ContactBtn />
+            <ContactBtn className="about-contact-button" />
           </div>
 
           {/* Image - flipped */}
@@ -592,7 +592,7 @@ function MissionSection() {
               not just to build structures, but to shape iconic
               identities in glass.
             </p>
-            <ContactBtn />
+            <ContactBtn className="about-contact-button" />
           </div>
 
           {/* Image */}
@@ -868,7 +868,7 @@ function ProjectsSection() {
     },
     {
       img: imgMercedesShowroomOkhla,
-      title: "Mercedes Showroom Okhla",
+      title: "Mercedes Showroom I Okhla, New Delhi",
       reverse: true,
     },
     {

@@ -46,7 +46,7 @@ export default function AcpCladdingSystemsPage() {
           { title: "Interiors", text: "Lobbies, wall panels, columns, and feature surfaces.", image: imgInterior },
         ]}
       />
-      <ScaledServiceImport className="w-full hide-import-nav hide-import-footer service-import-scale">
+      <ScaledServiceImport className="acp-cladding-page service-hero-page w-full hide-import-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
       <SiteFooter className="mt-12" />

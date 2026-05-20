@@ -46,7 +46,7 @@ export default function AluminiumDoorSystemsPage() {
           { title: "Hospitality Areas", text: "Hotels, restaurants, lounges, and public access zones.", image: imgHero },
         ]}
       />
-      <ScaledServiceImport className="w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
+      <ScaledServiceImport className="aluminium-door-page service-hero-page w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
       <SiteFooter className="mt-12" />

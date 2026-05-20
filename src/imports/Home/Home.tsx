@@ -852,7 +852,7 @@ function Frame57() {
     <div className="content-stretch flex gap-[10px] h-[128px] items-center px-[26px] py-[9px] relative shrink-0 w-[647px]">
       <Group2 />
       <div className="capitalize flex flex-col font-['Roboto:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[38px] text-black text-center tracking-[-0.19px] w-[512.8px]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[1.45]">Mercedes Showroom Okhla</p>
+        <p className="leading-[1.45]">Mercedes Showroom I Okhla, New Delhi</p>
       </div>
     </div>
   );

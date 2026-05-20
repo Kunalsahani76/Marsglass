@@ -46,7 +46,7 @@ export default function AluminumWindowsDoorsPage() {
           { title: "Hospitality Projects", text: "Hotels, resorts, cafes, and premium interiors.", image: imgHero },
         ]}
       />
-      <ScaledServiceImport className="w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
+      <ScaledServiceImport className="aluminum-windows-page service-hero-page w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
       <SiteFooter className="mt-12" />

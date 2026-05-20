@@ -46,7 +46,7 @@ export default function GlassCanopySystemsPage() {
           { title: "Retail Fronts", text: "Showrooms, malls, cafes, and hospitality entrances.", image: imgHero },
         ]}
       />
-      <ScaledServiceImport className="w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
+      <ScaledServiceImport className="glass-canopy-page w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
       <SiteFooter className="mt-12" />

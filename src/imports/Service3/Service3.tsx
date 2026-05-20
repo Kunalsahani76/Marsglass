@@ -1614,7 +1614,7 @@ function Frame13() {
 
 function Frame57() {
   return (
-    <div className="bg-[#92a4b5] relative shrink-0 w-full">
+    <div className="acp-spec-header bg-[#92a4b5] relative shrink-0 w-full">
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex font-['Inter:Semi_Bold',sans-serif] font-semibold gap-[382px] items-center leading-[0] not-italic px-[40px] py-[20px] relative size-full text-[#1173d4] text-[12px] tracking-[0.6px] uppercase">
           <div className="flex flex-col h-[16px] justify-center relative shrink-0 w-[78.83px]">
@@ -1811,7 +1811,7 @@ function Frame69() {
 
 function Frame66() {
   return (
-    <div className="bg-[#eaedef] relative shrink-0 w-full">
+    <div className="acp-spec-body bg-[#eaedef] relative shrink-0 w-full">
       <div className="content-stretch flex flex-col gap-[18px] items-start px-[32px] relative size-full">
         <Frame57 />
         <Frame58 />
@@ -1831,7 +1831,7 @@ function Frame66() {
 
 function Frame67() {
   return (
-    <div className="bg-[#fefefe] content-stretch flex flex-col gap-[64px] items-start relative shrink-0 w-full">
+    <div className="acp-spec-section bg-[#fefefe] content-stretch flex flex-col gap-[64px] items-start relative shrink-0 w-full">
       <Frame13 />
       <Frame66 />
     </div>

@@ -679,7 +679,7 @@ function Frame57() {
 
 function Frame20() {
   return (
-    <div className="bg-[#111828] relative rounded-tl-[10px] rounded-tr-[10px] shrink-0 w-full">
+    <div className="aluminium-door-spec-header bg-[#111828] relative rounded-tl-[10px] rounded-tr-[10px] shrink-0 w-full">
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex font-['Roboto:Medium',sans-serif] font-medium items-center justify-between leading-[0] px-[20px] py-[10px] relative size-full text-[18px] text-center text-white whitespace-nowrap">
           <div className="flex flex-col justify-center relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -876,7 +876,7 @@ function Frame43() {
 
 function Frame38() {
   return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-[741px]">
+    <div className="aluminium-door-spec-body content-stretch flex flex-col items-start relative shrink-0 w-[741px]">
       <div className="h-[83.272px] relative shrink-0 w-full">
         <Frame21 />
         <Frame29 />
@@ -932,7 +932,7 @@ function Frame26() {
 
 function Frame27() {
   return (
-    <div className="relative shrink-0 w-full">
+    <div className="aluminium-door-spec-section relative shrink-0 w-full">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[40px] items-center px-[300px] py-[50px] relative size-full">
           <Frame57 />

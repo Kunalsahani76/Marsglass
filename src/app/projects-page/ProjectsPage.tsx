@@ -53,7 +53,7 @@ const projects = [
   { img: imgP3, name: "Haldiram's", location: "Dehradun" },
   { img: imgP4, name: "23 Ram Villa", location: "Rajendra Park, Delhi" },
   { img: imgP5, name: "Dhaula Kua Metro", location: "New Delhi" },
-  { img: imgP6, name: "Mercedes Showroom", location: "Okhla" },
+  { img: imgP6, name: "Mercedes Showroom I Okhla,", location: "New Delhi" },
   { img: imgP7, name: "Platina Mall", location: "Gurgaon" },
   { img: imgP8, name: "Bensups Hospital", location: "Sector 12 Dwarka, New Delhi" },
   { img: imgP9, name: "Bourn Hall Clinic", location: "Gurgaon, Sector-40" },

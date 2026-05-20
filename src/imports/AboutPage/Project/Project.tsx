@@ -183,10 +183,10 @@ function Frame13() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[7px] items-start leading-[normal] left-[24px] top-[249px] w-[267px]">
       <p className="font-['Roboto:SemiBold',sans-serif] font-semibold relative shrink-0 text-[#4299f0] text-[24px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Mercedes Showroom
+        Mercedes Showroom I Okhla,
       </p>
       <p className="font-['Roboto:Regular',sans-serif] font-normal relative shrink-0 text-[20px] text-black w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Okhla
+        New Delhi
       </p>
     </div>
   );

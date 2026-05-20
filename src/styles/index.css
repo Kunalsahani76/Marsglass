@@ -79,6 +79,45 @@
   transform: translateY(-1px);
 }
 
+.section-contact-button.about-contact-button {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.26);
+  border-color: rgba(255, 255, 255, 0.58);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.22),
+    0 14px 30px rgba(44, 104, 153, 0.18);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+}
+
+.section-contact-button.about-contact-button::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.58),
+    rgba(255, 255, 255, 0.1) 46%,
+    rgba(116, 177, 226, 0.22)
+  );
+  pointer-events: none;
+}
+
+.section-contact-button.about-contact-button > svg,
+.section-contact-button.about-contact-button > span {
+  position: relative;
+  z-index: 1;
+}
+
+.section-contact-button.about-contact-button:hover {
+  background: #5a93d1;
+  border-color: #3f78b7;
+  box-shadow: 0 10px 24px rgba(63, 120, 183, 0.22);
+}
+
 .navbar-contact-button {
   transition:
     background-color 180ms ease,
@@ -88,6 +127,16 @@
 .navbar-contact-button:hover {
   background-color: #5a93d1;
   border-color: #111;
+}
+
+.home-hero-contact-button {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.42);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    0 12px 28px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }
 
 .contact-hero-touch-button {
@@ -101,6 +150,354 @@
   background-color: #5a93d1;
   border-color: #5a93d1;
   color: #000;
+}
+
+.curtain-wall-page a[data-name="Button"][href="#/contact"],
+.curtain-wall-page a[data-name="Button"][href="#/projects"],
+.glass-canopy-page a[data-name="Button"][href="#/contact"],
+.glass-canopy-page a[data-name="Button"][href="#/projects"],
+.service-hero-page a[data-name="Button"][href="#/contact"],
+.service-hero-page a[data-name="Button"][href="#/projects"],
+.curtain-wall-hero-button {
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.glass-partition-page a[data-name="Button"][href="#/contact"] {
+  background-color: #ffffff !important;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.95);
+}
+
+.glass-partition-page [data-name="Modern Glass Building"] > div:not([aria-hidden]) {
+  overflow: visible !important;
+}
+
+.curtain-wall-page a[data-name="Button"][href="#/contact"]:hover,
+.glass-canopy-page a[data-name="Button"][href="#/contact"]:hover,
+.service-hero-page a[data-name="Button"][href="#/contact"]:hover,
+.curtain-wall-hero-consult:hover {
+  background-color: #ffffff !important;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.95);
+  transform: translate(-2px, -2px);
+}
+
+.curtain-wall-page a[data-name="Button"][href="#/projects"]:hover,
+.glass-canopy-page a[data-name="Button"][href="#/projects"]:hover,
+.service-hero-page a[data-name="Button"][href="#/projects"]:hover,
+.curtain-wall-hero-projects:hover {
+  background-color: #5a93d1 !important;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.95);
+  transform: translate(-2px, -2px);
+}
+
+.curtain-wall-page a[data-name="Button"]:hover p,
+.glass-canopy-page a[data-name="Button"]:hover p,
+.service-hero-page a[data-name="Button"]:hover p,
+.curtain-wall-hero-button:hover {
+  color: #000000 !important;
+}
+
+.glass-canopy-page .glass-canopy-spec-section > div > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.glass-canopy-page .glass-canopy-spec-section .glass-canopy-spec-header,
+.glass-canopy-page .glass-canopy-spec-section .glass-canopy-spec-body {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.glass-canopy-page .glass-canopy-spec-section .glass-canopy-spec-header > div > div {
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-align: left !important;
+}
+
+.glass-canopy-page .glass-canopy-spec-section .glass-canopy-spec-header > div > div > div:last-child {
+  text-align: right;
+}
+
+.glass-canopy-page .glass-canopy-spec-section .service-spec-row {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  left: 0 !important;
+  transform: none !important;
+}
+
+.glass-canopy-page .glass-canopy-spec-section .service-spec-row:hover {
+  transform: none !important;
+}
+
+.glass-canopy-page .glass-canopy-spec-section .service-spec-row > div:not([aria-hidden="true"]) {
+  min-width: 0;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+.glass-canopy-page .glass-canopy-spec-section .service-spec-row > div:last-child {
+  text-align: right !important;
+}
+
+.interior-glass-page .interior-glass-spec-section > div > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.interior-glass-page .interior-glass-spec-section .interior-glass-spec-header,
+.interior-glass-page .interior-glass-spec-section .interior-glass-spec-body {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.interior-glass-page .interior-glass-spec-section .interior-glass-spec-header > div > div {
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-align: left !important;
+}
+
+.interior-glass-page .interior-glass-spec-section .interior-glass-spec-header > div > div > div:last-child {
+  text-align: right;
+}
+
+.interior-glass-page .interior-glass-spec-section .service-spec-row {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  left: 0 !important;
+  transform: none !important;
+}
+
+.interior-glass-page .interior-glass-spec-section .service-spec-row:hover {
+  transform: none !important;
+}
+
+.interior-glass-page .interior-glass-spec-section .service-spec-row > div:not([aria-hidden="true"]) {
+  min-width: 0;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+.interior-glass-page .interior-glass-spec-section .service-spec-row > div:last-child {
+  text-align: right !important;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section > div > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-header,
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-body {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-header > div > div {
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-align: left !important;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-header > div > div > div:last-child {
+  text-align: right;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-body > div > div.absolute.bg-white {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  left: 0 !important;
+  transform: none !important;
+  transition:
+    background 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-body > div > div.absolute.bg-white:hover {
+  background: linear-gradient(90deg, #ffffff 0%, #eaf3fb 34%, #b8d4ee 68%, #4299f0 100%);
+  box-shadow: 0 12px 26px rgba(66, 153, 240, 0.22);
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-body > div > div.absolute.bg-white > div:not([aria-hidden="true"]) {
+  min-width: 0;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-body > div > div.absolute.bg-white > div:last-child {
+  text-align: right !important;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-body > div > div.absolute.bg-white:hover > div[aria-hidden="true"] {
+  border-color: #4299f0;
+}
+
+.aluminum-windows-page .aluminum-windows-spec-section .aluminum-windows-spec-body > div > div.absolute.bg-white:hover > div:last-child {
+  color: #0a3766;
+}
+
+.aluminium-door-page .aluminium-door-spec-section > div > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-header,
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-header > div > div {
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-align: left !important;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-header > div > div > div:last-child {
+  text-align: right;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body > div > div.absolute.bg-white {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px;
+  left: 0 !important;
+  transform: none !important;
+  transition:
+    background 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body > div > div.absolute.bg-white:hover {
+  background: linear-gradient(90deg, #ffffff 0%, #eaf3fb 34%, #b8d4ee 68%, #4299f0 100%);
+  box-shadow: 0 12px 26px rgba(66, 153, 240, 0.22);
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body > div > div.absolute.bg-white > div:not([aria-hidden="true"]) {
+  min-width: 0;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body > div > div.absolute.bg-white > div:last-child {
+  text-align: right !important;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body > div > div.absolute.bg-white:hover > div[aria-hidden="true"] {
+  border-color: #4299f0;
+}
+
+.aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body > div > div.absolute.bg-white:hover > div:last-child {
+  color: #0a3766;
+}
+
+.acp-cladding-page .acp-spec-section {
+  align-items: center !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body {
+  background: transparent !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-header {
+  width: 100% !important;
+  background: #111828 !important;
+  border-radius: 10px 10px 0 0;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-header > div > div {
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px !important;
+  padding: 10px 20px !important;
+  color: #ffffff !important;
+  font-family: "Roboto:Medium", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-header > div > div > div {
+  width: auto !important;
+  height: auto !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-header > div > div > div:last-child {
+  text-align: right;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header) {
+  width: 100% !important;
+  background: #ffffff !important;
+  transition:
+    background 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header):hover {
+  background: linear-gradient(90deg, #ffffff 0%, #eaf3fb 34%, #b8d4ee 68%, #4299f0 100%) !important;
+  box-shadow: 0 12px 26px rgba(66, 153, 240, 0.22);
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header):hover > div[aria-hidden="true"] {
+  border-color: #4299f0;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header) > div:not([aria-hidden="true"]) > div {
+  display: grid !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr);
+  gap: 24px !important;
+  padding: 20px !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header) > div:not([aria-hidden="true"]) > div > div {
+  width: auto !important;
+  height: auto !important;
+  min-width: 0;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header) > div:not([aria-hidden="true"]) > div > div:last-child {
+  text-align: right !important;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header):hover > div:not([aria-hidden="true"]) > div > div:last-child {
+  color: #0a3766;
 }
 
 .home-hero-intro {

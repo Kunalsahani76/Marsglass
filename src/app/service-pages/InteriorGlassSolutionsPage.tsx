@@ -46,7 +46,7 @@ export default function InteriorGlassSolutionsPage() {
           { title: "Retail & Hospitality", text: "Showrooms, hotels, salons, restaurants, and clinics.", image: imgHero },
         ]}
       />
-      <ScaledServiceImport className="w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
+      <ScaledServiceImport className="interior-glass-page service-hero-page w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">
         <Service />
       </ScaledServiceImport>
       <SiteFooter className="mt-12" />

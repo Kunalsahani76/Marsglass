@@ -227,13 +227,13 @@ export default function CurtainWallSystemsPage() {
           <div className="flex w-full flex-col gap-3">
             <a
               href="#/contact"
-              className="flex w-full items-center justify-center rounded-[4px] border border-black bg-[#5a93d1] px-5 py-4 font-['Roboto',sans-serif] text-[16px] text-black"
+              className="curtain-wall-hero-button curtain-wall-hero-consult flex w-full items-center justify-center rounded-[4px] border border-black bg-[#5a93d1] px-5 py-4 font-['Roboto',sans-serif] text-[16px] text-black"
             >
               Get Consultation
             </a>
             <a
               href="#/projects"
-              className="flex w-full items-center justify-center rounded-[4px] border border-black bg-white px-5 py-4 font-['Roboto',sans-serif] text-[16px] text-black"
+              className="curtain-wall-hero-button curtain-wall-hero-projects flex w-full items-center justify-center rounded-[4px] border border-black bg-white px-5 py-4 font-['Roboto',sans-serif] text-[16px] text-black"
             >
               View Projects
             </a>
