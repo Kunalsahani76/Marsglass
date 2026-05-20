@@ -17,9 +17,9 @@ export default function AcpCladdingSystemsPage() {
       <ServiceNavbar />
       <MobileServicePage
         title="ACP Cladding Systems"
-        subtitle="Lightweight aluminum composite panel cladding for modern exterior and interior architectural finishes."
+        subtitle="Lightweight aluminium composite panel cladding for modern exterior and interior architectural finishes."
         heroImage={imgHero}
-        introTitle="Aluminum Composite Panel Cladding"
+        introTitle="Aluminium Composite Panel Cladding"
         introText="ACP cladding provides a clean, durable, and versatile skin for buildings, offering smooth finishes, weather resistance, and design flexibility."
         introImages={[imgIntro, imgHero]}
         typesTitle="Types of ACP Cladding"
@@ -29,8 +29,8 @@ export default function AcpCladdingSystemsPage() {
           { title: "Feature Cladding", text: "Accent surfaces for entrances, signage zones, and architectural highlights.", image: imgFeature },
         ]}
         components={[
-          { title: "ACP Panels", text: "Composite sheets with aluminum skins and engineered core material." },
-          { title: "Support Frame", text: "Aluminum or steel backing structure for panel alignment." },
+          { title: "ACP Panels", text: "Composite sheets with aluminium skins and engineered core material." },
+          { title: "Support Frame", text: "Aluminium or steel backing structure for panel alignment." },
           { title: "Sealants", text: "Weatherproof joints that protect against moisture ingress." },
           { title: "Fixing Hardware", text: "Clips, brackets, and fasteners for reliable installation." },
         ]}

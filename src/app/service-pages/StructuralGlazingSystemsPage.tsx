@@ -31,7 +31,7 @@ export default function StructuralGlazingSystemsPage() {
         ]}
         components={[
           { title: "Structural Silicone", text: "High-strength bonding sealant for glass-to-frame attachment." },
-          { title: "Aluminum Frames", text: "Engineered members that carry wind and dead loads." },
+          { title: "Aluminium Frames", text: "Engineered members that carry wind and dead loads." },
           { title: "IGU Glass", text: "Insulated glass units for acoustic and thermal performance." },
           { title: "Weather Seals", text: "Gaskets and sealants that resist water and air ingress." },
         ]}

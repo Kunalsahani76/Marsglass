@@ -25,12 +25,12 @@ export default function GlassPartitionSystemsPage() {
         typesTitle="Types of Glass Partition Systems"
         types={[
           { title: "Frameless Partitions", text: "Minimal profiles for clean, premium office and retail interiors.", image: imgFrameless },
-          { title: "Framed Partitions", text: "Aluminum-framed systems for strength, privacy, and repeat use.", image: imgFramed },
+          { title: "Framed Partitions", text: "Aluminium-framed systems for strength, privacy, and repeat use.", image: imgFramed },
           { title: "Sliding Partitions", text: "Flexible partitions that save space and adapt to changing layouts.", image: imgSliding },
         ]}
         components={[
           { title: "Tempered Glass", text: "Safety glass for durable interior use." },
-          { title: "Aluminum Channels", text: "Neat support sections for glass alignment and stability." },
+          { title: "Aluminium Channels", text: "Neat support sections for glass alignment and stability." },
           { title: "Door Hardware", text: "Hinges, handles, locks, and sliding tracks." },
           { title: "Acoustic Seals", text: "Optional seals that improve privacy and comfort." },
         ]}

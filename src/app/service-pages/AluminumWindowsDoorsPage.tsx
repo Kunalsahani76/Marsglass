@@ -16,26 +16,26 @@ export default function AluminumWindowsDoorsPage() {
     <div className="w-full min-h-screen overflow-x-hidden">
       <ServiceNavbar />
       <MobileServicePage
-        title="Aluminum Windows & Doors"
+        title="Aluminium Windows & Doors"
         subtitle="Strong, lightweight, and modern systems for residential, commercial, and hospitality projects."
         heroImage={imgHero}
-        introTitle="Durable Aluminum Openings"
-        introText="Aluminum window and door systems combine slim profiles, high strength, and long service life with contemporary aesthetics."
+        introTitle="Durable Aluminium Openings"
+        introText="Aluminium window and door systems combine slim profiles, high strength, and long service life with contemporary aesthetics."
         introImages={[imgSliding, imgCasement]}
-        typesTitle="Types of Aluminum Systems"
+        typesTitle="Types of Aluminium Systems"
         types={[
           { title: "Sliding Windows", text: "Space-saving window systems with smooth movement and modern profiles.", image: imgSliding },
           { title: "Casement Windows", text: "Side-hinged systems designed for ventilation and weather sealing.", image: imgCasement },
           { title: "Fixed Windows", text: "Large fixed glazed openings for daylight, views, and facade design.", image: imgFixed },
         ]}
         components={[
-          { title: "Aluminum Profiles", text: "Powder-coated or anodized frames with slim sightlines." },
+          { title: "Aluminium Profiles", text: "Powder-coated or anodized frames with slim sightlines." },
           { title: "Glass Units", text: "Tempered, laminated, or insulated glass based on project needs." },
           { title: "Rollers & Hinges", text: "Quality movement hardware for smooth operation." },
           { title: "Weather Gaskets", text: "Seals that improve air, dust, and water resistance." },
         ]}
         advantages={[
-          { title: "Long Life", text: "Aluminum is corrosion-resistant and suitable for daily use.", image: imgAdvantage },
+          { title: "Long Life", text: "Aluminium is corrosion-resistant and suitable for daily use.", image: imgAdvantage },
           { title: "Modern Appearance", text: "Slim sections support clean architectural detailing." },
           { title: "Low Maintenance", text: "Durable finishes are easy to clean and maintain." },
           { title: "Design Flexibility", text: "Works across homes, offices, hotels, and retail spaces." },

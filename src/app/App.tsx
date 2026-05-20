@@ -43,6 +43,7 @@ const homeNavHref = (item: string) => {
   const routes: Record<string, string> = {
     Home: "#home",
     About: "#/about",
+    "About Us": "#/about",
     Project: "#/projects",
     Projects: "#/projects",
     Services: "#services",
@@ -54,7 +55,7 @@ const homeNavHref = (item: string) => {
 
 const serviceColumns = [
   ["Curtain Wall Systems", "Structural Glazing Systems", "ACP Cladding Systems"],
-  ["Glass Canopy Systems", "Aluminum Windows & Doors", "Glass Partition Systems"],
+  ["Glass Canopy Systems", "Aluminium Windows & Doors", "Glass Partition Systems"],
   ["Interior Glass Solutions", "Aluminium Door Systems", "UPVC Door Systems"],
 ];
 
@@ -64,7 +65,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminum Windows & Doors": "#/services/aluminum-windows-doors",
+    "Aluminium Windows & Doors": "#/services/aluminum-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",
@@ -172,7 +173,7 @@ function Navbar() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
-          {["Home", "About", "Services", "Project"].map((item) =>
+          {["Home", "About Us", "Services", "Project"].map((item) =>
             item === "Services" ? (
               <div
                 key={item}
@@ -228,7 +229,7 @@ function Navbar() {
             className="navbar-contact-button flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize"
           >
             <ContactIcon />
-            <span>contact</span>
+            <span>Contact</span>
           </a>
         </div>
 
@@ -255,7 +256,7 @@ function Navbar() {
         <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 flex flex-col gap-4">
           {[
             "Home",
-            "About",
+            "About Us",
             "Services",
             "Project",
           ].map((item) =>
@@ -307,7 +308,7 @@ function Navbar() {
             onClick={() => setOpen(false)}
           >
             <ContactIcon />
-            <span>contact</span>
+            <span>Contact</span>
           </a>
         </div>
       )}
@@ -368,7 +369,7 @@ function HeroSection() {
               className="navbar-contact-button home-hero-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-3 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/10"
             >
               <ContactIcon />
-              <span>contact</span>
+              <span>Contact</span>
             </a>
           </div>
         </div>
@@ -431,7 +432,7 @@ function ContactBtn({ className = "" }: { className?: string }) {
       className={`section-contact-button flex items-center gap-2 bg-white rounded-[8px] px-5 py-2.5 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize border border-black/30 w-fit ${className}`}
     >
       <ContactIcon />
-      <span>contact</span>
+      <span>Contact</span>
     </a>
   );
 }
@@ -456,8 +457,8 @@ function AboutSection() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-12">
           {/* Text */}
           <div className="flex flex-col gap-5 max-w-[664px] lg:max-w-[620px]">
-            <p className="font-['Inter',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
-              <span className="font-medium">
+            <p className="font-['Inter',sans-serif] font-bold text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
+              <span className="font-bold">
                 Mars Glass Solutions Pvt. Ltd.
               </span>
               {` is a premier glass and facade engineering company delivering complete architectural glazing solutions from design development to precision installation.`}
@@ -476,7 +477,7 @@ function AboutSection() {
               retail, and residential projects with
               uncompromising quality standards.
             </p>
-            <p className="font-['Inter',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
+            <p className="font-['Inter',sans-serif] font-bold text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
               At Mars Glass Solutions, we create iconic glass
               facades that define modern architecture.
             </p>
@@ -529,7 +530,7 @@ function VisionSection() {
               architectural excellence across India and
               international markets.
             </p>
-            <p className="font-['Roboto',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
+            <p className="font-['Roboto',sans-serif] font-bold text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
               At Mars Glass Solutions Pvt. Ltd., our vision is
               not just to build structures, but to shape iconic
               identities in glass.
@@ -587,7 +588,7 @@ function MissionSection() {
               architectural excellence across India and
               international markets.
             </p>
-            <p className="font-['Roboto',sans-serif] font-light text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
+            <p className="font-['Roboto',sans-serif] font-bold text-[16px] text-black tracking-[-0.32px] leading-[1.7]">
               At Mars Glass Solutions Pvt. Ltd., our vision is
               not just to build structures, but to shape iconic
               identities in glass.
@@ -822,15 +823,21 @@ type ProjectItem = {
 };
 
 function ProjectCard({ img, title, reverse }: ProjectItem) {
+  const titleLines = title
+    .replace(" I ", "\n")
+    .split(title.includes("|") ? "|" : "\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+
   return (
     <div
-      className={`flex flex-col lg:flex-row items-center gap-10 py-6 ${reverse ? "lg:flex-row-reverse" : ""}`}
+      className={`grid grid-cols-1 lg:grid-cols-[minmax(240px,485px)_minmax(320px,1fr)] items-center gap-8 md:gap-10 lg:gap-12 py-8 md:py-10 ${reverse ? "lg:grid-cols-[minmax(320px,1fr)_minmax(240px,485px)]" : ""}`}
     >
       {/* Image */}
       <div
-        className="relative shrink-0 overflow-hidden"
+        className={`relative w-full overflow-hidden ${reverse ? "lg:col-start-2" : ""}`}
         style={{
-          width: "clamp(260px,38vw,485px)",
+          maxWidth: "485px",
           aspectRatio: "485/596",
         }}
       >
@@ -842,16 +849,19 @@ function ProjectCard({ img, title, reverse }: ProjectItem) {
       </div>
 
       {/* Label badge */}
-      <div className="relative flex-1">
+      <div className={`relative w-full ${reverse ? "lg:col-start-1 lg:row-start-1" : ""}`}>
         <div
-          className="relative inline-flex items-center px-6 py-2 h-[110px] rounded-l-[80px]"
+          className="relative mx-auto flex min-h-[84px] w-full max-w-[625px] items-center justify-center rounded-l-[80px] px-5 py-4 md:min-h-[96px] md:px-8"
           style={{
             background: `url('${imgRectangle111141367}') top left / 1024px 1024px, linear-gradient(90deg, rgb(88, 167, 246) 0%, rgb(145, 209, 227) 100%)`,
-            minWidth: "min(90vw, 580px)",
           }}
         >
-          <h3 className="font-['Roboto',sans-serif] font-semibold text-[28px] md:text-[34px] xl:text-[38px] text-black tracking-[-0.19px] leading-[1.45] capitalize pl-2">
-            {title}
+          <h3 className="w-full text-center font-['Roboto',sans-serif] text-[22px] font-bold leading-[1.16] tracking-[-0.19px] text-black capitalize md:text-[28px] xl:text-[34px]">
+            {titleLines.map((line) => (
+              <span key={line} className="block">
+                {line}
+              </span>
+            ))}
           </h3>
         </div>
       </div>

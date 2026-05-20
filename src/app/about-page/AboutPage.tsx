@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import SiteFooter from "../components/SiteFooter";
+import ServiceNavbar from "../components/ServiceNavbar";
 
 // About page images
 import imgHeroBg from "@/imports/AboutPage/About/e24628afec469bd5d601c2d0bc2eb5319a22e8b0.png";
@@ -88,7 +89,7 @@ const coreServices = [
 
 const serviceColumns = [
   ["Curtain Wall Systems", "Structural Glazing Systems", "ACP Cladding Systems"],
-  ["Glass Canopy Systems", "Aluminum Windows & Doors", "Glass Partition Systems"],
+  ["Glass Canopy Systems", "Aluminium Windows & Doors", "Glass Partition Systems"],
   ["Interior Glass Solutions", "Aluminium Door Systems", "UPVC Door Systems"],
 ];
 
@@ -227,7 +228,7 @@ function Navbar() {
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
             <path d={svgContactPhone} fill="black" />
           </svg>
-          contact
+          Contact
         </a>
 
         {/* Hamburger */}
@@ -263,7 +264,7 @@ function Navbar() {
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
               <path d={svgContactPhone} fill="black" />
             </svg>
-            contact
+            Contact
           </a>
         </div>
       )}
@@ -308,7 +309,7 @@ function Hero() {
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
               <path d={svgContactPhone} fill="black" />
             </svg>
-            contact
+            Contact
           </a>
         </div>
       </div>
@@ -716,7 +717,7 @@ function Footer() {
 export default function App() {
   return (
     <div className="min-h-screen bg-white font-roboto">
-      <Navbar />
+      <ServiceNavbar />
       <Hero />
       <AboutSection />
       <LegacySection />

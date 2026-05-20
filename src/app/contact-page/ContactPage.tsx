@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import svgPaths from "@/imports/ContactPage/Contact/svg-vppthmw37v";
 import SiteFooter from "../components/SiteFooter";
+import ServiceNavbar from "../components/ServiceNavbar";
 import imgLogo from "@/imports/ContactPage/Contact/3eb7b26dcf0dd609404203e92ea981a8a747ef76.png";
 import imgHeroBg from "@/imports/ContactPage/Contact/e1770aa3d01cc68cd32d478b7008480d7eff09e8.png";
 import imgAboutImg from "@/imports/ContactPage/Contact/effd7e15c64c3f1b481b2fdfe6ffe08f89e320e9.png";
@@ -21,7 +22,7 @@ const contactNavHref = (item: string) => {
 
 const serviceColumns = [
   ["Curtain Wall Systems", "Structural Glazing Systems", "ACP Cladding Systems"],
-  ["Glass Canopy Systems", "Aluminum Windows & Doors", "Glass Partition Systems"],
+  ["Glass Canopy Systems", "Aluminium Windows & Doors", "Glass Partition Systems"],
   ["Interior Glass Solutions", "Aluminium Door Systems", "UPVC Door Systems"],
 ];
 
@@ -31,7 +32,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminum Windows & Doors": "#/services/aluminum-windows-doors",
+    "Aluminium Windows & Doors": "#/services/aluminum-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",
@@ -679,7 +680,7 @@ function Footer() {
 export default function ContactPage() {
   return (
     <div className="bg-[#151515] min-h-screen w-full flex flex-col">
-      <Navbar />
+      <ServiceNavbar />
       <Hero />
       <About />
       <Vision />

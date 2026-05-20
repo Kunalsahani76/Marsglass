@@ -6,6 +6,7 @@ const navHref = (item: string) => {
   const routes: Record<string, string> = {
     Home: "#/",
     About: "#/about",
+    "About Us": "#/about",
     Services: "#services",
     Project: "#/projects",
     Contact: "#/contact",
@@ -16,7 +17,7 @@ const navHref = (item: string) => {
 
 const serviceColumns = [
   ["Curtain Wall Systems", "Structural Glazing Systems", "ACP Cladding Systems"],
-  ["Glass Canopy Systems", "Aluminum Windows & Doors", "Glass Partition Systems"],
+  ["Glass Canopy Systems", "Aluminium Windows & Doors", "Glass Partition Systems"],
   ["Interior Glass Solutions", "Aluminium Door Systems", "UPVC Door Systems"],
 ];
 
@@ -26,7 +27,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminum Windows & Doors": "#/services/aluminum-windows-doors",
+    "Aluminium Windows & Doors": "#/services/aluminum-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",
@@ -57,7 +58,7 @@ export default function ServiceNavbar() {
   const [servicesOpen, setServicesOpen] = useState(false);
   const desktopServicesRef = useRef<HTMLDivElement>(null);
   const mobileServicesRef = useRef<HTMLDivElement>(null);
-  const links = ["Home", "About", "Services", "Project"];
+  const links = ["Home", "About Us", "Services", "Project"];
 
   useEffect(() => {
     if (!servicesOpen) return;
@@ -143,7 +144,7 @@ export default function ServiceNavbar() {
           className="navbar-contact-button hidden md:flex items-center gap-2 border border-black rounded-[8px] px-5 py-2 font-['Inter',sans-serif] font-bold text-[15px] text-black capitalize"
         >
           <ContactIcon />
-          <span>contact</span>
+          <span>Contact</span>
         </a>
 
         <button
@@ -208,7 +209,7 @@ export default function ServiceNavbar() {
             onClick={() => setOpen(false)}
           >
             <ContactIcon />
-            <span>contact</span>
+            <span>Contact</span>
           </a>
         </div>
       )}

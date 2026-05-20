@@ -33,8 +33,8 @@ const wallTypes = [
 ];
 
 const coreComponents = [
-  ["Aluminum Mullions", "Vertical members designed to resist heavy wind loads."],
-  ["Aluminum Transoms", "Horizontal members that support the weight of glass panels."],
+  ["Aluminium Mullions", "Vertical members designed to resist heavy wind loads."],
+  ["Aluminium Transoms", "Horizontal members that support the weight of glass panels."],
   ["Glass Panels", "High-performance double or triple glazed units with low-E coatings."],
   ["Structural Anchors", "Heavy-duty connection points to the building frame."],
   ["Weather Sealants", "EPDM gaskets and silicone seals for air-tightness."],
@@ -43,7 +43,7 @@ const coreComponents = [
 
 const advantages = [
   ["Sleek Modern Aesthetics", "Clean contemporary facades with a refined architectural finish."],
-  ["Lightweight Strength", "Aluminum framing and performance glazing keep the system durable yet efficient."],
+  ["Lightweight Strength", "Aluminium framing and performance glazing keep the system durable yet efficient."],
   ["Energy Efficiency", "Insulated glass and thermal breaks help improve comfort and reduce energy use."],
   ["Weather Resistance", "Advanced sealing protects against air, water, and harsh weather exposure."],
   ["Structural Flexibility", "Engineered to handle movement, wind loads, and temperature changes."],
