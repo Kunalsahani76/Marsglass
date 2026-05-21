@@ -99,11 +99,25 @@ function Button() {
   );
 }
 
+function Button1() {
+  return (
+    <a href="#/projects" className="bg-white relative rounded-[4px] shrink-0" data-name="Button">
+      <div className="content-stretch flex items-center justify-center overflow-clip px-[48px] py-[24px] relative rounded-[inherit] size-full">
+        <p className="font-['Lato:Regular',sans-serif] leading-none not-italic relative shrink-0 text-[16.8px] text-black whitespace-nowrap">View Projects</p>
+      </div>
+      <div aria-hidden="true" className="absolute border-[1.2px] border-black border-solid inset-0 pointer-events-none rounded-[4px] shadow-[0px_0px_0px_0px_black]" />
+    </a>
+  );
+}
+
 function Frame4() {
   return (
-    <div className="content-stretch flex items-center relative shrink-0">
+    <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
       <div className="content-stretch flex items-center justify-center p-[4.8px] relative shrink-0" data-name="Cheerful Button">
         <Button />
+      </div>
+      <div className="content-stretch flex items-center justify-center p-[4.8px] relative shrink-0" data-name="Cheerful Button">
+        <Button1 />
       </div>
     </div>
   );

@@ -284,7 +284,7 @@ function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-black/40" />
-      <div className="about-hero-content relative z-10 max-w-[1400px] mx-auto px-6 lg:px-20 py-24 lg:py-32 flex flex-col gap-10">
+      <div className="about-hero-content relative z-10 max-w-[1400px] mx-auto px-6 lg:px-20 pt-10 pb-24 lg:pt-12 lg:pb-28 flex flex-col gap-10">
         <div className="about-hero-title max-w-[760px]">
           <h1 className="font-roboto text-white text-[42px] sm:text-[56px] lg:text-[70px] leading-[1.2] tracking-[-0.4px] font-normal">
             Redefining Architectural{" "}
@@ -364,28 +364,28 @@ function LegacySection() {
     <section className="bg-white border-b border-black">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20 py-12 lg:py-[50px] flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Text */}
-        <div className="flex flex-col gap-6 max-w-[528px] order-2 lg:order-1">
-          <h2 className="font-roboto font-bold text-[#0f172a] text-[28px] sm:text-[35px] leading-[45px]">
+        <div className="flex flex-col gap-3 max-w-[500px] order-2 lg:order-1">
+          <h2 className="font-roboto font-bold text-[#1e293b] text-[28px] sm:text-[36px] tracking-[1.8px] leading-normal">
             Our Legacy of Expertise
           </h2>
-          <p className="font-roboto font-normal text-[#475569] text-[15px] sm:text-[16px] leading-[26px]">
+          <p className="font-inter font-normal text-[#475569] text-[16px] sm:text-[18px] leading-normal">
             Established in 2009, our leadership team brings over three decades of hands-on experience in glasswork, facade engineering, and structural glazing systems. This deep industry knowledge allows us to manage complex, large scale projects with technical confidence and precision.
           </p>
-          <p className="font-roboto font-normal text-[#475569] text-[15px] sm:text-[16px] leading-[26px]">
+          <p className="font-inter font-normal text-[#475569] text-[16px] sm:text-[18px] leading-normal">
             Our experience extends across commercial high rises, corporate headquarters, hospitality developments, premium residential projects, and institutional infrastructure.
           </p>
         </div>
 
         {/* Image with badge */}
-        <div className="relative shrink-0 w-full lg:w-[528px] h-[320px] sm:h-[396px] order-1 lg:order-2">
-          <div className="relative rounded-xl overflow-hidden h-full w-full">
+        <div className="relative shrink-0 w-full lg:w-[491px] h-[320px] sm:h-[396px] order-1 lg:order-2">
+          <div className="relative rounded-[10px] overflow-hidden h-full w-full">
             <img src={imgLegacyBg} alt="Legacy" className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-black/50 rounded-xl" />
+            <div className="absolute inset-0 bg-black/50 rounded-[10px]" />
           </div>
           {/* 2009 Badge */}
-          <div className="absolute bottom-6 left-0 backdrop-blur-md bg-white/40 border border-[#b9b9b9] rounded-xl px-5 py-3 min-w-[200px]">
-            <p className="font-['DM_Serif_Display',serif] text-[#137fec] text-[48px] leading-[1.45]">2009</p>
-            <p className="font-inter font-normal text-[#475569] text-[12px] tracking-wide uppercase leading-[1.45] ml-[35px]">SINCE</p>
+          <div className="absolute bottom-6 right-4 sm:right-[-40px] backdrop-blur-md bg-white/40 border border-[#b9b9b9] rounded-[10px] px-5 py-3 min-w-[170px]">
+            <p className="font-['DM_Serif_Display',serif] text-[#137fec] text-[36px] leading-[1.45]">2009</p>
+            <p className="font-inter text-[#475569] text-[10px] tracking-wide uppercase leading-[1.45]">Since</p>
           </div>
         </div>
       </div>

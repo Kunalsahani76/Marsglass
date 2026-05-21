@@ -376,7 +376,7 @@ function Frame7() {
 
 function Frame9() {
   return (
-    <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[576px]">
+    <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[520px]">
       <Frame8 />
       <Frame7 />
     </div>
@@ -387,7 +387,7 @@ function Frame10() {
   return (
     <div className="bg-white relative shrink-0 w-full">
       <div className="flex flex-row items-center size-full">
-        <div className="content-stretch flex items-center justify-between px-[32px] py-[96px] relative size-full">
+        <div className="content-stretch flex items-center justify-center gap-[56px] px-[32px] py-[96px] relative size-full">
           <Frame6 />
           <Frame9 />
         </div>
@@ -461,7 +461,7 @@ function Svg6() {
 
 function Link() {
   return (
-    <div className="content-stretch flex gap-[4px] items-center pt-[13.2px] relative shrink-0 w-full" data-name="Link">
+    <div className="content-stretch flex gap-[4px] items-center mt-auto pt-[13.2px] relative shrink-0 w-full" data-name="Link">
       <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold h-[24px] justify-center leading-[0] not-italic relative shrink-0 text-[#007bff] text-[16px] w-[88.16px]">
         <p className="leading-[24px]">Learn More</p>
       </div>
@@ -472,8 +472,8 @@ function Link() {
 
 function Container7() {
   return (
-    <div className="relative shrink-0 w-full" data-name="Container">
-      <div className="content-stretch flex flex-col gap-[10.8px] items-start p-[32px] relative size-full">
+    <div className="relative flex-1 w-full" data-name="Container">
+      <div className="content-stretch flex flex-col gap-[10.8px] h-full items-start p-[32px] relative w-full">
         <Heading1 />
         <Container8 />
         <Link />
@@ -484,7 +484,7 @@ function Container7() {
 
 function Card() {
   return (
-    <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 1">
+    <div className="bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 1">
       <Container6 />
       <Container7 />
     </div>
@@ -544,7 +544,7 @@ function Svg7() {
 
 function Link1() {
   return (
-    <div className="content-stretch flex gap-[4px] items-center pt-[13.2px] relative shrink-0 w-full" data-name="Link">
+    <div className="content-stretch flex gap-[4px] items-center mt-auto pt-[13.2px] relative shrink-0 w-full" data-name="Link">
       <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold h-[24px] justify-center leading-[0] not-italic relative shrink-0 text-[#007bff] text-[16px] w-[88.16px]">
         <p className="leading-[24px]">Learn More</p>
       </div>
@@ -555,8 +555,8 @@ function Link1() {
 
 function Container10() {
   return (
-    <div className="relative shrink-0 w-full" data-name="Container">
-      <div className="content-stretch flex flex-col gap-[10.8px] items-start p-[32px] relative size-full">
+    <div className="relative flex-1 w-full" data-name="Container">
+      <div className="content-stretch flex flex-col gap-[10.8px] h-full items-start p-[32px] relative w-full">
         <Heading2 />
         <Container11 />
         <Link1 />
@@ -567,7 +567,7 @@ function Container10() {
 
 function Card1() {
   return (
-    <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 2">
+    <div className="bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 2">
       <Container9 />
       <Container10 />
     </div>
@@ -627,7 +627,7 @@ function Svg8() {
 
 function Link2() {
   return (
-    <div className="content-stretch flex gap-[4px] items-center pt-[13.2px] relative shrink-0 w-full" data-name="Link">
+    <div className="content-stretch flex gap-[4px] items-center mt-auto pt-[13.2px] relative shrink-0 w-full" data-name="Link">
       <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold h-[24px] justify-center leading-[0] not-italic relative shrink-0 text-[#007bff] text-[16px] w-[88.16px]">
         <p className="leading-[24px]">Learn More</p>
       </div>
@@ -638,8 +638,8 @@ function Link2() {
 
 function Container13() {
   return (
-    <div className="relative shrink-0 w-full" data-name="Container">
-      <div className="content-stretch flex flex-col gap-[10.8px] items-start p-[32px] relative size-full">
+    <div className="relative flex-1 w-full" data-name="Container">
+      <div className="content-stretch flex flex-col gap-[10.8px] h-full items-start p-[32px] relative w-full">
         <Heading3 />
         <Container14 />
         <Link2 />
@@ -650,7 +650,7 @@ function Container13() {
 
 function Card2() {
   return (
-    <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 3">
+    <div className="bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 3">
       <Container12 />
       <Container13 />
     </div>
@@ -661,7 +661,7 @@ function Frame11() {
   return (
     <div className="relative shrink-0 w-full">
       <div className="flex flex-row items-center justify-center size-full">
-        <div className="content-stretch flex items-center justify-between px-[32px] relative size-full">
+        <div className="content-stretch flex flex-wrap gap-x-[48px] gap-y-[40px] items-center justify-center max-w-[1312px] px-[32px] relative size-full">
           <Card />
           <Card1 />
           <Card2 />
@@ -1039,7 +1039,7 @@ function List() {
 
 function Components() {
   return (
-    <div className="bg-[#0a2540] content-stretch flex flex-col gap-[32px] items-start px-[40px] py-[90px] relative rounded-[24px] shrink-0 w-[600px]" data-name="Components">
+    <div className="bg-[#0a2540] content-stretch flex flex-col gap-[32px] items-start px-[40px] py-[64px] relative rounded-[24px] shrink-0 w-[540px]" data-name="Components">
       <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[24px] shadow-[0px_25px_50px_-12px_rgba(0,0,0,0.25)]" data-name="Components:shadow" />
       <Heading4 />
       <List />
@@ -1049,11 +1049,11 @@ function Components() {
 
 function Frame18() {
   return (
-    <div className="content-stretch flex flex-col gap-[6px] items-start leading-[0] not-italic relative shrink-0 w-[573.75px]">
+    <div className="content-stretch flex flex-col gap-[6px] items-start leading-[0] not-italic relative shrink-0 w-full">
       <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center min-w-full relative shrink-0 text-[#0a2540] text-[26px] w-[min-content]">
         <p className="leading-[36px]">Advantages of Structural Glazing Systems</p>
       </div>
-      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center relative shrink-0 text-[#334155] text-[18px] w-[495px]">
+      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center relative shrink-0 text-[#334155] text-[18px] w-full">
         <p className="leading-[28px]">Structural glazing systems provide multiple architectural and functional benefits for modern buildings.</p>
       </div>
     </div>
@@ -1084,7 +1084,7 @@ function Frame19() {
   return (
     <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full">
       <Background />
-      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[573.75px]">
+      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[500px]">
         <p className="leading-[36px]">Contemporary Architectural Appearance</p>
       </div>
     </div>
@@ -1094,7 +1094,7 @@ function Frame19() {
 function Frame20() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[36px] pr-[10px] py-[10px] relative shrink-0">
-      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[509px]">
+      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[488px]">
         <p className="leading-[28px]">Structural glazing creates sleek, frameless glass facades, giving buildings a modern and visually striking appearance.</p>
       </div>
     </div>
@@ -1134,7 +1134,7 @@ function Frame23() {
   return (
     <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full">
       <Background1 />
-      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[573.75px]">
+      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[500px]">
         <p className="leading-[36px]">Maximum Natural Light</p>
       </div>
     </div>
@@ -1144,7 +1144,7 @@ function Frame23() {
 function Frame24() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[36px] pr-[10px] py-[10px] relative shrink-0">
-      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[553px]">
+      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[488px]">
         <p className="leading-[28px]">Large glass surfaces allow abundant natural daylight, improving interior comfort and reducing reliance on artificial lighting.</p>
       </div>
     </div>
@@ -1184,7 +1184,7 @@ function Frame28() {
   return (
     <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full">
       <Background2 />
-      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[573.75px]">
+      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[500px]">
         <p className="leading-[36px]">High Structural Strength</p>
       </div>
     </div>
@@ -1194,7 +1194,7 @@ function Frame28() {
 function Frame29() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[36px] pr-[10px] py-[10px] relative shrink-0">
-      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[553px]">
+      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[488px]">
         <p className="leading-[28px]">{`Structural silicone bonding technology ensures secure glass attachment while maintaining flexibility for wind loads `}</p>
       </div>
     </div>
@@ -1234,7 +1234,7 @@ function Frame31() {
   return (
     <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full">
       <Background3 />
-      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[573.75px]">
+      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-[500px]">
         <p className="leading-[36px]">Energy Efficiency</p>
       </div>
     </div>
@@ -1244,7 +1244,7 @@ function Frame31() {
 function Frame32() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[36px] pr-[10px] py-[10px] relative shrink-0">
-      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[553px]">
+      <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#334155] text-[18px] w-[488px]">
         <p className="leading-[28px]">Advanced glazing systems such as double glazing and insulated glass units (IGU) improve thermal insulation and reduce energy consumption.</p>
       </div>
     </div>
@@ -1273,7 +1273,7 @@ function Frame25() {
 
 function Frame26() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-center relative shrink-0 w-[609.75px]">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-[534px]">
       <Frame18 />
       <Frame25 />
     </div>
@@ -1284,7 +1284,7 @@ function Container15() {
   return (
     <div className="bg-white relative shrink-0 w-full" data-name="Container">
       <div className="flex flex-row justify-center size-full">
-        <div className="content-between flex flex-wrap gap-x-[64px] items-start justify-center px-[32px] py-[96px] relative size-full">
+        <div className="content-stretch flex flex-nowrap gap-x-[56px] items-center justify-center px-[32px] py-[96px] relative size-full">
           <Components />
           <Frame26 />
         </div>
@@ -1335,7 +1335,7 @@ function Heading6() {
 
 function Background4() {
   return (
-    <div className="bg-white col-1 justify-self-stretch relative rounded-[16px] row-1 self-start shrink-0" data-name="Background">
+    <div className="bg-white col-1 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1384,7 +1384,7 @@ function Heading7() {
 
 function Background5() {
   return (
-    <div className="bg-white col-2 justify-self-stretch relative rounded-[16px] row-1 self-start shrink-0" data-name="Background">
+    <div className="bg-white col-2 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1428,7 +1428,7 @@ function Heading8() {
 
 function Background6() {
   return (
-    <div className="bg-white col-3 justify-self-stretch relative rounded-[16px] row-1 self-start shrink-0" data-name="Background">
+    <div className="bg-white col-3 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1472,7 +1472,7 @@ function Heading9() {
 
 function Background7() {
   return (
-    <div className="bg-white col-4 justify-self-stretch relative rounded-[16px] row-1 self-start shrink-0" data-name="Background">
+    <div className="bg-white col-4 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1486,7 +1486,7 @@ function Background7() {
 
 function Container29() {
   return (
-    <div className="gap-x-[24px] gap-y-[24px] grid grid-cols-[repeat(4,minmax(0,1fr))] grid-rows-[_180px] relative shrink-0 w-full" data-name="Container">
+    <div className="gap-x-[24px] gap-y-[24px] grid grid-cols-[repeat(4,minmax(0,1fr))] grid-rows-[_180px] items-center justify-center relative shrink-0 w-full" data-name="Container">
       <Background4 />
       <Background5 />
       <Background6 />
@@ -1498,7 +1498,7 @@ function Container29() {
 function Container28() {
   return (
     <div className="max-w-[1280px] relative shrink-0 w-full" data-name="Container">
-      <div className="content-stretch flex flex-col gap-[48px] items-start max-w-[inherit] px-[32px] relative size-full">
+      <div className="content-stretch flex flex-col gap-[48px] items-center max-w-[inherit] px-[32px] relative size-full">
         <Heading5 />
         <Container29 />
       </div>
@@ -1508,7 +1508,7 @@ function Container28() {
 
 function SectionApplications() {
   return (
-    <div className="bg-[#eaedef] content-stretch flex flex-col items-start py-[96px] relative shrink-0 w-full" data-name="Section - Applications">
+    <div className="bg-[#eaedef] content-stretch flex flex-col items-center py-[96px] relative shrink-0 w-full" data-name="Section - Applications">
       <Container28 />
     </div>
   );
