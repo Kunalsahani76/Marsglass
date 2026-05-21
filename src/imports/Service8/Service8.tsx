@@ -176,8 +176,8 @@ function Frame10() {
 
 function Frame63() {
   return (
-    <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007677} />
+    <div className="h-[426px] overflow-hidden relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007677} />
     </div>
   );
 }
@@ -243,8 +243,8 @@ function Container() {
 
 function Frame64() {
   return (
-    <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007678} />
+    <div className="h-[426px] overflow-hidden relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007678} />
     </div>
   );
 }
@@ -304,12 +304,12 @@ function Container2() {
 function Frame16() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <Frame63 />
         <Container />
       </div>
       <div className="flex flex-row items-center self-stretch">
-        <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col h-full items-start relative rounded-[16px] shrink-0 w-[600px]">
+        <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col h-full items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
           <Frame64 />
           <Container2 />
         </div>
@@ -320,8 +320,8 @@ function Frame16() {
 
 function Frame65() {
   return (
-    <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007679} />
+    <div className="h-[426px] overflow-hidden relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007679} />
     </div>
   );
 }
@@ -382,7 +382,7 @@ function Frame66() {
   return (
     <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
-        <img alt="" className="absolute h-[140.85%] left-[-0.02%] max-w-none top-[-13.1%] w-full" src={imgFrame1000007680} />
+        <img alt="" className="absolute h-[140.85%] left-[-0.02%] max-w-none top-[-13.1%] w-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007680} />
       </div>
     </div>
   );
@@ -443,11 +443,11 @@ function Container6() {
 function Frame17() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <Frame65 />
         <Container4 />
       </div>
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <Frame66 />
         <Container6 />
       </div>
@@ -481,8 +481,8 @@ function Frame12() {
 
 function Frame67() {
   return (
-    <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007681} />
+    <div className="h-[426px] overflow-hidden relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007681} />
     </div>
   );
 }
@@ -520,8 +520,8 @@ function Container8() {
 
 function Frame68() {
   return (
-    <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007682} />
+    <div className="h-[426px] overflow-hidden relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007682} />
     </div>
   );
 }
@@ -560,11 +560,11 @@ function Container10() {
 function Frame18() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <Frame67 />
         <Container8 />
       </div>
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <Frame68 />
         <Container10 />
       </div>
@@ -574,8 +574,8 @@ function Frame18() {
 
 function Frame69() {
   return (
-    <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007683} />
+    <div className="h-[426px] overflow-hidden relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007683} />
     </div>
   );
 }
@@ -613,8 +613,8 @@ function Container12() {
 
 function Frame70() {
   return (
-    <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007684} />
+    <div className="h-[426px] overflow-hidden relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007684} />
     </div>
   );
 }
@@ -653,12 +653,12 @@ function Container14() {
 function Frame19() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <Frame69 />
         <Container12 />
       </div>
       <div className="flex flex-row items-center self-stretch">
-        <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col h-full items-start relative rounded-[16px] shrink-0 w-[600px]">
+        <div className="group bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col h-full items-start relative rounded-[16px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
           <Frame70 />
           <Container14 />
         </div>
@@ -1148,14 +1148,14 @@ function Group() {
 function Frame44() {
   return (
     <div className="content-stretch flex gap-[23px] items-center justify-center relative shrink-0 w-full">
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Frame62 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           Aluminum frames
         </p>
       </div>
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <div className="h-[36px] relative shrink-0 w-[38px]" data-name="Vector">
           <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 38 36">
@@ -1166,7 +1166,7 @@ function Frame44() {
           Glass panels
         </p>
       </div>
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Group />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`Hinges & hardware`}</p>
@@ -1238,21 +1238,21 @@ function Group4() {
 function Frame45() {
   return (
     <div className="content-stretch flex gap-[23px] items-center relative shrink-0">
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Group1 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           Locking systems
         </p>
       </div>
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Group3 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           EPDM gaskets
         </p>
       </div>
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Group4 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`Tracks & rollers`}</p>
@@ -1294,36 +1294,36 @@ function Frame13() {
 function Frame51() {
   return (
     <div className="content-stretch flex gap-[29px] items-center relative shrink-0">
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007609} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007609} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           <p className="leading-[40px]">Hotel entrances</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007610} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007610} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           <p className="leading-[40px]">{` Office buildings`}</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007611} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007611} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           <p className="leading-[40px]">Shopping malls</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007612} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007612} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>

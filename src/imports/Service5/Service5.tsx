@@ -126,7 +126,7 @@ function Frame4() {
 function Frame6() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[24px] h-[292px] items-center left-[calc(50%-0.34px)] overflow-clip px-[32px] py-[10px] top-[calc(50%-0.18px)]">
-      <p className="bg-clip-text bg-gradient-to-r font-['Roboto:Medium',sans-serif] font-medium from-[#5a93d1] leading-[1.2] relative shrink-0 text-[77px] text-[transparent] text-center to-white tracking-[-2.31px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`Aluminum Windows `}</p>
+      <p className="bg-clip-text bg-gradient-to-r font-['Roboto:Medium',sans-serif] font-medium from-[#5a93d1] leading-[1.2] relative shrink-0 text-[77px] text-[transparent] text-center to-white tracking-[-2.31px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`Aluminium Windows `}</p>
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[18px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[29.25px]">Strong. Sleek. Long-lasting architectural solutions.</p>
       </div>
@@ -173,7 +173,7 @@ function Frame7() {
 function SpiderGlazing() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="Spider Glazing">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSpiderGlazing} />
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgSpiderGlazing} />
     </div>
   );
 }
@@ -220,7 +220,7 @@ function Container1() {
 function SpiderGlazing1() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="Spider Glazing">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSpiderGlazing1} />
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgSpiderGlazing1} />
     </div>
   );
 }
@@ -267,7 +267,7 @@ function Container4() {
 function SpiderGlazing2() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="Spider Glazing">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSpiderGlazing2} />
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgSpiderGlazing2} />
     </div>
   );
 }
@@ -314,15 +314,15 @@ function Container7() {
 function Frame13() {
   return (
     <div className="content-stretch flex gap-[56px] items-center relative shrink-0">
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 11">
+      <div className="group bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 11">
         <Container />
         <Container1 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 12">
+      <div className="group bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 12">
         <Container3 />
         <Container4 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 13">
+      <div className="group bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 13">
         <Container6 />
         <Container7 />
       </div>
@@ -356,7 +356,7 @@ function Frame9() {
 function SpiderGlazing3() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="Spider Glazing">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSpiderGlazing3} />
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgSpiderGlazing3} />
     </div>
   );
 }
@@ -403,7 +403,7 @@ function Container10() {
 function SpiderGlazing4() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="Spider Glazing">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSpiderGlazing4} />
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgSpiderGlazing4} />
     </div>
   );
 }
@@ -450,7 +450,7 @@ function Container13() {
 function SpiderGlazing5() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="Spider Glazing">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSpiderGlazing5} />
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgSpiderGlazing5} />
     </div>
   );
 }
@@ -497,15 +497,15 @@ function Container16() {
 function Frame39() {
   return (
     <div className="content-stretch flex gap-[64px] items-center relative shrink-0">
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 14">
+      <div className="group bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 14">
         <Container9 />
         <Container10 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 15">
+      <div className="group bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 15">
         <Container12 />
         <Container13 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 9">
+      <div className="group bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 9">
         <Container15 />
         <Container16 />
       </div>
@@ -812,21 +812,21 @@ function Frame50() {
 function Frame34() {
   return (
     <div className="content-stretch flex gap-[23px] items-center justify-center relative shrink-0 w-full">
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <SolarWindowFrameLinear />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           Aluminum alloy frames
         </p>
       </div>
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <CbiGlasspanelDoorOpen />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           Tempered / laminated glass
         </p>
       </div>
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] h-[60px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] h-[60px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Frame50 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -875,14 +875,14 @@ function Frame51() {
 function Frame35() {
   return (
     <div className="content-stretch flex gap-[23px] items-center relative shrink-0">
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] h-[60px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] h-[60px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Group1 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           Stainless steel hardware
         </p>
       </div>
-      <div className="bg-[#0a2540] content-stretch flex gap-[6px] h-[60px] items-center p-[10px] relative rounded-[8px] shrink-0">
+      <div className="bg-[#0a2540] content-stretch flex gap-[6px] h-[60px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Frame51 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -926,36 +926,36 @@ function Frame10() {
 function Frame43() {
   return (
     <div className="content-stretch flex gap-[29px] items-center relative shrink-0">
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007609} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007609} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           <p className="leading-[40px]">Hotel entrances</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007610} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007610} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           <p className="leading-[40px]">{` Office buildings`}</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007611} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007611} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
           <p className="leading-[40px]">Shopping malls</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="group h-[283px] overflow-clip relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[285px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
-          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007612} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgFrame1000007612} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
         </div>
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] left-[143px] text-[22px] text-center text-white top-[263px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>

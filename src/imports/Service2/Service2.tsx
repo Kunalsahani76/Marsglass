@@ -413,7 +413,7 @@ function Component4SidedGlazing() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="4-Sided Glazing">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[150%] left-0 max-w-none top-[-25%] w-full" src={img4SidedGlazing} />
+        <img alt="" className="absolute h-[150%] left-0 max-w-none top-[-25%] w-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={img4SidedGlazing} />
       </div>
     </div>
   );
@@ -484,7 +484,7 @@ function Container7() {
 
 function Card() {
   return (
-    <div className="bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 1">
+    <div className="group bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 1">
       <Container6 />
       <Container7 />
     </div>
@@ -495,7 +495,7 @@ function Component2SidedGlazing() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="2-Sided Glazing">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[150%] left-0 max-w-none top-[-25%] w-full" src={img2SidedGlazing} />
+        <img alt="" className="absolute h-[150%] left-0 max-w-none top-[-25%] w-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={img2SidedGlazing} />
       </div>
     </div>
   );
@@ -567,7 +567,7 @@ function Container10() {
 
 function Card1() {
   return (
-    <div className="bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 2">
+    <div className="group bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 2">
       <Container9 />
       <Container10 />
     </div>
@@ -578,7 +578,7 @@ function SpiderGlazing() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="Spider Glazing">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[150%] left-[0.01%] max-w-none top-[-15.31%] w-full" src={imgSpiderGlazing} />
+        <img alt="" className="absolute h-[150%] left-[0.01%] max-w-none top-[-15.31%] w-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgSpiderGlazing} />
       </div>
     </div>
   );
@@ -650,7 +650,7 @@ function Container13() {
 
 function Card2() {
   return (
-    <div className="bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 3">
+    <div className="group bg-white content-stretch flex flex-col h-[528px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 transition-all duration-300 ease-out w-[384px] hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Card 3">
       <Container12 />
       <Container13 />
     </div>
@@ -1039,7 +1039,7 @@ function List() {
 
 function Components() {
   return (
-    <div className="bg-[#0a2540] content-stretch flex flex-col gap-[32px] items-start px-[40px] py-[64px] relative rounded-[24px] shrink-0 w-[540px]" data-name="Components">
+    <div className="bg-[#0a2540] content-stretch flex flex-col gap-[32px] items-start px-[40px] py-[64px] relative rounded-[24px] shrink-0 w-[620px]" data-name="Components">
       <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[24px] shadow-[0px_25px_50px_-12px_rgba(0,0,0,0.25)]" data-name="Components:shadow" />
       <Heading4 />
       <List />
@@ -1317,7 +1317,7 @@ function Svg19() {
 
 function Overlay12() {
   return (
-    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px]" data-name="Overlay">
+    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px] transition-all duration-300 ease-out group-hover:bg-[rgba(0,123,255,0.18)] group-hover:scale-110" data-name="Overlay">
       <Svg19 />
     </div>
   );
@@ -1335,7 +1335,7 @@ function Heading6() {
 
 function Background4() {
   return (
-    <div className="bg-white col-1 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
+    <div className="group bg-white col-1 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0 transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1366,7 +1366,7 @@ function Svg20() {
 
 function Overlay13() {
   return (
-    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px]" data-name="Overlay">
+    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px] transition-all duration-300 ease-out group-hover:bg-[rgba(0,123,255,0.18)] group-hover:scale-110" data-name="Overlay">
       <Svg20 />
     </div>
   );
@@ -1384,7 +1384,7 @@ function Heading7() {
 
 function Background5() {
   return (
-    <div className="bg-white col-2 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
+    <div className="group bg-white col-2 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0 transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1410,7 +1410,7 @@ function Svg21() {
 
 function Overlay14() {
   return (
-    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px]" data-name="Overlay">
+    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px] transition-all duration-300 ease-out group-hover:bg-[rgba(0,123,255,0.18)] group-hover:scale-110" data-name="Overlay">
       <Svg21 />
     </div>
   );
@@ -1428,7 +1428,7 @@ function Heading8() {
 
 function Background6() {
   return (
-    <div className="bg-white col-3 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
+    <div className="group bg-white col-3 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0 transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1454,7 +1454,7 @@ function Svg22() {
 
 function Overlay15() {
   return (
-    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px]" data-name="Overlay">
+    <div className="bg-[rgba(0,123,255,0.1)] content-stretch flex items-center justify-center relative rounded-[9999px] shrink-0 size-[64px] transition-all duration-300 ease-out group-hover:bg-[rgba(0,123,255,0.18)] group-hover:scale-110" data-name="Overlay">
       <Svg22 />
     </div>
   );
@@ -1472,7 +1472,7 @@ function Heading9() {
 
 function Background7() {
   return (
-    <div className="bg-white col-4 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0" data-name="Background">
+    <div className="group bg-white col-4 h-full justify-self-stretch relative rounded-[16px] row-1 self-center shrink-0 transition-all duration-300 ease-out hover:-translate-y-2 hover:scale-[1.03] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Background">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
           <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1516,16 +1516,16 @@ function SectionApplications() {
 
 function ShoppingMallFacade() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Shopping Mall Façade">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgShoppingMallFacade} />
+    <div className="group h-[346px] overflow-hidden relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.02] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Shopping Mall Façade">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgShoppingMallFacade} />
     </div>
   );
 }
 
 function ModernInteriorGlazing() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Modern Interior Glazing">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgModernInteriorGlazing} />
+    <div className="group h-[346px] overflow-hidden relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.02] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Modern Interior Glazing">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgModernInteriorGlazing} />
     </div>
   );
 }
@@ -1541,16 +1541,16 @@ function Frame14() {
 
 function CorporateGlassOffice() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Corporate Glass Office">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgCorporateGlassOffice} />
+    <div className="group h-[346px] overflow-hidden relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.02] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Corporate Glass Office">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgCorporateGlassOffice} />
     </div>
   );
 }
 
 function AirportGlassTerminal() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Airport Glass Terminal">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgAirportGlassTerminal} />
+    <div className="group h-[346px] overflow-hidden relative rounded-[12px] shrink-0 transition-all duration-300 ease-out w-[600px] hover:-translate-y-2 hover:scale-[1.02] hover:ring-2 hover:ring-[#007bff]/35 hover:shadow-[0px_22px_45px_-12px_rgba(0,123,255,0.45)]" data-name="Airport Glass Terminal">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full transition-transform duration-500 ease-out group-hover:scale-[1.06]" src={imgAirportGlassTerminal} />
     </div>
   );
 }
