@@ -603,7 +603,7 @@ function ProjectsHero() {
           </h2>
           <div className="flex flex-wrap gap-3 justify-center">
             <a
-              href="#/projects#portfolio"
+              href="#/contact"
               className="bg-[#5a93d1] text-black font-roboto font-bold text-[14px] px-6 py-3 rounded-lg"
             >
               Request Consultation

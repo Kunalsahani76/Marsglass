@@ -341,7 +341,7 @@ function HeroSection() {
       <div className="home-hero-content relative flex flex-col lg:flex-row items-center justify-between h-full px-6 md:px-12 xl:px-20 py-14 gap-10 max-w-[1400px] mx-auto">
         {/* Text */}
         <div className="home-hero-copy flex flex-col gap-7 max-w-[760px] w-full">
-          <div className="home-hero-title flex flex-col leading-none">
+          <div className="home-hero-title home-load-fade home-load-title flex flex-col leading-none">
             <span className="font-['Roboto',sans-serif] font-normal text-white text-5xl md:text-6xl xl:text-[80px] tracking-[-0.4px] leading-[1.2]">
               Crafting
             </span>
@@ -352,12 +352,12 @@ function HeroSection() {
               {`Glass & Facades`}
             </span>
           </div>
-          <p className="home-hero-intro font-['Roboto',sans-serif] font-medium text-white text-[17px] md:text-[19px] tracking-normal leading-[1.28] max-w-[760px]">
+          <p className="home-hero-intro home-load-fade home-load-intro font-['Roboto',sans-serif] font-medium text-white text-[17px] md:text-[19px] tracking-normal leading-[1.28] max-w-[760px]">
             Mars Glass Solutions Pvt Ltd is a professional glass
             and facade company delivering complete solutions
             from design to installation.
           </p>
-          <div className="home-hero-actions flex flex-wrap gap-4">
+          <div className="home-hero-actions home-load-fade home-load-actions flex flex-wrap gap-4">
             <a
               href="#/projects"
               className="bg-[#5a93d1] rounded-[8px] px-5 py-3 font-['Roboto',sans-serif] font-bold text-[15px] text-black capitalize text-center"

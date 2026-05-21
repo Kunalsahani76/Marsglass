@@ -64,6 +64,39 @@
   width: 20%;
 }
 
+.home-load-fade {
+  opacity: 0;
+  transform: translateY(25px);
+  animation: home-fade-in-up 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
+}
+
+.home-load-title {
+  animation-delay: 0.2s;
+}
+
+.home-load-intro {
+  animation-delay: 0.5s;
+}
+
+.home-load-actions {
+  animation-delay: 0.8s;
+}
+
+@keyframes home-fade-in-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-load-fade {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .section-contact-button {
   transition:
     background-color 180ms ease,
@@ -173,6 +206,102 @@
 
 .glass-partition-page [data-name="Modern Glass Building"] > div:not([aria-hidden]) {
   overflow: visible !important;
+}
+
+.glass-partition-page .glass-partition-spec-section {
+  align-items: center !important;
+}
+
+.glass-partition-page .glass-partition-spec-section > div > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-header,
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: transparent !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-header {
+  background: #111828 !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-header > div > div {
+  display: grid !important;
+  grid-template-columns: minmax(220px, 1fr) minmax(320px, 1.35fr) !important;
+  gap: 24px !important;
+  padding: 0 20px !important;
+  font-family: "Inter", "Roboto", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-header > div > div > div {
+  width: auto !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-header > div > div > div:last-child {
+  text-align: right;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div {
+  width: 100% !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div > div.absolute.bg-white {
+  left: 0 !important;
+  top: 12px !important;
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: minmax(220px, 1fr) minmax(320px, 1.35fr);
+  gap: 24px !important;
+  padding: 15px 20px !important;
+  text-align: left !important;
+  transition:
+    background 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div > div.absolute.bg-white:hover {
+  background: linear-gradient(90deg, #ffffff 0%, #eaf3fb 34%, #b8d4ee 68%, #4299f0 100%) !important;
+  box-shadow: 0 12px 26px rgba(66, 153, 240, 0.22);
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div > div.absolute.bg-white > div:not([aria-hidden="true"]) {
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  font-family: "Inter", "Roboto", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div > div.absolute.bg-white > div:not([aria-hidden="true"]) p {
+  line-height: normal !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div > div.absolute.bg-white > div:last-child {
+  text-align: right !important;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div > div.absolute.bg-white:hover > div[aria-hidden="true"] {
+  border-color: #4299f0;
+}
+
+.glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) > div > div.absolute.bg-white:hover > div:last-child {
+  color: #0a3766;
 }
 
 .curtain-wall-page a[data-name="Button"][href="#/contact"]:hover,
