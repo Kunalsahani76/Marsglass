@@ -1002,7 +1002,7 @@ function Frame44() {
 
 function Frame45() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="glass-canopy-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
@@ -1037,10 +1037,10 @@ function Frame46() {
 
 function Frame47() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="glass-canopy-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes. They are engineered to withstand wind loads, structural stress, and environmental conditions.</p>
       </div>
     </div>
   );
@@ -1048,12 +1048,12 @@ function Frame47() {
 
 function Frame48() {
   return (
-    <div className="bg-[#0a2540] content-stretch drop-shadow-[0px_6px_10.5px_rgba(66,153,240,0.8)] flex flex-col gap-[18px] items-start p-[50px] relative rounded-[12px] shrink-0 w-[777px]">
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-full">
+    <div className="glass-canopy-faq-panel content-stretch flex flex-col gap-[37px] items-center relative shrink-0 w-full">
+      <div className="glass-canopy-faq-item bg-[#0a2540] content-stretch flex flex-col gap-[14px] h-[80px] items-start overflow-clip px-[30px] py-[20px] relative shrink-0 w-[815px]">
         <Frame44 />
         <Frame45 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-full">
+      <div className="glass-canopy-faq-item bg-[#0a2540] content-stretch flex flex-col gap-[14px] h-[80px] items-start overflow-clip px-[30px] py-[20px] relative shrink-0 w-[815px]">
         <Frame46 />
         <Frame47 />
       </div>
@@ -1065,8 +1065,10 @@ function Frame42() {
   return (
     <div className="bg-white relative shrink-0 w-full">
       <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[64px] items-center px-[32px] py-[96px] relative size-full">
-          <Frame11 />
+        <div className="content-stretch flex flex-col gap-[69px] items-center px-[32px] py-[96px] relative size-full">
+          <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[36px] text-black text-center w-full">
+            <p className="leading-[40px]">Frequently Asked Questions</p>
+          </div>
           <Frame48 />
         </div>
       </div>

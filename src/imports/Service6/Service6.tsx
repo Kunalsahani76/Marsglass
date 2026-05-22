@@ -1175,10 +1175,10 @@ function Frame47() {
 
 function Frame48() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="glass-partition-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Tempered / laminated</p>
       </div>
     </div>
   );
@@ -1210,10 +1210,10 @@ function Frame49() {
 
 function Frame50() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="glass-partition-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Double glazed = better sound</p>
       </div>
     </div>
   );
@@ -1245,10 +1245,10 @@ function Frame53() {
 
 function Frame54() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="glass-partition-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Frosted / films / blinds</p>
       </div>
     </div>
   );
@@ -1280,10 +1280,10 @@ function Frame55() {
 
 function Frame56() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="glass-partition-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes, safety glass used</p>
       </div>
     </div>
   );
@@ -1291,20 +1291,20 @@ function Frame56() {
 
 function Frame51() {
   return (
-    <div className="bg-[#0a2540] content-stretch drop-shadow-[0px_6px_10.5px_rgba(66,153,240,0.8)] flex flex-col gap-[18px] items-start p-[50px] relative rounded-[12px] shrink-0 w-[777px]">
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+    <div className="glass-partition-faq-panel bg-[#0a2540] content-stretch flex flex-col gap-[18px] items-start p-[50px] relative rounded-[12px] shrink-0 w-[777px]">
+      <div className="glass-partition-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame47 />
         <Frame48 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="glass-partition-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame49 />
         <Frame50 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="glass-partition-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame53 />
         <Frame54 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="glass-partition-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame55 />
         <Frame56 />
       </div>

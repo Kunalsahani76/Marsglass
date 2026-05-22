@@ -1383,10 +1383,10 @@ function Frame52() {
 
 function Frame53() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="aluminium-door-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Aluminium doors are more durable, resistant to moisture and termites, and require significantly less maintenance compared to wooden doors.</p>
       </div>
     </div>
   );
@@ -1418,10 +1418,10 @@ function Frame54() {
 
 function Frame55() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="aluminium-door-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes. Aluminium doors can incorporate double glazing and thermal break technology, improving insulation and energy efficiency.</p>
       </div>
     </div>
   );
@@ -1453,10 +1453,10 @@ function Frame58() {
 
 function Frame59() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="aluminium-door-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes. Aluminium doors can be customized in different colors, finishes, glass types, and opening mechanisms to match architectural designs.</p>
       </div>
     </div>
   );
@@ -1488,10 +1488,10 @@ function Frame60() {
 
 function Frame61() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="aluminium-door-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes. Aluminium doors are commonly used in commercial buildings, offices, and retail spaces due to their strength, durability, and modern appearance.</p>
       </div>
     </div>
   );
@@ -1499,20 +1499,20 @@ function Frame61() {
 
 function Frame56() {
   return (
-    <div className="bg-[#0a2540] content-stretch drop-shadow-[0px_6px_10.5px_rgba(66,153,240,0.8)] flex flex-col gap-[18px] items-start p-[50px] relative rounded-[12px] shrink-0 w-[777px]">
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+    <div className="aluminium-door-faq-panel bg-[#0a2540] content-stretch flex flex-col gap-[18px] items-start p-[50px] relative rounded-[12px] shrink-0 w-[777px]">
+      <div className="aluminium-door-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame52 />
         <Frame53 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="aluminium-door-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame54 />
         <Frame55 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="aluminium-door-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame58 />
         <Frame59 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="aluminium-door-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame60 />
         <Frame61 />
       </div>

@@ -42,6 +42,36 @@
   display: none !important;
 }
 
+.glass-canopy-page.hide-import-footer .service-import-inner > [data-name^="service"] > div:nth-last-child(2) > div:last-child,
+.glass-canopy-page.hide-import-footer > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: flex !important;
+}
+
+.interior-glass-page.hide-import-footer .service-import-inner > [data-name^="service"] > div:nth-last-child(2) > div:last-child,
+.interior-glass-page.hide-import-footer > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: flex !important;
+}
+
+.aluminum-windows-page.hide-import-footer .service-import-inner > [data-name^="service"] > div:nth-last-child(2) > div:last-child,
+.aluminum-windows-page.hide-import-footer > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: flex !important;
+}
+
+.aluminium-door-page.hide-import-footer .service-import-inner > [data-name^="service"] > div:nth-last-child(2) > div:last-child,
+.aluminium-door-page.hide-import-footer > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: flex !important;
+}
+
+.glass-partition-page.hide-import-footer .service-import-inner > [data-name^="service"] > div:nth-last-child(2) > div:last-child,
+.glass-partition-page.hide-import-footer > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: flex !important;
+}
+
+.upvc-door-page.hide-import-footer .service-import-inner > [data-name^="service"] > div:nth-last-child(2) > div:last-child,
+.upvc-door-page.hide-import-footer > [data-name^="service"] > div:nth-last-child(2) > div:last-child {
+  display: flex !important;
+}
+
 .service-import-frame {
   width: 100%;
 }
@@ -304,6 +334,50 @@
   color: #0a3766;
 }
 
+.glass-partition-page .glass-partition-faq-panel {
+  box-shadow: 0 6px 10.5px rgba(66, 153, 240, 0.8);
+  overflow: visible;
+}
+
+.glass-partition-page .glass-partition-faq-item {
+  cursor: pointer;
+  transition:
+    height 260ms ease,
+    background-color 220ms ease,
+    transform 220ms ease;
+}
+
+.glass-partition-page .glass-partition-faq-item:hover,
+.glass-partition-page .glass-partition-faq-item:focus-within {
+  height: 104px !important;
+  background-color: #12365c;
+  transform: translateY(-2px);
+}
+
+.glass-partition-page .glass-partition-faq-answer {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.glass-partition-page .glass-partition-faq-answer > div:not([aria-hidden="true"]) {
+  text-align: left !important;
+  white-space: normal !important;
+  width: 100% !important;
+}
+
+.glass-partition-page .glass-partition-faq-answer p {
+  line-height: 1.45 !important;
+}
+
+.glass-partition-page .glass-partition-faq-item:hover .glass-partition-faq-answer,
+.glass-partition-page .glass-partition-faq-item:focus-within .glass-partition-faq-answer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .upvc-door-page .upvc-door-spec-section {
   align-items: center !important;
 }
@@ -398,6 +472,50 @@
 
 .upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white:hover > div:last-child {
   color: #0a3766;
+}
+
+.upvc-door-page .upvc-door-faq-panel {
+  box-shadow: 0 6px 10.5px rgba(66, 153, 240, 0.8);
+  overflow: visible;
+}
+
+.upvc-door-page .upvc-door-faq-item {
+  cursor: pointer;
+  transition:
+    height 260ms ease,
+    background-color 220ms ease,
+    transform 220ms ease;
+}
+
+.upvc-door-page .upvc-door-faq-item:hover,
+.upvc-door-page .upvc-door-faq-item:focus-within {
+  height: 118px !important;
+  background-color: #12365c;
+  transform: translateY(-2px);
+}
+
+.upvc-door-page .upvc-door-faq-answer {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.upvc-door-page .upvc-door-faq-answer > div:not([aria-hidden="true"]) {
+  text-align: left !important;
+  white-space: normal !important;
+  width: 100% !important;
+}
+
+.upvc-door-page .upvc-door-faq-answer p {
+  line-height: 1.45 !important;
+}
+
+.upvc-door-page .upvc-door-faq-item:hover .upvc-door-faq-answer,
+.upvc-door-page .upvc-door-faq-item:focus-within .upvc-door-faq-answer {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .glass-partition-page .glass-partition-hover-card,
@@ -538,6 +656,52 @@
   text-align: right !important;
 }
 
+.glass-canopy-page .glass-canopy-faq-panel {
+  overflow: visible;
+}
+
+.glass-canopy-page .glass-canopy-faq-item {
+  cursor: pointer;
+  box-shadow: 0 6px 10.5px rgba(66, 153, 240, 0.8);
+  transition:
+    height 260ms ease,
+    background-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+
+.glass-canopy-page .glass-canopy-faq-item:hover,
+.glass-canopy-page .glass-canopy-faq-item:focus-within {
+  height: 118px !important;
+  background-color: #12365c !important;
+  box-shadow: 0 18px 34px rgba(10, 37, 64, 0.22);
+  transform: translateY(-2px);
+}
+
+.glass-canopy-page .glass-canopy-faq-answer {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.glass-canopy-page .glass-canopy-faq-answer > div:not([aria-hidden="true"]) {
+  text-align: left !important;
+  white-space: normal !important;
+  width: 100% !important;
+}
+
+.glass-canopy-page .glass-canopy-faq-answer p {
+  line-height: 1.45 !important;
+}
+
+.glass-canopy-page .glass-canopy-faq-item:hover .glass-canopy-faq-answer,
+.glass-canopy-page .glass-canopy-faq-item:focus-within .glass-canopy-faq-answer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .interior-glass-page .interior-glass-spec-section > div > div {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -584,6 +748,60 @@
 
 .interior-glass-page .interior-glass-spec-section .service-spec-row > div:last-child {
   text-align: right !important;
+}
+
+.interior-glass-page .interior-glass-faq-panel {
+  box-shadow: 0 6px 10.5px rgba(66, 153, 240, 0.8);
+  overflow: visible;
+}
+
+.interior-glass-page .interior-glass-faq-item {
+  cursor: pointer;
+  transition:
+    height 260ms ease,
+    background-color 220ms ease,
+    transform 220ms ease;
+}
+
+.interior-glass-page .interior-glass-faq-item:hover,
+.interior-glass-page .interior-glass-faq-item:focus-within {
+  height: 112px !important;
+  background-color: #12365c;
+  transform: translateY(-2px);
+}
+
+.interior-glass-page .interior-glass-faq-item-tall:hover,
+.interior-glass-page .interior-glass-faq-item-tall:focus-within {
+  height: 150px !important;
+}
+
+.interior-glass-page .interior-glass-faq-item-sheet:hover,
+.interior-glass-page .interior-glass-faq-item-sheet:focus-within {
+  height: 230px !important;
+}
+
+.interior-glass-page .interior-glass-faq-answer {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.interior-glass-page .interior-glass-faq-answer > div:not([aria-hidden="true"]) {
+  text-align: left !important;
+  white-space: normal !important;
+  width: 100% !important;
+}
+
+.interior-glass-page .interior-glass-faq-answer p {
+  line-height: 1.45 !important;
+}
+
+.interior-glass-page .interior-glass-faq-item:hover .interior-glass-faq-answer,
+.interior-glass-page .interior-glass-faq-item:focus-within .interior-glass-faq-answer {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .aluminum-windows-page .aluminum-windows-spec-section > div > div {
@@ -646,6 +864,50 @@
   color: #0a3766;
 }
 
+.aluminum-windows-page .aluminum-windows-faq-panel {
+  box-shadow: 0 6px 10.5px rgba(66, 153, 240, 0.8);
+  overflow: visible;
+}
+
+.aluminum-windows-page .aluminum-windows-faq-item {
+  cursor: pointer;
+  transition:
+    height 260ms ease,
+    background-color 220ms ease,
+    transform 220ms ease;
+}
+
+.aluminum-windows-page .aluminum-windows-faq-item:hover,
+.aluminum-windows-page .aluminum-windows-faq-item:focus-within {
+  height: 104px !important;
+  background-color: #12365c;
+  transform: translateY(-2px);
+}
+
+.aluminum-windows-page .aluminum-windows-faq-answer {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.aluminum-windows-page .aluminum-windows-faq-answer > div:not([aria-hidden="true"]) {
+  text-align: left !important;
+  white-space: normal !important;
+  width: 100% !important;
+}
+
+.aluminum-windows-page .aluminum-windows-faq-answer p {
+  line-height: 1.45 !important;
+}
+
+.aluminum-windows-page .aluminum-windows-faq-item:hover .aluminum-windows-faq-answer,
+.aluminum-windows-page .aluminum-windows-faq-item:focus-within .aluminum-windows-faq-answer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .aluminium-door-page .aluminium-door-spec-section > div > div {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -704,6 +966,50 @@
 
 .aluminium-door-page .aluminium-door-spec-section .aluminium-door-spec-body > div > div.absolute.bg-white:hover > div:last-child {
   color: #0a3766;
+}
+
+.aluminium-door-page .aluminium-door-faq-panel {
+  box-shadow: 0 6px 10.5px rgba(66, 153, 240, 0.8);
+  overflow: visible;
+}
+
+.aluminium-door-page .aluminium-door-faq-item {
+  cursor: pointer;
+  transition:
+    height 260ms ease,
+    background-color 220ms ease,
+    transform 220ms ease;
+}
+
+.aluminium-door-page .aluminium-door-faq-item:hover,
+.aluminium-door-page .aluminium-door-faq-item:focus-within {
+  height: 118px !important;
+  background-color: #12365c;
+  transform: translateY(-2px);
+}
+
+.aluminium-door-page .aluminium-door-faq-answer {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.aluminium-door-page .aluminium-door-faq-answer > div:not([aria-hidden="true"]) {
+  text-align: left !important;
+  white-space: normal !important;
+  width: 100% !important;
+}
+
+.aluminium-door-page .aluminium-door-faq-answer p {
+  line-height: 1.45 !important;
+}
+
+.aluminium-door-page .aluminium-door-faq-item:hover .aluminium-door-faq-answer,
+.aluminium-door-page .aluminium-door-faq-item:focus-within .aluminium-door-faq-answer {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .acp-cladding-page .acp-spec-section {
@@ -788,6 +1094,53 @@
 
 .acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header):hover > div:not([aria-hidden="true"]) > div > div:last-child {
   color: #0a3766;
+}
+
+.acp-cladding-page .acp-faq-card {
+  transition:
+    background-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+
+.acp-cladding-page .acp-faq-card:hover,
+.acp-cladding-page .acp-faq-card:focus-within {
+  background-color: #12365c !important;
+  box-shadow: 0 18px 34px rgba(10, 37, 64, 0.22);
+  transform: translateY(-2px);
+}
+
+.acp-cladding-page .acp-faq-button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  height: 40px !important;
+  padding: 0;
+  text-align: left;
+  transition: height 260ms ease;
+}
+
+.acp-cladding-page .acp-faq-card:hover .acp-faq-button,
+.acp-cladding-page .acp-faq-card:focus-within .acp-faq-button {
+  height: 118px !important;
+}
+
+.acp-cladding-page .acp-faq-answer {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.acp-cladding-page .acp-faq-answer p {
+  line-height: 1.45 !important;
+}
+
+.acp-cladding-page .acp-faq-card:hover .acp-faq-answer,
+.acp-cladding-page .acp-faq-card:focus-within .acp-faq-answer {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .acp-cladding-page .acp-type-card {

@@ -2119,10 +2119,10 @@ function Frame71() {
 
 function Frame76() {
   return (
-    <div className="bg-[#0a2540] content-stretch flex flex-col items-start px-[30px] py-[20px] relative shrink-0 w-[815px]">
-      <button className="content-stretch cursor-pointer flex flex-col gap-[14px] h-[40px] items-start overflow-clip relative shrink-0 w-full">
+    <div className="acp-faq-card bg-[#0a2540] content-stretch flex flex-col items-start px-[30px] py-[20px] relative shrink-0 w-[815px]">
+      <button className="acp-faq-button content-stretch cursor-pointer flex flex-col gap-[14px] h-[40px] items-start overflow-clip relative shrink-0 w-full">
         <Frame71 />
-        <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[36px] text-left text-white w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+        <div className="acp-faq-answer flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[18px] text-left text-white w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
           <p className="leading-[40px]">ACP cladding is a façade system using aluminum composite panels to create modern, lightweight, and weather-resistant building exteriors.</p>
         </div>
       </button>
@@ -2155,11 +2155,11 @@ function Frame72() {
 
 function Frame77() {
   return (
-    <div className="bg-[#0a2540] content-stretch flex flex-col items-start px-[30px] py-[20px] relative shrink-0 w-[815px]">
-      <button className="content-stretch cursor-pointer flex flex-col gap-[14px] h-[40px] items-start overflow-clip relative shrink-0 w-full">
+    <div className="acp-faq-card bg-[#0a2540] content-stretch flex flex-col items-start px-[30px] py-[20px] relative shrink-0 w-[815px]">
+      <button className="acp-faq-button content-stretch cursor-pointer flex flex-col gap-[14px] h-[40px] items-start overflow-clip relative shrink-0 w-full">
         <Frame72 />
-        <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[36px] text-left text-white w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-          <p className="leading-[40px]">ACP cladding is a façade system using aluminum composite panels to create modern, lightweight, and weather-resistant building exteriors.</p>
+        <div className="acp-faq-answer flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[18px] text-left text-white w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+          <p className="leading-[40px]">Yes. ACP panels are highly durable and can last 20–30 years with proper maintenance.</p>
         </div>
       </button>
     </div>

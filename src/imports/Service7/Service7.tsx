@@ -1154,10 +1154,10 @@ function Frame52() {
 
 function Frame53() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Interior glass systems typically use tempered safety glass or laminated glass, ensuring strength, safety, and durability.</p>
       </div>
     </div>
   );
@@ -1189,10 +1189,10 @@ function Frame54() {
 
 function Frame55() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes. Modern glass systems use tempered or laminated safety glass, which is designed to withstand impact and meet building safety standards.</p>
       </div>
     </div>
   );
@@ -1224,10 +1224,10 @@ function Frame58() {
 
 function Frame59() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes. Privacy can be achieved using frosted glass, etched designs, tinted glass, or decorative films.</p>
       </div>
     </div>
   );
@@ -1259,10 +1259,10 @@ function Frame60() {
 
 function Frame61() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Yes. Glass surfaces are easy to clean and require minimal maintenance, making them ideal for modern commercial interiors.</p>
       </div>
     </div>
   );
@@ -1294,10 +1294,10 @@ function Frame62() {
 
 function Frame63() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[40px]">Slim profile partitions are lightweight, minimal-frame wall systems used to divide spaces efficiently while maintaining openness and modern design.</p>
       </div>
     </div>
   );
@@ -1329,10 +1329,10 @@ function Frame64() {
 
 function Frame65() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[24px]">Ultra-thin profiles for maximum space utilization<br />Lightweight yet durable construction<br />Quick and hassle-free installation<br />Clean, modern aesthetics<br />Highly customizable designs</p>
       </div>
     </div>
   );
@@ -1355,7 +1355,7 @@ function Frame66() {
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">⁠What types are available?</p>
+        <p className="leading-[40px]">What types are available?</p>
       </div>
       <Frame8 />
     </div>
@@ -1364,10 +1364,10 @@ function Frame66() {
 
 function Frame67() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[24px]">Glass Partitions<br />Aluminum Frame Partitions<br />Modular Partitions<br />Sliding / Folding Partitions</p>
       </div>
     </div>
   );
@@ -1399,10 +1399,10 @@ function Frame68() {
 
 function Frame69() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[24px]">Office cabins & meeting rooms<br />Residential spaces (living rooms, bedrooms)<br />Retail stores & showrooms<br />Commercial interiors</p>
       </div>
     </div>
   );
@@ -1425,7 +1425,7 @@ function Frame70() {
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-[1_0_0] flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] min-w-px relative text-[18px] text-white" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">⁠What are the advantages?</p>
+        <p className="leading-[40px]">What are the advantages?</p>
       </div>
       <Frame10 />
     </div>
@@ -1434,10 +1434,10 @@ function Frame70() {
 
 function Frame71() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[24px]">Saves space vs traditional walls<br />Improves natural light distribution<br />Enhances interior aesthetics<br />Cost-effective and time-efficient<br />Low maintenance</p>
       </div>
     </div>
   );
@@ -1469,10 +1469,10 @@ function Frame72() {
 
 function Frame73() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[24px]">Frame finishes: matte, gloss, powder-coated<br />Glass types: clear, frosted, patterned<br />Configurations: sliding, fixed, folding</p>
       </div>
     </div>
   );
@@ -1504,10 +1504,10 @@ function Frame74() {
 
 function Frame75() {
   return (
-    <div className="content-stretch flex items-end relative shrink-0 w-full">
+    <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Typically tempered laminated safety glass is used for strength and safety.</p>
+        <p className="leading-[22px]">Frame material: High-grade aluminum / slim steel profiles<br />Profile thickness: Typically 20mm-40mm (customizable)<br />Glass thickness: 6mm, 8mm, 10mm, 12mm toughened glass<br />Surface finish: Powder-coated / anodized<br />Hardware: SS fittings, rollers, hinges (if applicable)<br />Acoustic performance: Optional sound-reduction configurations<br />Installation: Dry installation system (no heavy civil work)<br />Maintenance: Easy-clean surfaces, replaceable components</p>
       </div>
     </div>
   );
@@ -1515,48 +1515,48 @@ function Frame75() {
 
 function Frame56() {
   return (
-    <div className="bg-[#0a2540] content-stretch drop-shadow-[0px_6px_10.5px_rgba(66,153,240,0.8)] flex flex-col gap-[18px] items-start p-[50px] relative rounded-[12px] shrink-0 w-[777px]">
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+    <div className="interior-glass-faq-panel bg-[#0a2540] content-stretch flex flex-col gap-[18px] items-start p-[50px] relative rounded-[12px] shrink-0 w-[777px]">
+      <div className="interior-glass-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame52 />
         <Frame53 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame54 />
         <Frame55 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame58 />
         <Frame59 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame60 />
         <Frame61 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame62 />
         <Frame63 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item interior-glass-faq-item-tall content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame64 />
         <Frame65 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item interior-glass-faq-item-tall content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame66 />
         <Frame67 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item interior-glass-faq-item-tall content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame68 />
         <Frame69 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item interior-glass-faq-item-tall content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame70 />
         <Frame71 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item interior-glass-faq-item-tall content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame72 />
         <Frame73 />
       </div>
-      <div className="content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
+      <div className="interior-glass-faq-item interior-glass-faq-item-sheet content-stretch flex flex-col h-[44px] items-start overflow-clip relative shrink-0 w-[677px]">
         <Frame74 />
         <Frame75 />
       </div>
@@ -1568,8 +1568,10 @@ function Frame49() {
   return (
     <div className="bg-white relative shrink-0 w-full">
       <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[64px] items-center px-[32px] py-[96px] relative size-full">
-          <Frame21 />
+        <div className="content-stretch flex flex-col gap-[69px] items-center px-[32px] py-[96px] relative size-full">
+          <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[36px] text-black text-center w-full">
+            <p className="leading-[40px]">Frequently Asked Questions</p>
+          </div>
           <Frame56 />
         </div>
       </div>
