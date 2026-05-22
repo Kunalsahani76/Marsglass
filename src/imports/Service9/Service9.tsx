@@ -307,12 +307,12 @@ function Container2() {
 function Frame16() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame62 />
         <Container />
       </div>
       <div className="flex flex-row items-center self-stretch">
-        <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col h-full items-start relative rounded-[16px] shrink-0 w-[600px]">
+        <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col h-full items-start relative rounded-[16px] shrink-0 w-[600px]">
           <Frame63 />
           <Container2 />
         </div>
@@ -444,11 +444,11 @@ function Container6() {
 function Frame17() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame64 />
         <Container4 />
       </div>
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame65 />
         <Container6 />
       </div>
@@ -561,11 +561,11 @@ function Container10() {
 function Frame18() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame66 />
         <Container8 />
       </div>
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame67 />
         <Container10 />
       </div>
@@ -656,11 +656,11 @@ function Container14() {
 function Frame19() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame68 />
         <Container12 />
       </div>
-      <div className="bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame69 />
         <Container14 />
       </div>
@@ -1401,7 +1401,7 @@ function Frame13() {
 function Frame51() {
   return (
     <div className="content-stretch flex gap-[29px] items-center relative shrink-0">
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="upvc-door-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007609} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -1410,7 +1410,7 @@ function Frame51() {
           <p className="leading-[40px]">Hotel entrances</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="upvc-door-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007610} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -1419,7 +1419,7 @@ function Frame51() {
           <p className="leading-[40px]">{` Office buildings`}</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="upvc-door-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007611} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -1428,7 +1428,7 @@ function Frame51() {
           <p className="leading-[40px]">Shopping malls</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="upvc-door-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007612} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />

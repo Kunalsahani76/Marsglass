@@ -304,6 +304,71 @@
   color: #0a3766;
 }
 
+.glass-partition-page .glass-partition-hover-card,
+.glass-partition-page .glass-partition-application-card {
+  transition:
+    box-shadow 240ms ease,
+    transform 240ms ease;
+  will-change: transform;
+}
+
+.glass-partition-page .glass-partition-hover-card img,
+.glass-partition-page .glass-partition-application-card img {
+  transition:
+    filter 320ms ease,
+    transform 420ms ease;
+  will-change: transform;
+}
+
+.glass-partition-page .glass-partition-hover-card:hover,
+.glass-partition-page .glass-partition-application-card:hover {
+  box-shadow:
+    0 0 0 1px rgba(17, 115, 212, 0.55),
+    0 12px 28px rgba(17, 115, 212, 0.24);
+  transform: translateY(-6px) scale(1.02);
+}
+
+.glass-partition-page .glass-partition-hover-card:hover img,
+.glass-partition-page .glass-partition-application-card:hover img {
+  filter: saturate(1.06) brightness(1.02);
+  transform: scale(1.06);
+}
+
+.upvc-door-page .upvc-door-hover-card,
+.upvc-door-page .upvc-door-application-card {
+  overflow: hidden;
+  transition:
+    box-shadow 240ms ease,
+    transform 240ms ease;
+  will-change: transform;
+}
+
+.upvc-door-page .upvc-door-hover-card > div:first-child {
+  overflow: hidden;
+}
+
+.upvc-door-page .upvc-door-hover-card img,
+.upvc-door-page .upvc-door-application-card img {
+  transition:
+    filter 320ms ease,
+    transform 420ms ease;
+  will-change: transform;
+}
+
+.upvc-door-page .upvc-door-hover-card:hover,
+.upvc-door-page .upvc-door-application-card:hover {
+  box-shadow:
+    0 0 0 1px rgba(17, 115, 212, 0.55),
+    0 12px 28px rgba(17, 115, 212, 0.24);
+  transform: translateY(-6px) scale(1.02);
+}
+
+.upvc-door-page .upvc-door-hover-card:hover img,
+.upvc-door-page .upvc-door-application-card:hover img {
+  filter: saturate(1.06) brightness(1.02);
+  transform: scale(1.06);
+}
+
 .curtain-wall-page a[data-name="Button"][href="#/contact"]:hover,
 .glass-canopy-page a[data-name="Button"][href="#/contact"]:hover,
 .service-hero-page a[data-name="Button"][href="#/contact"]:hover,
@@ -627,6 +692,87 @@
 
 .acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header):hover > div:not([aria-hidden="true"]) > div > div:last-child {
   color: #0a3766;
+}
+
+.acp-cladding-page .acp-type-card {
+  transition:
+    background-color 240ms ease,
+    box-shadow 240ms ease,
+    transform 240ms ease;
+  will-change: transform;
+}
+
+.acp-cladding-page .acp-type-card img {
+  transition:
+    filter 320ms ease,
+    transform 420ms ease;
+  will-change: transform;
+}
+
+.acp-cladding-page .acp-type-card:hover {
+  background-color: #ffffff;
+  box-shadow:
+    0 0 0 1px rgba(17, 115, 212, 0.55),
+    0 12px 28px rgba(17, 115, 212, 0.24);
+  transform: translateY(-6px) scale(1.02);
+}
+
+.acp-cladding-page .acp-type-card:hover img {
+  filter: saturate(1.06) brightness(1.02);
+  transform: scale(1.06);
+}
+
+.acp-cladding-page .acp-application-card,
+.acp-cladding-page .acp-portfolio-card {
+  transition:
+    box-shadow 240ms ease,
+    transform 240ms ease;
+  will-change: transform;
+}
+
+.acp-cladding-page .acp-application-card {
+  overflow: hidden;
+}
+
+.acp-cladding-page .acp-application-card [data-name="Overlay+Shadow"] {
+  transition:
+    box-shadow 240ms ease,
+    transform 240ms ease;
+}
+
+.acp-cladding-page .acp-application-card [data-name="Overlay"] {
+  transition:
+    background-color 240ms ease,
+    transform 240ms ease;
+}
+
+.acp-cladding-page .acp-portfolio-card img {
+  transition:
+    filter 320ms ease,
+    transform 420ms ease;
+  will-change: transform;
+}
+
+.acp-cladding-page .acp-application-card:hover,
+.acp-cladding-page .acp-portfolio-card:hover {
+  box-shadow:
+    0 0 0 1px rgba(17, 115, 212, 0.55),
+    0 12px 28px rgba(17, 115, 212, 0.24);
+  transform: translateY(-6px) scale(1.02);
+}
+
+.acp-cladding-page .acp-application-card:hover [data-name="Overlay+Shadow"] {
+  box-shadow: none;
+}
+
+.acp-cladding-page .acp-application-card:hover [data-name="Overlay"] {
+  background-color: rgba(0, 123, 255, 0.14);
+  transform: scale(1.06);
+}
+
+.acp-cladding-page .acp-portfolio-card:hover img {
+  filter: saturate(1.06) brightness(1.02);
+  transform: scale(1.06);
 }
 
 .home-hero-intro {

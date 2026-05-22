@@ -592,15 +592,15 @@ function Frame10() {
     <div className="relative shrink-0 w-full">
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex flex-wrap gap-x-[48px] gap-y-[40px] items-center justify-center max-w-[1312px] px-[32px] py-[40px] relative size-full">
-          <div className="bg-white content-stretch flex flex-col h-[444px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 1">
+          <div className="acp-type-card bg-white content-stretch flex flex-col h-[444px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 1">
             <Container />
             <Container1 />
           </div>
-          <div className="bg-white content-stretch flex flex-col h-[444px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 2">
+          <div className="acp-type-card bg-white content-stretch flex flex-col h-[444px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 2">
             <Container3 />
             <Container4 />
           </div>
-          <div className="bg-white content-stretch flex flex-col h-[444px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 3">
+          <div className="acp-type-card bg-white content-stretch flex flex-col h-[444px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 3">
             <Container6 />
             <Container7 />
           </div>
@@ -1606,7 +1606,7 @@ function Frame13() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative shrink-0 w-full">
       <div className="flex flex-col font-['Poppins:Bold',sans-serif] h-[40px] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[36px] text-center w-full">
-        <p className="leading-[40px]">ACP Cladding Systems – Technical Specifications</p>
+        <p className="leading-[40px]">Technical Specifications</p>
       </div>
     </div>
   );
@@ -1976,7 +1976,7 @@ function Heading9() {
 function Container23() {
   return (
     <div className="gap-x-[24px] gap-y-[24px] grid grid-cols-[repeat(4,minmax(0,1fr))] grid-rows-[_180px] h-[180px] relative shrink-0 w-full" data-name="Container">
-      <div className="bg-white col-1 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
+      <div className="acp-application-card bg-white col-1 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
         <div className="flex flex-col items-center size-full">
           <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
             <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1985,7 +1985,7 @@ function Container23() {
           </div>
         </div>
       </div>
-      <div className="bg-white col-2 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
+      <div className="acp-application-card bg-white col-2 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
         <div className="flex flex-col items-center size-full">
           <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
             <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -1994,7 +1994,7 @@ function Container23() {
           </div>
         </div>
       </div>
-      <div className="bg-white col-3 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
+      <div className="acp-application-card bg-white col-3 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
         <div className="flex flex-col items-center size-full">
           <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
             <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -2003,7 +2003,7 @@ function Container23() {
           </div>
         </div>
       </div>
-      <div className="bg-white col-4 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
+      <div className="acp-application-card bg-white col-4 justify-self-stretch relative rounded-[16px] row-1 self-stretch shrink-0" data-name="Background">
         <div className="flex flex-col items-center size-full">
           <div className="content-stretch flex flex-col gap-[24px] items-center p-[32px] relative size-full">
             <div className="absolute bg-[rgba(255,255,255,0)] inset-0 rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)]" data-name="Overlay+Shadow" />
@@ -2037,7 +2037,7 @@ function SectionApplications() {
 
 function ShoppingMallFacade() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Shopping Mall Façade">
+    <div className="acp-portfolio-card h-[346px] overflow-clip relative rounded-[12px] shrink-0 w-[600px]" data-name="Shopping Mall Façade">
       <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgShoppingMallFacade} />
     </div>
   );
@@ -2045,7 +2045,7 @@ function ShoppingMallFacade() {
 
 function ModernInteriorGlazing() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Modern Interior Glazing">
+    <div className="acp-portfolio-card h-[346px] overflow-clip relative rounded-[12px] shrink-0 w-[600px]" data-name="Modern Interior Glazing">
       <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgModernInteriorGlazing} />
     </div>
   );
@@ -2062,7 +2062,7 @@ function Frame14() {
 
 function CorporateGlassOffice() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Corporate Glass Office">
+    <div className="acp-portfolio-card h-[346px] overflow-clip relative rounded-[12px] shrink-0 w-[600px]" data-name="Corporate Glass Office">
       <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgCorporateGlassOffice} />
     </div>
   );
@@ -2070,7 +2070,7 @@ function CorporateGlassOffice() {
 
 function AirportGlassTerminal() {
   return (
-    <div className="h-[346px] relative rounded-[12px] shrink-0 w-[600px]" data-name="Airport Glass Terminal">
+    <div className="acp-portfolio-card h-[346px] overflow-clip relative rounded-[12px] shrink-0 w-[600px]" data-name="Airport Glass Terminal">
       <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgAirportGlassTerminal} />
     </div>
   );

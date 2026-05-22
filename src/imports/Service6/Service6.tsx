@@ -338,15 +338,15 @@ function Container7() {
 function Frame16() {
   return (
     <div className="content-stretch flex gap-[56px] items-center relative shrink-0">
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 14">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 14">
         <Container />
         <Container1 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 15">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 15">
         <Container3 />
         <Container4 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 16">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 16">
         <Container6 />
         <Container7 />
       </div>
@@ -521,15 +521,15 @@ function Container16() {
 function Frame42() {
   return (
     <div className="content-stretch flex gap-[64px] items-center relative shrink-0">
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 14">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 14">
         <Container9 />
         <Container10 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 15">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 15">
         <Container12 />
         <Container13 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 16">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 16">
         <Container15 />
         <Container16 />
       </div>
@@ -681,15 +681,15 @@ function Container25() {
 function Frame43() {
   return (
     <div className="content-stretch flex gap-[64px] items-center relative shrink-0">
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 17">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 17">
         <Container18 />
         <Container19 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 18">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 18">
         <Container21 />
         <Container22 />
       </div>
-      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 19">
+      <div className="glass-partition-hover-card bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 19">
         <Container24 />
         <Container25 />
       </div>
@@ -1086,7 +1086,7 @@ function Frame13() {
 function Frame46() {
   return (
     <div className="content-stretch flex gap-[29px] items-center relative shrink-0">
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="glass-partition-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007609} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -1095,7 +1095,7 @@ function Frame46() {
           <p className="leading-[40px]">Hotel entrances</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="glass-partition-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007610} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -1104,7 +1104,7 @@ function Frame46() {
           <p className="leading-[40px]">{` Office buildings`}</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="glass-partition-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007611} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
@@ -1113,7 +1113,7 @@ function Frame46() {
           <p className="leading-[40px]">Shopping malls</p>
         </div>
       </div>
-      <div className="h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
+      <div className="glass-partition-application-card h-[283px] overflow-clip relative rounded-[12px] shrink-0 w-[285px]">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[12px]">
           <img alt="" className="absolute max-w-none object-cover rounded-[12px] size-full" src={imgFrame1000007612} />
           <div className="absolute inset-0 rounded-[12px]" style={{ backgroundImage: "linear-gradient(179.876deg, rgba(102, 102, 102, 0.06) 0.10852%, rgba(0, 0, 0, 0.6) 81.733%)" }} />
