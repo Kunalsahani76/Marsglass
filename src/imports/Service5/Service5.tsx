@@ -153,8 +153,8 @@ function Frame12() {
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] min-w-full relative shrink-0 text-[#0a2540] text-[32px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Overview</p>
       </div>
-      <p className="font-['Roboto:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#625b71] text-[22px] w-[841px]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Aluminum Windows and Door Systems offer strength, durability, and modern aesthetics. Lightweight yet strong frames make them ideal for residential and commercial projects.
+      <p className="font-['Roboto:Regular',sans-serif] font-normal leading-[1.35] relative shrink-0 text-[#625b71] text-[22px] w-[841px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+        Aluminium Windows and Door Systems offer strength, durability, and modern aesthetics. Lightweight yet strong frames make them ideal for residential and commercial projects.
       </p>
     </div>
   );
@@ -164,7 +164,7 @@ function Frame7() {
   return (
     <div className="bg-gradient-to-r content-stretch flex flex-col from-[#0a2540] items-center py-[20px] relative shrink-0 to-[#1a60a6] w-full">
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold h-[40px] justify-center leading-[0] relative shrink-0 text-[32px] text-center text-white w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Types of Aluminum Systems</p>
+        <p className="leading-[40px]">Types of Aluminium Systems</p>
       </div>
     </div>
   );
@@ -561,7 +561,7 @@ function Frame15() {
         <p className="leading-[40px]">Frame Material</p>
       </div>
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">High-grade Aluminum Alloy</p>
+        <p className="leading-[40px]">High-grade Aluminium Alloy</p>
       </div>
     </div>
   );
@@ -816,7 +816,7 @@ function Frame34() {
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <SolarWindowFrameLinear />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-          Aluminum alloy frames
+          Aluminium alloy frames
         </p>
       </div>
       <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">
@@ -1006,7 +1006,7 @@ function Frame44() {
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Why choose aluminum windows?</p>
+        <p className="leading-[40px]">Why choose aluminium windows?</p>
       </div>
       <Frame2 />
     </div>

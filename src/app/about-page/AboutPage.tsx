@@ -383,7 +383,7 @@ function LegacySection() {
             <div className="absolute inset-0 bg-black/50 rounded-[10px]" />
           </div>
           {/* 2009 Badge */}
-          <div className="absolute bottom-6 right-4 sm:right-[-40px] backdrop-blur-md bg-white/40 border border-[#b9b9b9] rounded-[10px] px-5 py-3 min-w-[170px]">
+          <div className="absolute bottom-6 left-[-84px] sm:left-[-86px] backdrop-blur-md bg-white/40 border border-[#b9b9b9] rounded-[10px] px-5 py-3 min-w-[170px]">
             <p className="font-['DM_Serif_Display',serif] text-[#137fec] text-[36px] leading-[1.45]">2009</p>
             <p className="font-inter text-[#475569] text-[10px] tracking-wide uppercase leading-[1.45]">Since</p>
           </div>

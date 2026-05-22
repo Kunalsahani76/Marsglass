@@ -615,9 +615,7 @@ function Container12() {
 function Frame69() {
   return (
     <div className="h-[426px] relative rounded-tl-[16px] rounded-tr-[16px] shrink-0 w-full">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-tl-[16px] rounded-tr-[16px]">
-        <img alt="" className="absolute h-full left-[-110.74%] max-w-none top-[0.08%] w-[284.71%]" src={imgFrame1000007684} />
-      </div>
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgFrame1000007684} />
     </div>
   );
 }

@@ -594,7 +594,7 @@ function Container13() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
       <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#475569] text-[14px] w-full">
-        <p className="leading-[22.75px]">The slim aluminum profiles create a sleek and contemporary design suitable for modern architecture.</p>
+        <p className="leading-[22.75px]">The slim aluminium profiles create a sleek and contemporary design suitable for modern architecture.</p>
       </div>
     </div>
   );
@@ -716,7 +716,7 @@ function Frame21() {
         <p className="leading-[40px]">Frame Material</p>
       </div>
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">High-grade Aluminum Alloy</p>
+        <p className="leading-[40px]">High-grade Aluminium Alloy</p>
       </div>
     </div>
   );
@@ -1152,7 +1152,7 @@ function Frame44() {
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Frame62 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-          Aluminum frames
+          Aluminium frames
         </p>
       </div>
       <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.05] hover:bg-[#0f3b64] hover:shadow-[0px_16px_32px_-12px_rgba(0,123,255,0.65)]">

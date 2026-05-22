@@ -55,7 +55,7 @@ function Frame7() {
         ACP Cladding Systems
       </p>
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal h-[59px] justify-center leading-[0] relative shrink-0 text-[18px] text-center text-white w-[640.31px]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[29.25px]">Enhance the exterior of commercial and residential buildings with durable and stylish aluminum composite cladding systems</p>
+        <p className="leading-[29.25px]">Enhance the exterior of commercial and residential buildings with durable and stylish aluminium composite cladding systems</p>
       </div>
       <Frame4 />
     </div>
@@ -78,7 +78,7 @@ function Heading() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Heading 2">
       <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[36px] text-white w-full">
-        <p className="leading-[45px]">Aluminum Composite Panel (ACP) Cladding Systems</p>
+        <p className="leading-[45px]">Aluminium Composite Panel (ACP) Cladding Systems</p>
       </div>
     </div>
   );
@@ -89,7 +89,7 @@ function Frame8() {
     <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
       <Heading />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#e8def8] text-[18px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[29.25px]">ACP panels consist of two aluminum sheets bonded to a non-aluminum core, providing excellent structural stability while maintaining a sleek and contemporary façade appearance.</p>
+        <p className="leading-[29.25px]">ACP panels consist of two aluminium sheets bonded to a non-aluminium core, providing excellent structural stability while maintaining a sleek and contemporary façade appearance.</p>
       </div>
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[18px] text-white w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[29.25px]">ACP cladding not only enhances the aesthetic appeal of buildings but also improves weather resistance, thermal insulation, and structural protection.</p>
@@ -591,7 +591,7 @@ function Frame10() {
   return (
     <div className="relative shrink-0 w-full">
       <div className="flex flex-row items-center justify-center size-full">
-        <div className="content-stretch flex flex-wrap gap-x-[48px] gap-y-[40px] items-center justify-center max-w-[1312px] px-[32px] py-[40px] relative size-full">
+        <div className="content-stretch flex flex-wrap gap-x-[48px] gap-y-[40px] items-center justify-center max-w-[920px] px-[32px] py-[40px] relative size-full">
           <div className="acp-type-card bg-white content-stretch flex flex-col h-[444px] items-start overflow-clip relative rounded-[16px] shadow-[0px_10px_30px_-5px_rgba(0,0,0,0.05)] shrink-0 w-[384px]" data-name="Card 1">
             <Container />
             <Container1 />
@@ -659,7 +659,7 @@ function Frame32() {
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
       <Margin6 />
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f8fafc] text-[16px] whitespace-nowrap">
-        <p className="leading-[24px]">Aluminum composite panels</p>
+        <p className="leading-[24px]">Aluminium composite panels</p>
       </div>
     </div>
   );
@@ -690,7 +690,7 @@ function Frame34() {
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
       <Margin7 />
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f8fafc] text-[16px] whitespace-nowrap">
-        <p className="leading-[24px]">Aluminum subframe structure</p>
+        <p className="leading-[24px]">Aluminium subframe structure</p>
       </div>
     </div>
   );
@@ -1096,7 +1096,7 @@ function Container13() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
       <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
-        <p className="leading-[24px]">High-strength aluminum framing systems</p>
+        <p className="leading-[24px]">High-strength aluminium framing systems</p>
       </div>
     </div>
   );
@@ -1654,7 +1654,7 @@ function Frame59() {
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex gap-[265px] items-center leading-[0] not-italic px-[40px] py-[15px] relative size-full text-[16px] text-black">
           <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center relative shrink-0 whitespace-nowrap">
-            <p className="leading-[normal]">Aluminum Skin Thickness</p>
+            <p className="leading-[normal]">Aluminium Skin Thickness</p>
           </div>
           <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[20px] justify-center relative shrink-0 w-[216.98px]">
             <p className="leading-[normal]">0.25mm to 0.50mm</p>
@@ -1747,7 +1747,7 @@ function Frame64() {
             <p className="leading-[normal]">Substructure</p>
           </div>
           <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[20px] justify-center relative shrink-0 w-[305.48px]">
-            <p className="leading-[normal]">Extruded Aluminum Alloys (6063-T5/T6)</p>
+            <p className="leading-[normal]">Extruded Aluminium Alloys (6063-T5/T6)</p>
           </div>
         </div>
       </div>
@@ -2123,7 +2123,7 @@ function Frame76() {
       <button className="acp-faq-button content-stretch cursor-pointer flex flex-col gap-[14px] h-[40px] items-start overflow-clip relative shrink-0 w-full">
         <Frame71 />
         <div className="acp-faq-answer flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[18px] text-left text-white w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-          <p className="leading-[40px]">ACP cladding is a façade system using aluminum composite panels to create modern, lightweight, and weather-resistant building exteriors.</p>
+          <p className="leading-[40px]">ACP cladding is a façade system using aluminium composite panels to create modern, lightweight, and weather-resistant building exteriors.</p>
         </div>
       </button>
     </div>

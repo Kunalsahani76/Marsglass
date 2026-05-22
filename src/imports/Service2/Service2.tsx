@@ -523,7 +523,7 @@ function Container11() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#475569] text-[14px] w-full">
-        <p className="leading-[22.75px] mb-0">In two-sided structural glazing, glass panels are bonded on two sides with structural silicone, while the other two sides are supported using aluminum pressure plates or caps.</p>
+        <p className="leading-[22.75px] mb-0">In two-sided structural glazing, glass panels are bonded on two sides with structural silicone, while the other two sides are supported using aluminium pressure plates or caps.</p>
         <p className="leading-[22.75px]">This system provides a balance between structural performance, installation.</p>
       </div>
     </div>
@@ -781,7 +781,7 @@ function Container19() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
       <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
-        <p className="leading-[24px]">High-strength aluminum framing systems</p>
+        <p className="leading-[24px]">High-strength aluminium framing systems</p>
       </div>
     </div>
   );
@@ -890,7 +890,7 @@ function Margin9() {
 function Container23() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
-      <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white w-[468px]">
+      <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white w-[416px]">
         <p className="leading-[24px]">Stainless steel spider fittings (for point-supported systems)</p>
       </div>
     </div>
@@ -899,7 +899,7 @@ function Container23() {
 
 function Container22() {
   return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-[468px]" data-name="Container">
+    <div className="content-stretch flex flex-col items-start relative shrink-0 w-[416px]" data-name="Container">
       <Container23 />
     </div>
   );
@@ -907,7 +907,7 @@ function Container22() {
 
 function Item3() {
   return (
-    <div className="content-stretch flex items-center relative shrink-0" data-name="Item">
+    <div className="content-stretch flex items-center relative shrink-0 w-full" data-name="Item">
       <Margin9 />
       <Container22 />
     </div>

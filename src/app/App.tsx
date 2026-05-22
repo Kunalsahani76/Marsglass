@@ -65,7 +65,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminium Windows & Doors": "#/services/aluminum-windows-doors",
+    "Aluminium Windows & Doors": "#/services/aluminium-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",
@@ -926,7 +926,7 @@ export default function App() {
   const isStructuralGlazingRoute = hash.startsWith("#/services/structural-glazing-systems");
   const isAcpCladdingRoute = hash.startsWith("#/services/acp-cladding-systems");
   const isGlassCanopyRoute = hash.startsWith("#/services/glass-canopy-systems");
-  const isAluminumWindowsDoorsRoute = hash.startsWith("#/services/aluminum-windows-doors");
+  const isAluminumWindowsDoorsRoute = hash.startsWith("#/services/aluminum-windows-doors") || hash.startsWith("#/services/aluminium-windows-doors");
   const isGlassPartitionRoute = hash.startsWith("#/services/glass-partition-systems");
   const isInteriorGlassRoute = hash.startsWith("#/services/interior-glass-solutions");
   const isAluminiumDoorRoute = hash.startsWith("#/services/aluminium-door-systems");

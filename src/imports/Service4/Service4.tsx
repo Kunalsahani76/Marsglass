@@ -151,9 +151,9 @@ function Frame12() {
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#0a2540] text-[32px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Overview</p>
       </div>
-      <div className="font-['Roboto:Regular',sans-serif] font-normal h-[75px] relative shrink-0 text-[#625b71] text-[22px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[normal] mb-0">Glass Canopy Systems are architectural structures installed above building entrances to provide weather protection while maintaining transparency and modern aesthetics.</p>
-        <p className="leading-[normal]">These systems use tempered laminated glass panels supported by stainless steel or aluminum structures.</p>
+      <div className="font-['Roboto:Regular',sans-serif] font-normal relative shrink-0 text-[#625b71] text-[22px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
+        <p className="leading-[1.28] mb-0">Glass Canopy Systems are architectural structures installed above building entrances to provide weather protection while maintaining transparency and modern aesthetics.</p>
+        <p className="leading-[1.28]">These systems use tempered laminated glass panels supported by stainless steel or aluminium structures.</p>
       </div>
     </div>
   );
@@ -598,7 +598,7 @@ function Frame17() {
         <p className="leading-[40px]">Frame</p>
       </div>
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Aluminum / Steel</p>
+        <p className="leading-[40px]">Aluminium / Steel</p>
       </div>
     </div>
   );
@@ -818,7 +818,7 @@ function Frame34() {
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <NounBuilding />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-          Aluminum support structures
+          Aluminium support structures
         </p>
       </div>
     </div>

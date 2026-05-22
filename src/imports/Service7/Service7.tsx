@@ -158,7 +158,7 @@ function Frame22() {
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] min-w-full relative shrink-0 text-[#0a2540] text-[32px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[40px]">Overview</p>
       </div>
-      <p className="font-['Roboto:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#625b71] text-[22px] w-[841px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="font-['Roboto:Regular',sans-serif] font-normal leading-[1.35] relative shrink-0 text-[#625b71] text-[22px] w-[841px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         Interior Glass Solutions enhance interiors with transparency, light, and modern aesthetics. These systems use tempered or laminated glass to create functional, safe, and visually open spaces.
       </p>
     </div>
@@ -799,7 +799,7 @@ function Frame30() {
         <p className="leading-[40px]">Frame</p>
       </div>
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Aluminum / SS</p>
+        <p className="leading-[40px]">Aluminium / SS</p>
       </div>
     </div>
   );
@@ -968,7 +968,7 @@ function Frame44() {
         <div aria-hidden="true" className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px]" />
         <Frame77 />
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-          Aluminum / SS frames
+          Aluminium / SS frames
         </p>
       </div>
       <div className="service-key-component-card bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">
@@ -1367,7 +1367,7 @@ function Frame67() {
     <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[24px]">Glass Partitions<br />Aluminum Frame Partitions<br />Modular Partitions<br />Sliding / Folding Partitions</p>
+        <p className="leading-[24px]">Glass Partitions<br />Aluminium Frame Partitions<br />Modular Partitions<br />Sliding / Folding Partitions</p>
       </div>
     </div>
   );
@@ -1507,7 +1507,7 @@ function Frame75() {
     <div className="interior-glass-faq-answer content-stretch flex items-end relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute border-b-[0.5px] border-solid border-white inset-0 pointer-events-none" />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[22px]">Frame material: High-grade aluminum / slim steel profiles<br />Profile thickness: Typically 20mm-40mm (customizable)<br />Glass thickness: 6mm, 8mm, 10mm, 12mm toughened glass<br />Surface finish: Powder-coated / anodized<br />Hardware: SS fittings, rollers, hinges (if applicable)<br />Acoustic performance: Optional sound-reduction configurations<br />Installation: Dry installation system (no heavy civil work)<br />Maintenance: Easy-clean surfaces, replaceable components</p>
+        <p className="leading-[22px]">Frame material: High-grade aluminium / slim steel profiles<br />Profile thickness: Typically 20mm-40mm (customizable)<br />Glass thickness: 6mm, 8mm, 10mm, 12mm toughened glass<br />Surface finish: Powder-coated / anodized<br />Hardware: SS fittings, rollers, hinges (if applicable)<br />Acoustic performance: Optional sound-reduction configurations<br />Installation: Dry installation system (no heavy civil work)<br />Maintenance: Easy-clean surfaces, replaceable components</p>
       </div>
     </div>
   );

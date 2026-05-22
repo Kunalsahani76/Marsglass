@@ -160,7 +160,7 @@ function Frame15() {
         <p className="leading-[40px]">Overview</p>
       </div>
       <p className="font-['Roboto:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#625b71] text-[22px] w-[841px]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Glass Partition Systems create functional spaces while maintaining openness and natural light. These systems use tempered or laminated glass with aluminum or steel supports, making interiors modern, efficient, and visually spacious.
+        Glass Partition Systems create functional spaces while maintaining openness and natural light. These systems use tempered or laminated glass with aluminium or steel supports, making interiors modern, efficient, and visually spacious.
       </p>
     </div>
   );
@@ -249,7 +249,7 @@ function Heading1() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Heading 3">
       <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#0a2540] text-[20px] w-full">
-        <p className="leading-[28px]">Aluminum Framed</p>
+        <p className="leading-[28px]">Aluminium Framed</p>
       </div>
     </div>
   );
@@ -782,7 +782,7 @@ function Frame20() {
         <p className="leading-[40px]">Frame</p>
       </div>
       <div className="flex flex-col font-['Roboto:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[18px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[40px]">Aluminum / SS</p>
+        <p className="leading-[40px]">Aluminium / SS</p>
       </div>
     </div>
   );
@@ -981,7 +981,7 @@ function Frame37() {
           </svg>
         </div>
         <p className="font-['Roboto:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-          Aluminum / SS frames
+          Aluminium / SS frames
         </p>
       </div>
       <div className="bg-[#0a2540] content-stretch flex gap-[6px] items-center p-[10px] relative rounded-[8px] shrink-0">

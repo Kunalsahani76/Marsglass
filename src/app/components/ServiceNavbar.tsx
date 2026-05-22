@@ -27,7 +27,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminium Windows & Doors": "#/services/aluminum-windows-doors",
+    "Aluminium Windows & Doors": "#/services/aluminium-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",
@@ -83,7 +83,8 @@ export default function ServiceNavbar() {
   }, [servicesOpen]);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <>
+    <header className="fixed left-0 right-0 top-0 z-50 bg-white shadow-sm">
       <div className="mx-auto flex items-center justify-between px-6 py-3 max-w-[1400px]">
         <a href="#/" className="h-[52px] w-[73px] relative overflow-hidden shrink-0">
           <img
@@ -214,5 +215,7 @@ export default function ServiceNavbar() {
         </div>
       )}
     </header>
+    <div aria-hidden="true" className="h-[76px] shrink-0" />
+    </>
   );
 }

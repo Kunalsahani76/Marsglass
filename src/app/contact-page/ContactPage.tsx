@@ -32,7 +32,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminium Windows & Doors": "#/services/aluminum-windows-doors",
+    "Aluminium Windows & Doors": "#/services/aluminium-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",

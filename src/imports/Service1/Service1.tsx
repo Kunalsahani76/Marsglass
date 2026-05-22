@@ -312,8 +312,8 @@ function Overlay() {
 function Heading1() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Heading 4">
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center leading-[0] not-italic relative shrink-0 text-[#0f172a] text-[18px] w-[168.88px]">
-        <p className="leading-[28px]">Aluminum Mullions</p>
+      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center leading-[0] not-italic relative shrink-0 text-[#0f172a] text-[18px] whitespace-nowrap w-[220px]">
+        <p className="leading-[28px]">Aluminium Mullions</p>
       </div>
     </div>
   );
@@ -367,8 +367,8 @@ function Overlay1() {
 function Heading2() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Heading 4">
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center leading-[0] not-italic relative shrink-0 text-[#0f172a] text-[18px] w-[181.3px]">
-        <p className="leading-[28px]">Aluminum Transoms</p>
+      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold h-[28px] justify-center leading-[0] not-italic relative shrink-0 text-[#0f172a] text-[18px] whitespace-nowrap w-[220px]">
+        <p className="leading-[28px]">Aluminium Transoms</p>
       </div>
     </div>
   );
@@ -759,7 +759,7 @@ function Frame30() {
     <div className="content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[521px]">
       <Frame31 />
       <div className="flex flex-col font-['Roboto:Regular',sans-serif] font-normal justify-center leading-[0] min-w-full relative shrink-0 text-[#e7e7e7] text-[14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[24px]">The use of aluminum framing and high-performance glazing creates a façade system that is lightweight yet durable and structurally reliable.</p>
+        <p className="leading-[24px]">The use of aluminium framing and high-performance glazing creates a façade system that is lightweight yet durable and structurally reliable.</p>
       </div>
     </div>
   );
@@ -1172,7 +1172,7 @@ function Frame64() {
         <p className="leading-[28px]">Premium Materials</p>
       </div>
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-white text-[14px] whitespace-nowrap">
-        <p className="leading-[20px] mb-0">We source only high-grade aluminum</p>
+        <p className="leading-[20px] mb-0">We source only high-grade aluminium</p>
         <p className="leading-[20px]">and solar-control glass..</p>
       </div>
     </div>
