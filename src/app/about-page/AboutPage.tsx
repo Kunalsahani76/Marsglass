@@ -188,7 +188,7 @@ function Navbar() {
                   </svg>
                 </button>
                 {servicesOpen && (
-                  <div className="absolute left-1/2 top-full z-50 mt-8 w-[min(792px,calc(100vw-48px))] -translate-x-1/2 bg-white px-[30px] py-[28px] shadow-[0_12px_30px_rgba(0,0,0,0.08)]">
+                  <div className="absolute left-1/2 top-full z-50 mt-8 w-[min(980px,calc(100vw-48px))] -translate-x-1/2 bg-white px-[30px] py-[28px] shadow-[0_12px_30px_rgba(0,0,0,0.08)]">
                     <div className="grid grid-cols-3 gap-[88px]">
                       {serviceColumns.map((column, columnIndex) => (
                         <div key={columnIndex} className="flex flex-col items-start gap-[15px]">
@@ -196,7 +196,7 @@ function Navbar() {
                             <a
                               key={service}
                               href={serviceNavHref(service)}
-                              className="border-b border-black pb-[3px] font-roboto text-[16px] leading-none text-black hover:text-[#1173d4]"
+                              className="whitespace-nowrap border-b border-black pb-[3px] font-roboto text-[16px] leading-none text-black hover:text-[#1173d4]"
                               onClick={() => setServicesOpen(false)}
                             >
                               {service}
@@ -285,17 +285,17 @@ function Hero() {
       />
       <div className="absolute inset-0 bg-black/40" />
       <div className="about-hero-content relative z-10 max-w-[1400px] mx-auto px-6 lg:px-20 pt-10 pb-24 lg:pt-12 lg:pb-28 flex flex-col gap-10">
-        <div className="about-hero-title max-w-[760px]">
+        <div className="about-hero-title home-load-fade home-load-title max-w-[760px]">
           <h1 className="font-roboto text-white text-[42px] sm:text-[56px] lg:text-[70px] leading-[1.2] tracking-[-0.4px] font-normal">
             Redefining Architectural{" "}
             <span className="text-[#00c0e8]">Glass and Facade </span>
             Engineering
           </h1>
         </div>
-        <p className="about-hero-copy font-roboto font-medium text-white text-[16px] sm:text-[18px] max-w-[700px] leading-[1.4] tracking-[-0.38px]">
+        <p className="about-hero-copy home-load-fade home-load-intro font-roboto font-medium text-white text-[16px] sm:text-[18px] max-w-[700px] leading-[1.4] tracking-[-0.38px]">
           Pioneering precision-engineered facade solutions that blend structural integrity with aesthetic brilliance. We turn architectural visions into iconic landmarks.
         </p>
-        <div className="about-hero-actions flex flex-wrap gap-3">
+        <div className="about-hero-actions home-load-fade home-load-actions flex flex-wrap gap-3">
           <a
             href="#/projects"
             className="bg-[#5a93d1] text-black font-roboto font-bold text-[16px] px-8 py-3.5 rounded-lg"

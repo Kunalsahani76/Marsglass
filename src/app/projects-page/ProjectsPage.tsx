@@ -183,7 +183,7 @@ function Navbar() {
                   </svg>
                 </button>
                 {servicesOpen && (
-                  <div className="absolute left-1/2 top-full z-50 mt-8 w-[min(792px,calc(100vw-48px))] -translate-x-1/2 bg-white px-[30px] py-[28px] shadow-[0_12px_30px_rgba(0,0,0,0.08)]">
+                  <div className="absolute left-1/2 top-full z-50 mt-8 w-[min(980px,calc(100vw-48px))] -translate-x-1/2 bg-white px-[30px] py-[28px] shadow-[0_12px_30px_rgba(0,0,0,0.08)]">
                     <div className="grid grid-cols-3 gap-[88px]">
                       {serviceColumns.map((column, columnIndex) => (
                         <div key={columnIndex} className="flex flex-col items-start gap-[15px]">
@@ -191,7 +191,7 @@ function Navbar() {
                             <a
                               key={service}
                               href={serviceNavHref(service)}
-                              className="border-b border-black pb-[3px] font-roboto text-[16px] leading-none text-black hover:text-[#1173d4]"
+                              className="whitespace-nowrap border-b border-black pb-[3px] font-roboto text-[16px] leading-none text-black hover:text-[#1173d4]"
                               onClick={() => setServicesOpen(false)}
                             >
                               {service}

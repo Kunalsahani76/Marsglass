@@ -1621,7 +1621,7 @@ function Frame57() {
             <p className="leading-[16px]">Parameter</p>
           </div>
           <div className="flex flex-col h-[16px] justify-center relative shrink-0 w-[173.23px]">
-            <p className="leading-[16px]">Standard Specification</p>
+            <p className="leading-[16px]">Specification</p>
           </div>
         </div>
       </div>

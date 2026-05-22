@@ -142,7 +142,7 @@ function Frame8() {
 
 function Frame10() {
   return (
-    <div className="absolute content-stretch flex gap-[35px] items-center left-[98px] top-[62.82px]">
+    <div className="curtain-wall-intro-content absolute content-stretch flex gap-[35px] items-center left-[98px] top-[62.82px]">
       <Frame9 />
       <Frame8 />
     </div>
@@ -151,7 +151,7 @@ function Frame10() {
 
 function Frame5() {
   return (
-    <div className="bg-[#f6f8fb] h-[650px] overflow-clip relative shrink-0 w-full">
+    <div className="curtain-wall-intro-section bg-[#f6f8fb] h-[650px] overflow-clip relative shrink-0 w-full">
       <Frame10 />
     </div>
   );
@@ -159,7 +159,7 @@ function Frame5() {
 
 function Frame15() {
   return (
-    <div className="content-stretch flex items-start relative shrink-0 w-full">
+    <div className="curtain-wall-types-heading content-stretch flex items-start relative shrink-0 w-full">
       <p className="bg-clip-text bg-gradient-to-r font-['Roboto:Medium',sans-serif] font-medium from-[#5a93d1] leading-[1.2] relative shrink-0 text-[36px] text-[transparent] to-black tracking-[-1.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         Types of Curtain Wall Systems
       </p>
@@ -180,7 +180,7 @@ function Container() {
 
 function Frame20() {
   return (
-    <div className="content-stretch flex flex-col items-start py-[10px] relative shrink-0 w-[692px]">
+    <div className="curtain-wall-types-intro content-stretch flex flex-col items-start py-[10px] relative shrink-0 w-[692px]">
       <Container />
     </div>
   );
@@ -263,7 +263,7 @@ function Frame13() {
 
 function Frame16() {
   return (
-    <div className="content-stretch flex items-start justify-between relative shrink-0 w-full">
+    <div className="curtain-wall-types-grid content-stretch flex items-start justify-between relative shrink-0 w-full">
       <Frame12 />
       <Frame11 />
       <Frame13 />
@@ -273,7 +273,7 @@ function Frame16() {
 
 function Frame17() {
   return (
-    <div className="relative shrink-0 w-full">
+    <div className="curtain-wall-types-section relative shrink-0 w-full">
       <div className="content-stretch flex flex-col gap-[10px] items-start px-[30px] py-[40px] relative size-full">
         <Frame15 />
         <Frame20 />
@@ -463,7 +463,7 @@ function Comp2() {
 
 function Frame23() {
   return (
-    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+    <div className="curtain-wall-core-row content-stretch flex items-center justify-between relative shrink-0 w-full">
       <Comp />
       <Comp1 />
       <Comp2 />
@@ -638,7 +638,7 @@ function Comp5() {
 
 function Frame24() {
   return (
-    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+    <div className="curtain-wall-core-row content-stretch flex items-center justify-between relative shrink-0 w-full">
       <Comp3 />
       <Comp4 />
       <Comp5 />
@@ -648,7 +648,7 @@ function Frame24() {
 
 function Frame25() {
   return (
-    <div className="content-stretch flex flex-col h-[300px] items-center justify-between relative shrink-0 w-full">
+    <div className="curtain-wall-core-grid content-stretch flex flex-col h-[300px] items-center justify-between relative shrink-0 w-full">
       <Frame23 />
       <Frame24 />
     </div>
@@ -657,7 +657,7 @@ function Frame25() {
 
 function Frame26() {
   return (
-    <div className="bg-[#f4f4f4] relative shrink-0 w-full">
+    <div className="curtain-wall-core-section bg-[#f4f4f4] relative shrink-0 w-full">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[64px] items-center p-[40px] relative size-full">
           <Frame22 />
@@ -905,7 +905,7 @@ function Frame34() {
 
 function Frame35() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[27px] items-start left-[674px] top-[41px] w-[550px]">
+    <div className="curtain-wall-advantages-copy absolute content-stretch flex flex-col gap-[27px] items-start left-[674px] top-[41px] w-[550px]">
       <Frame29 />
       <Frame34 />
     </div>
@@ -914,7 +914,7 @@ function Frame35() {
 
 function Frame41() {
   return (
-    <div className="absolute h-[679px] left-[44px] pointer-events-none top-[41px] w-[574px]">
+    <div className="curtain-wall-advantages-image absolute h-[679px] left-[44px] pointer-events-none top-[41px] w-[574px]">
       <img alt="" className="absolute inset-0 max-w-none object-cover size-full" src={imgFrame1000007480} />
       <div aria-hidden="true" className="absolute border-2 border-solid border-white inset-0" />
     </div>
@@ -923,7 +923,7 @@ function Frame41() {
 
 function Frame39() {
   return (
-    <div className="h-[757px] overflow-clip relative shrink-0 w-[1341px]">
+    <div className="curtain-wall-advantages-section h-[757px] overflow-clip relative shrink-0 w-[1341px]">
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
         <img alt="" className="absolute max-w-none object-cover size-full" src={imgFrame1000007480} />
         <div className="absolute inset-0" style={{ backgroundImage: "linear-gradient(-89.5598deg, rgba(0, 0, 0, 0.8) 0.2259%, rgba(102, 102, 102, 0.8) 99.802%)" }} />
@@ -1079,7 +1079,7 @@ function Frame55() {
 
 function Frame44() {
   return (
-    <div className="relative shrink-0 w-full">
+    <div className="curtain-wall-applications-grid relative shrink-0 w-full">
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-center flex flex-wrap gap-y-[40px] items-center justify-between px-[40px] relative size-full">
           <div className="service-application-card bg-[#f7f5fa] h-[522px] relative rounded-[12px] shrink-0 w-[283px]">
@@ -1118,7 +1118,7 @@ function Frame44() {
 
 function Frame43() {
   return (
-    <div className="content-stretch flex flex-col gap-[35px] items-center py-[40px] relative shrink-0 w-full">
+    <div className="curtain-wall-applications-section content-stretch flex flex-col gap-[35px] items-center py-[40px] relative shrink-0 w-full">
       <Frame42 />
       <Frame44 />
     </div>
@@ -1221,7 +1221,7 @@ function Frame65() {
 
 function Frame60() {
   return (
-    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+    <div className="curtain-wall-why-row content-stretch flex items-center justify-between relative shrink-0 w-full">
       <Frame61 />
       <Frame63 />
       <Frame65 />
@@ -1312,7 +1312,7 @@ function Frame72() {
 
 function Frame67() {
   return (
-    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+    <div className="curtain-wall-why-row content-stretch flex items-center justify-between relative shrink-0 w-full">
       <Frame68 />
       <Frame70 />
       <Frame72 />
@@ -1322,7 +1322,7 @@ function Frame67() {
 
 function Frame59() {
   return (
-    <div className="h-[310px] relative shrink-0 w-full">
+    <div className="curtain-wall-why-grid h-[310px] relative shrink-0 w-full">
       <div className="flex flex-col items-center justify-center size-full">
         <div className="content-stretch flex flex-col items-center justify-between px-[140px] relative size-full">
           <Frame60 />
@@ -1339,7 +1339,7 @@ function Frame74() {
 
 function Frame57() {
   return (
-    <div className="content-stretch flex flex-col gap-[72px] items-center overflow-clip py-[40px] relative shrink-0 w-full">
+    <div className="curtain-wall-why-section content-stretch flex flex-col gap-[72px] items-center overflow-clip py-[40px] relative shrink-0 w-full">
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
         <img alt="" className="absolute max-w-none object-cover size-full" src={imgFrame1000007485} />
         <div className="absolute bg-[rgba(0,0,0,0.4)] inset-0" />

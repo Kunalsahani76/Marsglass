@@ -81,6 +81,13 @@
   transform-origin: top left;
 }
 
+@media (max-width: 768px) {
+  .service-hero-page.service-import-frame,
+  .glass-canopy-page.service-import-frame {
+    display: none;
+  }
+}
+
 .home-wallpaper-carousel {
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
 }
@@ -229,9 +236,119 @@
     transform 180ms ease;
 }
 
+.curtain-wall-page .curtain-wall-types-section > div {
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 650px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.curtain-wall-page .curtain-wall-types-heading {
+  justify-content: center !important;
+}
+
+.curtain-wall-page .curtain-wall-types-intro {
+  align-items: center !important;
+}
+
+.curtain-wall-page .curtain-wall-types-intro [data-name="Container"],
+.curtain-wall-page .curtain-wall-types-intro [data-name="Container"] > div {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.curtain-wall-page .curtain-wall-types-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 409px);
+  gap: 40px;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.curtain-wall-page .curtain-wall-core-section > div > div {
+  justify-content: center !important;
+  min-height: 490px;
+}
+
+.curtain-wall-page .curtain-wall-core-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 384px);
+  gap: 26px 136px;
+  height: auto !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.curtain-wall-page .curtain-wall-core-row {
+  display: contents !important;
+}
+
+.curtain-wall-page .curtain-wall-applications-section {
+  justify-content: center !important;
+  min-height: 650px;
+}
+
+.curtain-wall-page .curtain-wall-applications-grid > div > div {
+  display: grid !important;
+  grid-template-columns: repeat(4, 283px);
+  gap: 80px;
+  justify-content: center !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  width: 100% !important;
+}
+
+.curtain-wall-page .curtain-wall-intro-section {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.curtain-wall-page .curtain-wall-intro-content {
+  left: auto !important;
+  top: auto !important;
+  position: relative !important;
+  justify-content: center !important;
+}
+
+.curtain-wall-page .curtain-wall-advantages-section {
+  width: 100% !important;
+}
+
+.curtain-wall-page .curtain-wall-advantages-image {
+  left: calc(50% - 626px) !important;
+}
+
+.curtain-wall-page .curtain-wall-advantages-copy {
+  left: calc(50% + 4px) !important;
+}
+
+.curtain-wall-page .curtain-wall-why-section {
+  justify-content: center !important;
+  min-height: 550px;
+}
+
+.curtain-wall-page .curtain-wall-why-grid > div > div {
+  display: grid !important;
+  grid-template-columns: repeat(3, 320px);
+  gap: 70px 220px;
+  height: auto !important;
+  justify-content: center !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
+}
+
+.curtain-wall-page .curtain-wall-why-row {
+  display: contents !important;
+}
+
 .glass-partition-page a[data-name="Button"][href="#/contact"] {
-  background-color: #ffffff !important;
-  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.95);
+  background-color: #5a93d1 !important;
+  box-shadow: none;
 }
 
 .glass-partition-page [data-name="Modern Glass Building"] > div:not([aria-hidden]) {
@@ -249,7 +366,7 @@
 
 .glass-partition-page .glass-partition-spec-section .glass-partition-spec-header,
 .glass-partition-page .glass-partition-spec-section .glass-partition-spec-body {
-  width: min(100%, 814px) !important;
+  width: 814px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   background: transparent !important;
@@ -261,9 +378,10 @@
 
 .glass-partition-page .glass-partition-spec-section .glass-partition-spec-header > div > div {
   display: grid !important;
-  grid-template-columns: minmax(220px, 1fr) minmax(320px, 1.35fr) !important;
+  grid-template-columns: minmax(180px, 1fr) minmax(280px, 1.35fr) !important;
   gap: 24px !important;
-  padding: 0 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   font-family: "Inter", "Roboto", sans-serif !important;
   font-size: 16px !important;
   font-weight: 700 !important;
@@ -279,7 +397,7 @@
 }
 
 .glass-partition-page .glass-partition-spec-section .glass-partition-spec-body > div:not(.glass-partition-spec-header) {
-  width: min(100%, 814px) !important;
+  width: 814px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -1021,7 +1139,7 @@
 }
 
 .acp-cladding-page .acp-spec-section .acp-spec-body > div {
-  width: min(100%, 814px) !important;
+  width: 814px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 0 !important;
@@ -1029,9 +1147,11 @@
 }
 
 .acp-cladding-page .acp-spec-section .acp-spec-header {
-  width: 100% !important;
+  width: 814px !important;
   background: #111828 !important;
   border-radius: 10px 10px 0 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .acp-cladding-page .acp-spec-section .acp-spec-header > div > div {
@@ -1050,10 +1170,15 @@
 .acp-cladding-page .acp-spec-section .acp-spec-header > div > div > div {
   width: auto !important;
   height: auto !important;
+  justify-content: center !important;
 }
 
 .acp-cladding-page .acp-spec-section .acp-spec-header > div > div > div:last-child {
   text-align: right;
+}
+
+.acp-cladding-page .acp-spec-section .acp-spec-header p {
+  line-height: 40px !important;
 }
 
 .acp-cladding-page .acp-spec-section .acp-spec-body > div > div:not(.acp-spec-header) {

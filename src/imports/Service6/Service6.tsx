@@ -730,7 +730,7 @@ function Frame17() {
             <p className="leading-[40px]">Parameter</p>
           </div>
           <div className="flex flex-col justify-center relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>
-            <p className="leading-[40px]">Standard Specification</p>
+            <p className="leading-[40px]">Specification</p>
           </div>
         </div>
       </div>
