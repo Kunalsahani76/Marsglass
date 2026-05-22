@@ -118,7 +118,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
             © 2026 Manglass. All rights reserved.
           </p>
           <p className="font-['Inter',sans-serif] font-medium text-[#c7c6ca] text-[12px] tracking-[-0.3px] uppercase leading-[16px]">
-            {`Designed & Managed by D,Miraki.`}
+            {`Designed & Managed by D'Miraki.`}
           </p>
         </div>
       </div>
