@@ -304,6 +304,102 @@
   color: #0a3766;
 }
 
+.upvc-door-page .upvc-door-spec-section {
+  align-items: center !important;
+}
+
+.upvc-door-page .upvc-door-spec-section > div > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-header,
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: transparent !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-header {
+  background: #111828 !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-header > div > div {
+  display: grid !important;
+  grid-template-columns: minmax(220px, 1fr) minmax(320px, 1.35fr) !important;
+  gap: 24px !important;
+  padding: 0 20px !important;
+  font-family: "Inter", "Roboto", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-header > div > div > div {
+  width: auto !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-header > div > div > div:last-child {
+  text-align: right;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) {
+  width: min(100%, 814px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div {
+  width: 100% !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white {
+  left: 0 !important;
+  top: 12px !important;
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: minmax(220px, 1fr) minmax(320px, 1.35fr);
+  gap: 24px !important;
+  padding: 15px 20px !important;
+  text-align: left !important;
+  transition:
+    background 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white:hover {
+  background: linear-gradient(90deg, #ffffff 0%, #eaf3fb 34%, #b8d4ee 68%, #4299f0 100%) !important;
+  box-shadow: 0 12px 26px rgba(66, 153, 240, 0.22);
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white > div:not([aria-hidden="true"]) {
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  font-family: "Inter", "Roboto", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: left !important;
+  white-space: normal !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white > div:not([aria-hidden="true"]) p {
+  line-height: normal !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white > div:last-child {
+  text-align: right !important;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white:hover > div[aria-hidden="true"] {
+  border-color: #4299f0;
+}
+
+.upvc-door-page .upvc-door-spec-section .upvc-door-spec-body > div:not(.upvc-door-spec-header) > div > div.absolute.bg-white:hover > div:last-child {
+  color: #0a3766;
+}
+
 .glass-partition-page .glass-partition-hover-card,
 .glass-partition-page .glass-partition-application-card {
   transition:
