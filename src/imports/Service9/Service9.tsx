@@ -658,7 +658,7 @@ function Frame19() {
         <Frame68 />
         <Container12 />
       </div>
-      <div className="upvc-door-hover-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
+      <div className="upvc-door-hover-card upvc-sound-insulation-card bg-white content-stretch drop-shadow-[0px_10px_7.5px_rgba(0,0,0,0.45)] flex flex-col items-start relative rounded-[16px] shrink-0 w-[600px]">
         <Frame69 />
         <Container14 />
       </div>

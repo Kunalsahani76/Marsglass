@@ -406,14 +406,16 @@ function HeroSection() {
 function GradientSection({
   children,
   id,
+  separated = false,
 }: {
   children: React.ReactNode;
   id?: string;
+  separated?: boolean;
 }) {
   return (
     <section
       id={id}
-      className="w-full"
+      className={`w-full ${separated ? "border-t-[8px] border-white" : ""}`}
       style={{
         background:
           "linear-gradient(90deg, rgba(88,167,246,0.6) 0%, rgba(145,209,227,0.6) 100%)",
@@ -490,14 +492,14 @@ function AboutSection() {
             style={{
               width: "clamp(280px,45vw,580px)",
               aspectRatio: "580/406",
-              borderRadius: "0 230px 230px 0",
+              borderRadius: "230px 0 0 230px",
             }}
           >
             <img
               src={imgRectangle111141359}
               alt="About Mars Glass"
               className="section-image-zoom-media absolute inset-0 w-full h-full object-cover"
-              style={{ borderRadius: "0 230px 230px 0" }}
+              style={{ borderRadius: "230px 0 0 230px" }}
             />
           </div>
         </div>
@@ -509,7 +511,7 @@ function AboutSection() {
 /* ─── Vision Section ─── */
 function VisionSection() {
   return (
-    <GradientSection id="vision">
+    <GradientSection id="vision" separated>
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 xl:px-20 py-10 md:py-14 flex flex-col gap-6">
         <SectionTitle title="Our Vision" />
         <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between gap-10 lg:gap-12">
@@ -544,18 +546,18 @@ function VisionSection() {
             style={{
               width: "clamp(260px,43vw,549px)",
               aspectRatio: "549/382",
-              borderRadius: "217px 0 0 217px",
+              borderRadius: "0 217px 217px 0",
             }}
           >
             <img
               src={imgRectangle111141360}
               alt="Our Vision"
               className="section-image-zoom-media absolute inset-0 w-full h-full object-cover"
-              style={{ borderRadius: "217px 0 0 217px" }}
+              style={{ borderRadius: "0 217px 217px 0" }}
             />
             <div
               className="absolute inset-0 bg-black/30"
-              style={{ borderRadius: "217px 0 0 217px" }}
+              style={{ borderRadius: "0 217px 217px 0" }}
             />
           </div>
         </div>
@@ -567,7 +569,7 @@ function VisionSection() {
 /* ─── Mission Section ─── */
 function MissionSection() {
   return (
-    <GradientSection id="mission">
+    <GradientSection id="mission" separated>
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 xl:px-20 py-10 md:py-14 flex flex-col gap-6">
         <SectionTitle title="Our Mission" />
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-12">

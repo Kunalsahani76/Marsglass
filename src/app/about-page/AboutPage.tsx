@@ -325,17 +325,17 @@ function AboutSection() {
     <section id="about" className="bg-white border-t border-b border-black">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20 py-12 lg:py-[50px] flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Image with badge */}
-        <div className="relative shrink-0 w-full lg:w-[491px] h-[320px] sm:h-[396px]">
+        <div className="relative shrink-0 w-full max-w-[716px] lg:w-[52%] aspect-[716/537]">
           <div className="relative rounded-[10px] overflow-hidden h-full w-full">
-            <img src={imgAboutMain} alt="Team" className="w-full h-full object-cover" />
+            <img src={imgAboutMain} alt="Team" className="w-full h-full object-cover object-center" />
             <div className="absolute inset-0 bg-black/20 rounded-[10px]" />
           </div>
           {/* Badge */}
-          <div className="absolute bottom-6 right-4 sm:right-[-40px] backdrop-blur-md bg-white/40 border border-[#b9b9b9] rounded-[10px] px-5 py-3 min-w-[170px]">
-            <p className="font-['DM_Serif_Display',serif] text-[#137fec] text-[36px] leading-[1.45]">
+          <div className="absolute bottom-0 right-0 flex min-h-[86px] w-[min(38%,270px)] min-w-[178px] flex-col items-center justify-center rounded-[10px] border border-white/70 bg-[linear-gradient(110deg,rgba(255,255,255,0.38),rgba(164,172,172,0.72)_48%,rgba(255,255,255,0.42))] px-4 py-3 text-center shadow-[0_12px_30px_rgba(0,0,0,0.2)] backdrop-blur-md sm:min-h-[110px]">
+            <p className="font-['DM_Serif_Display',serif] text-[#137fec] text-[clamp(42px,5vw,68px)] leading-[0.95]">
               30 <span className="font-inter font-extrabold">+</span>
             </p>
-            <p className="font-inter text-[#475569] text-[10px] tracking-wide uppercase leading-[1.45]">Years of Experience</p>
+            <p className="mt-2 font-inter text-[#475569] text-[clamp(10px,1.1vw,14px)] tracking-wide uppercase leading-[1.2]">Years of Experience</p>
           </div>
         </div>
 
@@ -377,15 +377,15 @@ function LegacySection() {
         </div>
 
         {/* Image with badge */}
-        <div className="relative shrink-0 w-full lg:w-[491px] h-[320px] sm:h-[396px] order-1 lg:order-2">
+        <div className="relative shrink-0 w-full max-w-[536px] lg:w-[45%] aspect-[536/402] order-1 lg:order-2">
           <div className="relative rounded-[10px] overflow-hidden h-full w-full">
-            <img src={imgLegacyBg} alt="Legacy" className="w-full h-full object-cover" />
+            <img src={imgLegacyBg} alt="Legacy" className="w-full h-full object-cover object-center" />
             <div className="absolute inset-0 bg-black/50 rounded-[10px]" />
           </div>
           {/* 2009 Badge */}
-          <div className="absolute bottom-6 left-[-84px] sm:left-[-86px] backdrop-blur-md bg-white/40 border border-[#b9b9b9] rounded-[10px] px-5 py-3 min-w-[170px]">
-            <p className="font-['DM_Serif_Display',serif] text-[#137fec] text-[36px] leading-[1.45]">2009</p>
-            <p className="font-inter text-[#475569] text-[10px] tracking-wide uppercase leading-[1.45]">Since</p>
+          <div className="absolute bottom-0 left-0 flex min-h-[86px] w-[min(38%,205px)] min-w-[156px] flex-col items-center justify-center rounded-[10px] border border-white/70 bg-[linear-gradient(110deg,rgba(255,255,255,0.38),rgba(164,172,172,0.72)_48%,rgba(255,255,255,0.42))] px-4 py-3 text-center shadow-[0_12px_30px_rgba(0,0,0,0.2)] backdrop-blur-md sm:min-h-[104px]">
+            <p className="font-['DM_Serif_Display',serif] text-[#137fec] text-[clamp(42px,5vw,58px)] leading-[0.95]">2009</p>
+            <p className="mt-2 font-inter text-[#475569] text-[clamp(10px,1vw,14px)] tracking-wide uppercase leading-[1.2]">Since</p>
           </div>
         </div>
       </div>

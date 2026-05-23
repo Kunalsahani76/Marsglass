@@ -188,9 +188,9 @@ function Frame20() {
 
 function Frame14() {
   return (
-    <div className="absolute bg-[rgba(255,255,255,0.1)] capitalize content-stretch flex flex-col gap-[9px] items-start leading-[1.2] left-[30px] p-[10px] rounded-[12px] text-white top-[359px] w-[350px]">
+    <div className="absolute bottom-[26px] left-[18px] right-[18px] min-h-[116px] bg-[rgba(0,0,0,0.55)] content-stretch flex flex-col gap-[9px] items-start leading-[1.2] p-[10px] rounded-[8px] text-white">
       <p className="font-['Roboto:Medium',sans-serif] font-medium relative shrink-0 text-[24px] tracking-[-0.72px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Stick curtain wall system
+        Stick Curtain Wall System
       </p>
       <p className="font-['Roboto:Light',sans-serif] font-light relative shrink-0 text-[13px] tracking-[-0.13px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         Individual mullions and transoms are assembled on site, offering flexibility and cost efficiency for low to mid-rise buildings.
@@ -213,11 +213,11 @@ function Frame12() {
 
 function Frame18() {
   return (
-    <div className="absolute bg-[rgba(255,255,255,0.1)] capitalize content-stretch flex flex-col gap-[9px] items-start leading-[1.2] left-[17px] px-[10px] py-[17px] rounded-[12px] text-white top-[360px] w-[375px]">
-      <p className="font-['Roboto:Medium',sans-serif] font-medium min-w-full relative shrink-0 text-[24px] tracking-[-0.72px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
+    <div className="absolute bottom-[26px] left-[18px] right-[18px] min-h-[116px] bg-[rgba(0,0,0,0.55)] content-stretch flex flex-col gap-[9px] items-start leading-[1.2] p-[10px] rounded-[8px] text-white">
+      <p className="font-['Roboto:Medium',sans-serif] font-medium relative shrink-0 text-[24px] tracking-[-0.72px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         Semi-Unitized Curtain Wall System
       </p>
-      <p className="font-['Roboto:Light',sans-serif] font-light relative shrink-0 text-[13px] text-center tracking-[-0.13px] w-[329px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="font-['Roboto:Light',sans-serif] font-light relative shrink-0 text-[13px] tracking-[-0.13px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         Hybrid system combining factory fabrication with on-site assembly for complex architectural structures.
       </p>
     </div>
@@ -238,11 +238,11 @@ function Frame11() {
 
 function Frame21() {
   return (
-    <div className="absolute bg-[rgba(255,255,255,0.1)] content-stretch flex flex-col gap-[9px] items-start leading-[1.2] left-[17px] p-[10px] rounded-[12px] text-white top-[361px] w-[350px]">
-      <p className="font-['Roboto:Medium',sans-serif] font-medium min-w-full relative shrink-0 text-[24px] tracking-[-0.72px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
+    <div className="absolute bottom-[26px] left-[18px] right-[18px] min-h-[116px] bg-[rgba(0,0,0,0.55)] content-stretch flex flex-col gap-[9px] items-start leading-[1.2] p-[10px] rounded-[8px] text-white">
+      <p className="font-['Roboto:Medium',sans-serif] font-medium relative shrink-0 text-[24px] tracking-[-0.72px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         Unitized Curtain Wall System
       </p>
-      <p className="capitalize font-['Roboto:Light',sans-serif] font-light relative shrink-0 text-[13px] tracking-[0.26px] w-[291px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="capitalize font-['Roboto:Light',sans-serif] font-light relative shrink-0 text-[13px] tracking-[-0.13px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>
         Factory-fabricated façade panels that enable faster installation and better quality control for high-rise projects.
       </p>
     </div>

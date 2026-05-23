@@ -675,8 +675,69 @@
   will-change: transform;
 }
 
+.upvc-door-page .upvc-door-hover-card:first-child:last-child,
+.upvc-door-page .upvc-door-hover-card:first-child:nth-last-child(2),
+.upvc-door-page .upvc-door-hover-card:first-child:nth-last-child(2) ~ .upvc-door-hover-card {
+  max-width: 100%;
+}
+
+.upvc-door-page .upvc-door-hover-card:first-child:nth-last-child(2) {
+  margin-left: auto;
+}
+
+.upvc-door-page .upvc-door-hover-card:first-child:nth-last-child(2) ~ .upvc-door-hover-card {
+  margin-right: auto;
+}
+
+.upvc-door-page .upvc-door-hover-card:first-child:nth-last-child(2),
+.upvc-door-page .upvc-door-hover-card:first-child:nth-last-child(2) ~ .upvc-door-hover-card {
+  min-width: 0;
+}
+
+.upvc-door-page div:has(> .upvc-door-hover-card:first-child:nth-last-child(2)) {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: min(1120px, 100%) !important;
+}
+
 .upvc-door-page .upvc-door-hover-card > div:first-child {
   overflow: hidden;
+}
+
+.upvc-door-page .upvc-door-hover-card {
+  width: clamp(320px, 42vw, 520px) !important;
+}
+
+.upvc-door-page .upvc-door-hover-card > div:first-child {
+  height: clamp(260px, 31vw, 370px) !important;
+}
+
+.upvc-door-page .upvc-door-hover-card > div:last-child > div {
+  align-items: center !important;
+  text-align: center;
+}
+
+.upvc-door-page .upvc-door-hover-card > div:last-child [data-name="Heading 3"] > div,
+.upvc-door-page .upvc-door-hover-card > div:last-child [data-name="Container"] > div {
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.upvc-door-page .upvc-door-hover-card > div:last-child p {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.upvc-door-page .upvc-door-hover-card {
+  flex: 0 1 clamp(320px, 42vw, 520px) !important;
+}
+
+.upvc-door-page .upvc-door-hover-card:has(p) {
+  min-width: 0;
+}
+
+.upvc-door-page .upvc-door-hover-card:nth-child(2) {
+  margin-inline: 0 !important;
 }
 
 .upvc-door-page .upvc-door-hover-card img,
@@ -699,6 +760,21 @@
 .upvc-door-page .upvc-door-application-card:hover img {
   filter: saturate(1.06) brightness(1.02);
   transform: scale(1.06);
+}
+
+.upvc-door-page .upvc-sound-insulation-card > div:first-child {
+  background: #fff;
+}
+
+.upvc-door-page .upvc-sound-insulation-card > div:first-child img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  padding: 18px 22px;
+  transform: none !important;
+}
+
+.upvc-door-page .upvc-sound-insulation-card:hover > div:first-child img {
+  transform: none !important;
 }
 
 .curtain-wall-page a[data-name="Button"][href="#/contact"]:hover,
@@ -1347,6 +1423,104 @@
 .acp-cladding-page .acp-portfolio-card:hover img {
   filter: saturate(1.06) brightness(1.02);
   transform: scale(1.06);
+}
+
+.acp-cladding-page [data-name="Components"] [data-name="List"] {
+  width: 100%;
+}
+
+.acp-cladding-page [data-name="Components"] [data-name="Item"] {
+  width: 100%;
+  min-width: 0;
+}
+
+.acp-cladding-page [data-name="Components"] [data-name="Item"] [data-name="Container"] {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: 100%;
+}
+
+.acp-cladding-page [data-name="Components"] [data-name="Item"] [data-name="Container"] > div {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100%;
+  height: auto !important;
+  white-space: normal !important;
+}
+
+.acp-cladding-page [data-name="Components"] [data-name="Item"] p {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.acp-cladding-page [data-name="Components"] + div {
+  width: min(540px, 100%) !important;
+  gap: 22px !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:first-child {
+  gap: 8px !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:first-child > div:first-child {
+  width: 100% !important;
+  min-width: 0 !important;
+  font-size: 26px !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:first-child > div:first-child p {
+  line-height: 1.25 !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:first-child > div:last-child {
+  font-size: 17px !important;
+  width: 100% !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:first-child > div:last-child p {
+  line-height: 1.45 !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child {
+  gap: 14px !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child > div {
+  gap: 0 !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child > div > div:first-child {
+  align-items: flex-start !important;
+  gap: 10px !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child > div > div:first-child > div:last-child {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+  font-size: 20px !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child > div > div:first-child > div:last-child p {
+  line-height: 1.3 !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child > div > div:last-child {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  padding: 6px 10px 6px 34px !important;
+  width: 100% !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child > div > div:last-child > div {
+  width: 100% !important;
+  min-width: 0 !important;
+  font-size: 17px !important;
+}
+
+.acp-cladding-page [data-name="Components"] + div > div:last-child > div > div:last-child p {
+  line-height: 1.45 !important;
 }
 
 .home-hero-intro {
