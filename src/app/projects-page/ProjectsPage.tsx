@@ -655,7 +655,7 @@ function PortfolioSection() {
                 />
               </div>
               {/* Text */}
-              <div className="absolute left-6 top-[249px] w-[267px]">
+              <div className="absolute left-6 right-6 top-[249px]">
                 <p className="font-roboto font-semibold text-[#4299f0] text-[22px] leading-normal">{p.name}</p>
                 <p className="font-roboto font-normal text-black text-[18px] leading-normal">{p.location}</p>
               </div>

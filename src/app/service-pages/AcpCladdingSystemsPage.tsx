@@ -1,5 +1,5 @@
 import Service from "@/imports/Service3/Service3";
-import imgHero from "@/imports/Service3/3a38d99a860cd41791fa5e5ee42bb085d263aa9a.png";
+import imgHero from "../../../ACP Cladding Systems.png";
 import imgIntro from "@/imports/Service3/aa3446ed44cf1d7f7e2d53715c3327eb283e3276.png";
 import imgExterior from "@/imports/Service3/434ea9194900c5513a70a3d7cc539e28f88a5bcb.png";
 import imgInterior from "@/imports/Service3/a8d0284107d24a6a45aa682497e219d36aae4317.png";

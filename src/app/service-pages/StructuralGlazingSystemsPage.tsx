@@ -1,6 +1,6 @@
 import Service from "@/imports/Service2/Service2";
 import imgHero from "@/imports/Service2/7ed88177b0e8003411d1a605cb0394acea1c9d96.png";
-import imgIntro from "@/imports/Service2/de0eccf71b626aadae75199db96ccc19a0a250fc.png";
+import imgIntro from "../../../Modern Structural Glazing Solutions.png";
 import imgFourSided from "@/imports/Service2/0e31e907b955049f6410f439b9f794129b669c82.png";
 import imgTwoSided from "@/imports/Service2/f346ed75a2dcaa65a0869a2585c997848854c40b.png";
 import imgSpider from "@/imports/Service2/f4fceda2efd057a3cbf785355a1c84606ac3f718.png";

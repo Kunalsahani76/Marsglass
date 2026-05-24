@@ -1,6 +1,6 @@
 import svgPaths from "./svg-o092r5fnio";
 import imgModernGlassBuilding from "./7ed88177b0e8003411d1a605cb0394acea1c9d96.png";
-import imgFrame1000007498 from "./de0eccf71b626aadae75199db96ccc19a0a250fc.png";
+import imgFrame1000007498 from "../../../Modern Structural Glazing Solutions.png";
 import img4SidedGlazing from "./0e31e907b955049f6410f439b9f794129b669c82.png";
 import img2SidedGlazing from "./f346ed75a2dcaa65a0869a2585c997848854c40b.png";
 import imgSpiderGlazing from "./f4fceda2efd057a3cbf785355a1c84606ac3f718.png";

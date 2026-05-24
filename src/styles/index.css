@@ -521,7 +521,8 @@
   display: grid !important;
   grid-template-columns: minmax(220px, 1fr) minmax(320px, 1.35fr) !important;
   gap: 24px !important;
-  padding: 0 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   font-family: "Inter", "Roboto", sans-serif !important;
   font-size: 16px !important;
   font-weight: 700 !important;
@@ -767,9 +768,9 @@
 }
 
 .upvc-door-page .upvc-sound-insulation-card > div:first-child img {
-  object-fit: contain !important;
-  object-position: center center !important;
-  padding: 18px 22px;
+  object-fit: cover !important;
+  object-position: 62% center !important;
+  padding: 0;
   transform: none !important;
 }
 

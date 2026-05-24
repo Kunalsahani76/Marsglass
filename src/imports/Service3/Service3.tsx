@@ -1,5 +1,5 @@
 import svgPaths from "./svg-goap1ddtiy";
-import imgModernGlassBuilding from "./3a38d99a860cd41791fa5e5ee42bb085d263aa9a.png";
+import imgModernGlassBuilding from "../../../ACP Cladding Systems.png";
 import imgFrame1000007511 from "./aa3446ed44cf1d7f7e2d53715c3327eb283e3276.png";
 import imgRectangle111141408 from "./60147bb921c769bd24ef83e059a3235a55d5e09c.png";
 import img4SidedGlazing from "./434ea9194900c5513a70a3d7cc539e28f88a5bcb.png";
