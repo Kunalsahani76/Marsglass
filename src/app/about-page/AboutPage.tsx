@@ -89,7 +89,7 @@ const coreServices = [
 
 const serviceColumns = [
   ["Curtain Wall Systems", "Structural Glazing Systems", "ACP Cladding Systems"],
-  ["Glass Canopy Systems", "Aluminium Windows & Doors", "Glass Partition Systems"],
+  ["Glass Canopy Systems", "Aluminium Windows", "Glass Partition Systems"],
   ["Interior Glass Solutions", "Aluminium Door Systems", "UPVC Door Systems"],
 ];
 

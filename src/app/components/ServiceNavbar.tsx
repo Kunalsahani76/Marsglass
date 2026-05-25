@@ -17,7 +17,7 @@ const navHref = (item: string) => {
 
 const serviceColumns = [
   ["Curtain Wall Systems", "Structural Glazing Systems", "ACP Cladding Systems"],
-  ["Glass Canopy Systems", "Aluminium Windows & Doors", "Glass Partition Systems"],
+  ["Glass Canopy Systems", "Aluminium Windows", "Glass Partition Systems"],
   ["Interior Glass Solutions", "Aluminium Door Systems", "UPVC Door Systems"],
 ];
 
@@ -27,7 +27,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminium Windows & Doors": "#/services/aluminium-windows-doors",
+    "Aluminium Windows": "#/services/aluminium-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",

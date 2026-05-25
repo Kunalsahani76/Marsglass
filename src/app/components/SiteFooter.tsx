@@ -70,27 +70,32 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
                 </svg>
                 <div>
                   <p className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">
-                    +91 9319744714
+                    +91 9810129192
                   </p>
                   <p className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">
-                    011-43411290
+                    
                   </p>
                 </div>
               </div>
 
-              <div className="flex gap-4 items-center">
+              <div className="flex gap-4 items-start">
                 <svg
                   width="16"
                   height="17"
                   viewBox="0 0 15.8333 16.4999"
                   fill="none"
-                  className="shrink-0"
+                  className="shrink-0 mt-0.5"
                 >
                   <path d={svgPaths.p2056a2c0} fill="#C8C6C7" />
                 </svg>
-                <p className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">
-                  info@manglass.co.in
-                </p>
+                <div>
+                  <p className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">
+                    info@marsglass.co.in
+                  </p>
+                  <p className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">
+                    projectsmars@yahoo.com
+                  </p>
+                </div>
               </div>
 
               <div className="flex gap-4 items-start">
@@ -115,7 +120,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 pt-2 border-t border-white/10">
           <p className="font-['Inter',sans-serif] font-medium text-[#c7c6ca] text-[12px] tracking-[-0.3px] uppercase leading-[16px]">
-            © 2026 Manglass. All rights reserved.
+            © 2026 MARSGLASS. ALL RIGHTS RESERVED.
           </p>
           <p className="font-['Inter',sans-serif] font-medium text-[#c7c6ca] text-[12px] tracking-[-0.3px] uppercase leading-[16px]">
             {`Designed & Managed by D'Miraki.`}

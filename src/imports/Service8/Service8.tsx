@@ -1717,7 +1717,7 @@ function Item1() {
     <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-name="Item">
       <Margin1 />
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[20px] justify-center leading-[0] not-italic relative shrink-0 text-[#c7c6ca] text-[14px] w-[137.48px]">
-        <p className="leading-[20px]">info@manglass.co.in</p>
+        <p className="leading-[20px]">Info@Marsglass.co.in</p>
       </div>
     </div>
   );
@@ -1796,7 +1796,7 @@ function Frame71() {
   return (
     <div className="content-stretch flex font-['Inter:Medium',sans-serif] font-medium items-center justify-between leading-[0] not-italic py-[10px] relative shrink-0 text-[#c7c6ca] text-[12px] tracking-[-0.3px] uppercase w-full">
       <div className="flex flex-col h-[16px] justify-center relative shrink-0 w-[249.39px]">
-        <p className="leading-[16px]">© 2026 Manglass. All rights reserved.</p>
+        <p className="leading-[16px]">© 2026 MARSGLASS. ALL RIGHTS RESERVED.</p>
       </div>
       <div className="flex flex-col h-[16px] justify-center relative shrink-0 w-[207.34px]">
         <p className="leading-[16px]">{`Designed & Managed by D,Miraki.`}</p>

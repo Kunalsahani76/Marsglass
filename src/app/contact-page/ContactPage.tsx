@@ -22,7 +22,7 @@ const contactNavHref = (item: string) => {
 
 const serviceColumns = [
   ["Curtain Wall Systems", "Structural Glazing Systems", "ACP Cladding Systems"],
-  ["Glass Canopy Systems", "Aluminium Windows & Doors", "Glass Partition Systems"],
+  ["Glass Canopy Systems", "Aluminium Windows", "Glass Partition Systems"],
   ["Interior Glass Solutions", "Aluminium Door Systems", "UPVC Door Systems"],
 ];
 
@@ -32,7 +32,7 @@ const serviceNavHref = (service: string) => {
     "Structural Glazing Systems": "#/services/structural-glazing-systems",
     "ACP Cladding Systems": "#/services/acp-cladding-systems",
     "Glass Canopy Systems": "#/services/glass-canopy-systems",
-    "Aluminium Windows & Doors": "#/services/aluminium-windows-doors",
+    "Aluminium Windows": "#/services/aluminium-windows-doors",
     "Glass Partition Systems": "#/services/glass-partition-systems",
     "Interior Glass Solutions": "#/services/interior-glass-solutions",
     "Aluminium Door Systems": "#/services/aluminium-door-systems",
@@ -456,9 +456,6 @@ const features = [
   { label: "Spider Glazing", value: "Point-Fixed Frameless Systems" },
   { label: "Skylight Solutions", value: "Custom Roof & Atrium Glass" },
   { label: "ACP Cladding", value: "Aluminium Composite Panels" },
-  { label: "Fire-Rated Glass", value: "Safety & Compliance Certified" },
-  { label: "Acoustic Glass", value: "Sound Insulation Systems" },
-  { label: "Solar Control", value: "Heat & UV Reduction Glazing" },
 ];
 
 function Features() {
@@ -545,12 +542,12 @@ function ContactInfo() {
     {
       svgPath: svgPaths.pa775580,
       title: "Mail Us",
-      detail: "info@manglass.co.in",
+      detail: "Info@Marsglass.co.in",
     },
     {
       svgPath: svgPaths.pa6e3980,
       title: "Call Us",
-      detail: "+91 9319744714 / 011-43411290",
+      detail: "+91 9810129192",
     },
   ];
 
