@@ -70,7 +70,9 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
                 </svg>
                 <div>
                   <p className="font-['Inter',sans-serif] text-[#c7c6ca] text-[14px] leading-[20px]">
-                    +91 9319744714, 9810129192, 011-43411290
+                    +91 9319744714, 9810129192,
+                    <br />
+                    011-43411290
                   </p>
                 </div>
               </div>
