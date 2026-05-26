@@ -636,7 +636,7 @@ function ContactForm() {
         <div className="shrink-0 w-full max-w-[520px] lg:w-[595px] lg:max-w-none">
           <iframe
             title="Mars Glass Solutions location map"
-            src="https://www.google.com/maps?q=A-28A%2C%20Rajouri%20Garden%2C%20Ring%20Road%2C%20New%20Delhi-110027&output=embed"
+            src="https://www.google.com/maps?q=Mars%20Glass%20Solution%20Pvt.%20Ltd.%2C%20Rajouri%20Garden%2C%20New%20Delhi&z=19&output=embed"
             className="w-full h-[400px] sm:h-[500px] lg:h-[811px] border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
