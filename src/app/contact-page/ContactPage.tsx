@@ -471,9 +471,12 @@ function Features() {
             Comprehensive facade engineering services covering every aspect of modern glass installation.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4">
           {features.map((f, i) => (
-            <div key={i} className="bg-[#151515] border border-white/10 rounded-xl p-6 flex flex-col gap-2">
+            <div
+              key={i}
+              className={`bg-[#151515] border border-white/10 rounded-xl p-6 flex flex-col gap-2 lg:col-span-2 ${i === 3 ? "lg:col-start-2" : ""}`}
+            >
               <div className="w-8 h-1 bg-[#5a93d1] rounded-full mb-2" />
               <p className="font-['Roboto',sans-serif] font-semibold text-white text-lg">{f.label}</p>
               <p className="font-['Roboto',sans-serif] font-light text-white/60 text-sm">{f.value}</p>
@@ -542,12 +545,18 @@ function ContactInfo() {
     {
       svgPath: svgPaths.pa775580,
       title: "Mail Us",
-      detail: "Info@Marsglass.co.in",
+      detail: (
+        <>
+          <span className="normal-case">info@marsglass.co.in</span>
+          <br />
+          <span className="normal-case">projectsmars@yahoo.com</span>
+        </>
+      ),
     },
     {
       svgPath: svgPaths.pa6e3980,
       title: "Call Us",
-      detail: "+91 9810129192",
+      detail: "+91 9810129192, 9319744714, 011-43411290",
     },
   ];
 
