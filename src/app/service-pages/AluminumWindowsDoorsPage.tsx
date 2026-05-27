@@ -1,5 +1,6 @@
 import Service from "@/imports/Service5/Service5";
-import imgHero from "@/imports/Service5/f013c7dd142caf2744596a2026cfc4358a9c6c05.png";
+import imgHero from "../../../Aluminium Windows.png";
+import imgHospitality from "@/imports/Service5/f013c7dd142caf2744596a2026cfc4358a9c6c05.png";
 import imgSliding from "@/imports/Service5/343912e9f2a5c28987626a6653eda225a6417438.png";
 import imgCasement from "@/imports/Service5/0269815ccd27a72af596d122b6edfda3d354be38.png";
 import imgFixed from "@/imports/Service5/fc39eb3a1e94fdc83a907ccbd820bb0f51995f2c.png";
@@ -43,7 +44,7 @@ export default function AluminumWindowsDoorsPage() {
         applications={[
           { title: "Homes & Apartments", text: "Balconies, bedrooms, living spaces, and utility areas.", image: imgApp1 },
           { title: "Commercial Spaces", text: "Offices, stores, showrooms, and institutions.", image: imgApp2 },
-          { title: "Hospitality Projects", text: "Hotels, resorts, cafes, and premium interiors.", image: imgHero },
+          { title: "Hospitality Projects", text: "Hotels, resorts, cafes, and premium interiors.", image: imgHospitality },
         ]}
       />
       <ScaledServiceImport className="aluminum-windows-page service-hero-page w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">

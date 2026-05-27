@@ -1,6 +1,6 @@
 import svgPaths from "./svg-6koz72jfjy";
 import imgScreenshot20260209At54113Pm2 from "./a08ae53b754d0c478618f1f8072832fea766a0a6.png";
-import imgModernGlassBuilding from "./0bd8afd39276a6a4f69969590461ece8e5a50b56.png";
+import imgModernGlassBuilding from "../Service5/f013c7dd142caf2744596a2026cfc4358a9c6c05.png";
 import imgFrame1000007677 from "./5cf70c75ae3f36f35402097f14930705348eefbd.png";
 import imgFrame1000007678 from "./a1c0009361876486204aa9205e2bbfd7e94a46ed.png";
 import imgFrame1000007679 from "./995e3f81e5e4cdbb06a7340c36d35b81dafcc815.png";

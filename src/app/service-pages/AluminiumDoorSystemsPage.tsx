@@ -1,5 +1,6 @@
 import Service from "@/imports/Service8/Service8";
-import imgHero from "@/imports/Service8/0bd8afd39276a6a4f69969590461ece8e5a50b56.png";
+import imgHero from "@/imports/Service5/f013c7dd142caf2744596a2026cfc4358a9c6c05.png";
+import imgHospitality from "@/imports/Service8/0bd8afd39276a6a4f69969590461ece8e5a50b56.png";
 import imgSliding from "@/imports/Service8/5cf70c75ae3f36f35402097f14930705348eefbd.png";
 import imgHinged from "@/imports/Service8/a1c0009361876486204aa9205e2bbfd7e94a46ed.png";
 import imgAutomatic from "@/imports/Service8/995e3f81e5e4cdbb06a7340c36d35b81dafcc815.png";
@@ -43,7 +44,7 @@ export default function AluminiumDoorSystemsPage() {
         applications={[
           { title: "Residential Spaces", text: "Balconies, living areas, kitchens, and utility doors.", image: imgApp1 },
           { title: "Commercial Entrances", text: "Offices, showrooms, stores, and institutions.", image: imgApp2 },
-          { title: "Hospitality Areas", text: "Hotels, restaurants, lounges, and public access zones.", image: imgHero },
+          { title: "Hospitality Areas", text: "Hotels, restaurants, lounges, and public access zones.", image: imgHospitality },
         ]}
       />
       <ScaledServiceImport className="aluminium-door-page service-hero-page w-full hide-import-nav hide-import-first-nav hide-import-footer service-import-scale">

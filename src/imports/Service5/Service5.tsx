@@ -1,6 +1,6 @@
 import svgPaths from "./svg-7cohej2pi9";
 import imgScreenshot20260209At54113Pm2 from "./a08ae53b754d0c478618f1f8072832fea766a0a6.png";
-import imgModernGlassBuilding from "./f013c7dd142caf2744596a2026cfc4358a9c6c05.png";
+import imgModernGlassBuilding from "../../../Aluminium Windows.png";
 import imgSpiderGlazing from "./343912e9f2a5c28987626a6653eda225a6417438.png";
 import imgSpiderGlazing1 from "./0269815ccd27a72af596d122b6edfda3d354be38.png";
 import imgSpiderGlazing2 from "./fc39eb3a1e94fdc83a907ccbd820bb0f51995f2c.png";
