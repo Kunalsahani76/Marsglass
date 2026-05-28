@@ -556,7 +556,7 @@ function ContactInfo() {
     {
       svgPath: svgPaths.pa6e3980,
       title: "Call Us",
-      detail: "+91 9319744714, 9810129192, 011-43411290",
+      detail: "+91 9319744714, 9810129192, 9560570537, 011-43411290",
     },
   ];
 
